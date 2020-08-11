@@ -1,8 +1,15 @@
-const Koa = require("koa");
-const app = new Koa();
+const express = require("express");
+const graphqlHTTP = require("express-graphql");
+const schema = require("./schema");
 
-app.use(async (ctx) => {
-  ctx.body = "Hello World";
-});
+const app = new express();
+
+app.use(
+  "/graphql",
+  graphqlHTTP({
+    schema,
+    graphiql: true,
+  })
+);
 
 app.listen(3000);
