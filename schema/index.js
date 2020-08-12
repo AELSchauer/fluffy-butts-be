@@ -1,30 +1,13 @@
 const _ = require("lodash");
-const {
-  GraphQLObjectType,
-  GraphQLString,
-  GraphQLList,
-  GraphQLSchema,
-} = require("graphql");
-const BrandType = require("./brand");
-
-const sampleBrandData = require("../sample-data/brands");
+const { GraphQLObjectType, GraphQLSchema } = require("graphql");
+const { BrandEndpoint } = require("./brand");
+const { PatternEndpoint } = require("./pattern");
 
 const RootQuery = new GraphQLObjectType({
   name: "RootQueryType",
   fields: {
-    brands: {
-      type: new GraphQLList(BrandType),
-      resolve(parent, args){
-        return sampleBrandData;
-      }
-    },
-    brand: {
-      type: BrandType,
-      args: { id: { type: GraphQLString } },
-      resolve(parent, args) {
-        return _.find(sampleBrandData, { id: args.id });
-      },
-    },
+    brands: BrandEndpoint,
+    patterns: PatternEndpoint,
   },
 });
 
