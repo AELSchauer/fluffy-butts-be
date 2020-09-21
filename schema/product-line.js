@@ -1,8 +1,4 @@
-/*
-TODO
-- Collections
-*/
-
+// Conversion DONE! :D
 
 const {
   GraphQLID,
@@ -29,14 +25,18 @@ const ProductLineType = new GraphQLObjectType({
       type: require("./brand").BrandType,
       resolve(parent, args) {
         return client
-          .query(
-            [
-              "SELECT *",
-              "FROM brands",
-              `WHERE brands.id = ${parent.brand_id}`,
-            ].join(" ")
-          )
+          .query(`SELECT * FROM brands WHERE id = ${parent.brand_id}`)
           .then(({ rows: [row] }) => row);
+      },
+    },
+    collections: {
+      type: new GraphQLList(require("./collection").CollectionType),
+      resolve(parent, args) {
+        return client
+          .query(
+            `SELECT * FROM collections WHERE product_line_id = ${parent.id}`
+          )
+          .then(({ rows }) => rows);
       },
     },
     images: {
