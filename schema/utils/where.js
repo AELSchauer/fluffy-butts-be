@@ -1,5 +1,10 @@
-const whereWithStringProp = (args, propName, className) =>
-  `${className}.${propName} IN (${args[propName]
+const { camelCase } = require("lodash");
+
+const getKeyName = (classPropName) =>
+  "filter_" + camelCase(classPropName.split(".")[1]);
+
+const whereWithStringProp = (classPropName, argVals) =>
+  `${classPropName} IN (${argVals
     .split(",")
     .map((n) => `'${n}'`)
     .join(", ")})`;

@@ -1,13 +1,13 @@
 const _ = require("lodash");
 const { GraphQLObjectType, GraphQLSchema } = require("graphql");
-const { BrandEndpoint } = require("./brand");
-const { PatternEndpoint } = require("./pattern");
 
 const RootQuery = new GraphQLObjectType({
   name: "RootQueryType",
   fields: {
-    brands: BrandEndpoint,
-    patterns: PatternEndpoint,
+    brands: require("./brand").BrandEndpoint,
+    patterns: require("./pattern").PatternEndpoint,
+    product_lines: require("./product-line").ProductLineEndpoint,
+    products: require("./product").ProductEndpoint,
   },
 });
 
