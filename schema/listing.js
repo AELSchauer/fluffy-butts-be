@@ -12,7 +12,6 @@ const {
 const { GraphQLDateTime } = require("graphql-iso-date");
 const { GraphQLJSON } = require("graphql-type-json");
 const pluralize = require("pluralize");
-
 const orderBy = require("./utils/order-by");
 const { whereWithStringProp } = require("./utils/where");
 
@@ -74,6 +73,7 @@ const ListingEndpoint = {
     filter_listableType: { type: GraphQLString },
   },
   resolve(parent, args) {
+    console.log(args)
     let query = ["SELECT DISTINCT listings.* FROM listings"];
     let where = [];
     if (!!args.filter_id) where.push(`listings.id IN (${args.filter_id})`);

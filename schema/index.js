@@ -10,6 +10,7 @@ const RootQuery = new GraphQLObjectType({
     product_lines: require("./product-line").ProductLineEndpoint,
     products: require("./product").ProductEndpoint,
     retailers: require("./retailer").RetailerEndpoint,
+    tags: require("./tag").TagEndpoint,
   },
 });
 

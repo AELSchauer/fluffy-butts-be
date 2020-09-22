@@ -2,7 +2,7 @@ const express = require("express");
 const { graphqlHTTP } = require("express-graphql");
 const { Client } = require("pg");
 
-const { db: dbVars } = require("./config/variables");
+const dbVars = require("dotenv").config().parsed;
 global.client = new Client(dbVars);
 client.connect((err) => {
   if (err) {
