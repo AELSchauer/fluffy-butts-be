@@ -1,6 +1,5 @@
 /*
 TODO
-- Listings
 - filter_available
 - filter_availability
 */
@@ -26,14 +25,16 @@ const ProductType = new GraphQLObjectType({
     created_at: { type: GraphQLDateTime },
     updated_at: { type: GraphQLDateTime },
     brand: {
-      type: new GraphQLList(require("./brand").BrandType),
+      type: require("./brand").BrandType,
       resolve(parent, args) {
         return client
           .query(
-            "SELECT * FROM products",
-            "LEFT JOIN product_lines ON products.product_line_id = product_lines.id",
-            "LEFT JOIN brands ON product_lines.brand_id = brands.id",
-            `WHERE products.id = ${parent.id};`
+            [
+              "SELECT brands.* FROM brands",
+              "LEFT JOIN product_lines ON product_lines.brand_id = brands.id",
+              "LEFT JOIN products ON products.product_line_id = product_lines.id",
+              `WHERE products.id = ${parent.id};`,
+            ].join(" ")
           )
           .then(({ rows: [row] }) => row);
       },
@@ -50,6 +51,16 @@ const ProductType = new GraphQLObjectType({
               "WHERE imagable_type = 'Product'",
               `AND imagings.imagable_id = ${parent.id}`,
             ].join(" ")
+          )
+          .then(({ rows }) => rows);
+      },
+    },
+    listings: {
+      type: new GraphQLList(require("./listing").ListingType),
+      resolve(parent, args) {
+        return client
+          .query(
+            `SELECT * FROM listings WHERE listable_type = 'Product' AND listable_id = ${parent.pattern_id};`
           )
           .then(({ rows }) => rows);
       },

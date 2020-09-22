@@ -18,6 +18,7 @@
     "graphql-type-json": "^0.3.2",
     "lodash": "^4.17.19",
     "nodemon": "^2.0.4",
-    "pg": "^8.3.0"
+    "pg": "^8.3.0",
+    "pluralize": "^8.0.0"
   }
 }
