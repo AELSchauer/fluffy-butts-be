@@ -11,6 +11,30 @@ const { GraphQLDateTime } = require("graphql-iso-date");
 const orderBy = require("./utils/order-by");
 const { whereWithStringProp } = require("./utils/where");
 
+const categoriesEnum = {
+  TBD: {
+    value: 0,
+  },
+  COLOR: {
+    value: 1,
+  },
+  PATTERN_THEME: {
+    value: 2,
+  },
+  FEATURES: {
+    value: 3,
+  },
+  AGE: {
+    value: 4,
+  },
+  PRODUCT_TYPE: {
+    value: 5,
+  },
+  PRODUCT_SERIES: {
+    value: 6,
+  },
+};
+
 const TagType = new GraphQLObjectType({
   name: "Tag",
   fields: () => ({
@@ -19,29 +43,7 @@ const TagType = new GraphQLObjectType({
     category: {
       type: new GraphQLEnumType({
         name: "TagCategoryEnum",
-        values: {
-          TBD: {
-            value: 0,
-          },
-          COLOR: {
-            value: 1,
-          },
-          PATTERN_THEME: {
-            value: 2,
-          },
-          FEATURES: {
-            value: 3,
-          },
-          AGE: {
-            value: 4,
-          },
-          PRODUCT_TYPE: {
-            value: 5,
-          },
-          PRODUCT_SERIES: {
-            value: 6,
-          },
-        },
+        values: categoriesEnum,
       }),
     },
     created_at: { type: GraphQLDateTime },
@@ -82,6 +84,7 @@ const TagEndpoint = {
 };
 
 module.exports = {
+  categoriesEnum,
   TagEndpoint,
   TagType,
 };

@@ -17,6 +17,7 @@ exports.up = function (knex) {
       table.string("taggable_type").notNullable();
       table.integer("taggable_id").notNullable();
 
+      table.unique(["tag_id", "taggable_type", "taggable_id"]);
       table.index("tag_id", "index_taggings_on_tag_id");
       table.index(
         ["taggable_id", "taggable_type"],
@@ -25,7 +26,7 @@ exports.up = function (knex) {
 
       table.timestamps();
     }),
-  ]);
+  ]).then(() => knex.seed.run({ specific: "001-seed-tags.js" }));
 };
 
 exports.down = function (knex) {

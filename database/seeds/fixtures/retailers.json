@@ -1,0 +1,177 @@
+[
+  {
+    "name": "AlvaBaby",
+    "url": "https://www.alvababy.com/",
+    "shipping": {
+      "policy": "<p>For more shipping information, check out the link(s) below:</p><ul><li><a href=\"https://www.alvababy.com/-ezp-43.html\" target=\"_blank\">ShippingGuide</a></li><li><a href=\"https://www.alvababy.com/-ezp-1.html\" target=\"_blank\">Shipping & Tax</a></li></ul>",
+      "ships_to": [
+        {
+          "country": "Australia"
+        },
+        {
+          "country": "Canada"
+        },
+        {
+          "country": "Ireland"
+        },
+        {
+          "country": "New Zealand"
+        },
+        {
+          "country": "United Kingdom"
+        },
+        {
+          "country": "United States"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Bambino Mio",
+    "url": "https://www.bambinomio.com/",
+    "shipping": {
+      "policy": "<p>For more shipping information, check out the link(s) below:</p><ul><li><a href=\"https://www.bambinomio.com/pages/shipping-returns\" target=\"_blank\">https://www.bambinomio.com/pages/shipping-returns</a></li></ul>",
+      "ships_to": [
+        {
+          "country": "Australia"
+        },
+        {
+          "country": "Canada"
+        },
+        {
+          "country": "Ireland"
+        },
+        {
+          "country": "New Zealand"
+        },
+        {
+          "country": "United Kingdom"
+        },
+        {
+          "country": "United States"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Blueberry",
+    "url": "https://blueberrydiapers.com/",
+    "shipping": {
+      "policy": "<p>For more shipping information, check out the link(s) below:</p><ul><li><a href=\"https://blueberrydiapers.com/pages/shipping\" target=\"_blank\">https://blueberrydiapers.com/pages/shipping</a></li></ul>",
+      "ships_to": [
+        {
+          "country": "Australia"
+        },
+        {
+          "country": "Canada"
+        },
+        {
+          "country": "Ireland"
+        },
+        {
+          "country": "New Zealand"
+        },
+        {
+          "country": "United Kingdom"
+        },
+        {
+          "country": "United States"
+        }
+      ]
+    }
+  },
+  {
+    "name": "bumGenius",
+    "url": "https://www.bumgenius.com/",
+    "shipping": {
+      "policy": "<p>For more shipping information, check out the link(s) below:</p><ul><li><a href=\"https://www.bumgenius.com/pages/shipping\" target=\"_blank\">https://www.bumgenius.com/pages/shipping</a></li></ul>",
+      "ships_to": [
+        {
+          "country": "Ireland"
+        },
+        {
+          "country": "New Zealand"
+        },
+        {
+          "country": "United Kingdom"
+        },
+        {
+          "country": "United States"
+        }
+      ]
+    }
+  },
+  {
+    "name": "GroVia",
+    "url": "https://www.grovia.com/",
+    "shipping": {
+      "description": "Free shipping on retail orders $100 or more and intro packages valid within the Continental U.S. only (does not include Hawaii, Alaska, or Puerto Rico or Canada).\nLocal pickup available in Bozeman, MT.",
+      "notes": "Shipping to Canada is $25.00 USD.\nLowest cost shipping to non-contiguous USA is $5.75.",
+      "policy": "<p>For more shipping information, check out the link(s) below:</p><ul><li><a href=\"https://www.grovia.com/pages/shipping\" target=\"_blank\">https://www.grovia.com/pages/shipping</a></li></ul>",
+      "ships_to": [
+        {
+          "country": "Canada",
+          "cost": 25
+        },
+        {
+          "country": "United States"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Green Mountain Diapers",
+    "url": "https://www.greenmountaindiapers.com/",
+    "shipping": {
+      "description": "Contiguous 48-States USA orders, any size, ship for just $4.95 for orders up to $49.00.\nIf the order is lightweight, first class shipping will display as an option and can be chosen for $2.95.\nFree shipping for all 48-States USA orders $49.00 and up.\nShipping for HI, AK and non-contiguous USA orders are calculated by weight and will display for you in the checkout.\nLocal pickup available in Brattleboro, VT.",
+      "policy": "<p>For more shipping information, check out the link(s) below:</p><ul><li><a href=\"https://www.greenmountaindiapers.com/pages/shipping-information\" target=\"_blank\">https://www.greenmountaindiapers.com/pages/shipping-information</a></li></ul>",
+      "ships_to": [
+        {
+          "country": "United States"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Lil' Monkey Cheeks",
+    "url": "https://www.lilmonkeycheeks.ca/",
+    "shipping": {
+      "policy": "<p>For more shipping information, check out the link(s) below:</p><ul><li><a href=\"https://www.lilmonkeycheeks.ca/pages/terms-conditions\" target=\"_blank\">https://www.lilmonkeycheeks.ca/pages/terms-conditions</a></li></ul>",
+      "description": "Shipping in Canada costs $9.99 or is free on orders over $129, and local pickup is available in Pickering, ON.\nShipping to the Continental US will be charged a flat rate fee of $14.99 CAD regardless of order amount, and does not include taxes, duties, or other fees.",
+      "ships_to": [
+        {
+          "country": "Canada",
+          "cost": 9.99
+        },
+        {
+          "country": "United States",
+          "cost": 14.99
+        }
+      ]
+    }
+  },
+  {
+    "name": "Nicki's Diapers",
+    "url": "https://www.nickisdiapers.com/",
+    "shipping": {
+      "policy": "<p>For more shipping information, check out the link(s) below:</p><ul><li><a href=\"https://www.nickisdiapers.com/shipping.html\" target=\"_blank\">https://www.nickisdiapers.com/shipping.html</a></li></ul>",
+      "ships_to": [
+        {
+          "country": "United States"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Thirsties",
+    "url": "https://www.thirstiesbaby.com/",
+    "shipping": {
+      "policy": "<p>For more shipping information, check out the link(s) below:</p><ul><li><a href=\"https://www.thirstiesbaby.com/customer-center/shipping-and-returns\" target=\"_blank\">https://www.thirstiesbaby.com/customer-center/shipping-and-returns</a></li></ul>",
+      "ships_to": [
+        {
+          "country": "United States"
+        }
+      ]
+    }
+  }
+]

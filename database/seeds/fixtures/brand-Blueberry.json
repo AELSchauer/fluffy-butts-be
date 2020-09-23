@@ -1,0 +1,4802 @@
+{
+  "brand": "Blueberry",
+  "country_origin": "?",
+  "patterns": [
+    {
+      "name": "Ambrosia",
+      "tags": ["fruits", "flowers & foliage"]
+    },
+    {
+      "name": "Avocados",
+      "tags": ["food & beverage", "green"]
+    },
+    {
+      "name": "Balloons",
+      "tags": ["travel & transportation", "balloons"]
+    },
+    {
+      "name": "Bears and the Bees",
+      "tags": ["yellow", "animals", "bugs & insects"]
+    },
+    {
+      "name": "Blueberry Blooms",
+      "tags": ["blue", "flowers & foliage", "fruits"]
+    },
+    {
+      "name": "Bouquet",
+      "tags": ["flowers & foliage"]
+    },
+    {
+      "name": "Chickadee",
+      "tags": ["animals", "farm"]
+    },
+    {
+      "name": "Dinos",
+      "tags": ["animals", "dinosaurs"]
+    },
+    {
+      "name": "Froggies",
+      "tags": ["animals"]
+    },
+    {
+      "name": "Happy Trees",
+      "tags": ["flowers & foliage", "forest"]
+    },
+    {
+      "name": "Huggables",
+      "tags": ["animals", "woodland"]
+    },
+    {
+      "name": "Hummingbirds",
+      "tags": ["animals", "birds & feathers"]
+    },
+    {
+      "name": "Ice Cap",
+      "tags": ["animals", "blue", "arctic"]
+    },
+    {
+      "name": "Ice Cream",
+      "tags": ["food & beverage"]
+    },
+    {
+      "name": "Jungle Jam",
+      "tags": ["safari", "jungle", "animals"]
+    },
+    {
+      "name": "Knights",
+      "tags": ["blue", "fantasy"]
+    },
+    {
+      "name": "Kitten",
+      "tags": ["pink", "animals", "pets"]
+    },
+    {
+      "name": "Llamas",
+      "tags": ["animals"]
+    },
+    {
+      "name": "Octopus",
+      "tags": ["animals", "aquatic"]
+    },
+    {
+      "name": "Morgan",
+      "tags": ["fantasy", "purple"]
+    },
+    {
+      "name": "Old Macdonald",
+      "tags": ["animals", "farm", "black & white"]
+    },
+    {
+      "name": "Picnic",
+      "tags": ["food & beverage", "fruits", "bugs & insects"]
+    },
+    {
+      "name": "Round-About",
+      "tags": ["abstract & geometric"]
+    },
+    {
+      "name": "Bugs",
+      "tags": ["bugs & insects"]
+    },
+    {
+      "name": "Seahorse",
+      "tags": ["animals", "aquatic", "blue"]
+    },
+    {
+      "name": "Prickly",
+      "tags": ["flowers & foliage", "desert"]
+    },
+    {
+      "name": "Princess",
+      "tags": ["pink", "fantasy"]
+    },
+    {
+      "name": "Rose",
+      "tags": ["flowers & foliage", "pink"]
+    },
+    {
+      "name": "Sedona",
+      "tags": ["flowers & foliage", "desert"]
+    },
+    {
+      "name": "Shadows",
+      "tags": ["animals", "woodland"]
+    },
+    {
+      "name": "Sleepy",
+      "tags": ["sleep", "animals"]
+    },
+    {
+      "name": "Space",
+      "tags": ["outer space"]
+    },
+    {
+      "name": "This Little Piggy",
+      "tags": ["children's poems", "animals", "farm"]
+    },
+    {
+      "name": "White",
+      "tags": ["solid", "white"]
+    },
+    {
+      "name": "Work Zone",
+      "tags": ["industrial"]
+    }
+  ],
+  "product_lines": [
+    {
+      "name": "Side Snap Simplex All-In-One",
+      "sort_order": "1.3",
+      "details": {
+        "materials": "<ul><li>Outer: 100% polyester</li><li>Inner: 100% organic cotton</li><ul>",
+        "origin_country": "United States",
+        "sizing": [
+          {
+            "name": "Medium",
+            "sort_order": 3,
+            "dimensions": {
+              "waist": {
+                "min": [
+                  {
+                    "num": 13,
+                    "unit": "in"
+                  }
+                ],
+                "max": [
+                  {
+                    "num": 22,
+                    "unit": "in"
+                  }
+                ]
+              },
+              "thighs": {
+                "min": [
+                  {
+                    "num": 8,
+                    "unit": "in"
+                  }
+                ],
+                "max": [
+                  {
+                    "num": 15,
+                    "unit": "in"
+                  }
+                ]
+              },
+              "rise": {
+                "max": [
+                  {
+                    "num": 16,
+                    "unit": "in"
+                  }
+                ]
+              }
+            },
+            "weight": {
+              "min": [
+                {
+                  "num": 12,
+                  "unit": "lb"
+                }
+              ],
+              "max": [
+                {
+                  "num": 25,
+                  "unit": "lb"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Large",
+            "sort_order": 4,
+            "dimensions": {
+              "waist": {
+                "min": [
+                  {
+                    "num": 16,
+                    "unit": "in"
+                  }
+                ],
+                "max": [
+                  {
+                    "num": 22,
+                    "unit": "in"
+                  }
+                ]
+              },
+              "thighs": {
+                "min": [
+                  {
+                    "num": 9,
+                    "unit": "in"
+                  }
+                ],
+                "max": [
+                  {
+                    "num": 16,
+                    "unit": "in"
+                  }
+                ]
+              },
+              "rise": {
+                "max": [
+                  {
+                    "num": 18,
+                    "unit": "in"
+                  }
+                ]
+              }
+            },
+            "weight": {
+              "min": [
+                {
+                  "num": 22,
+                  "unit": "lb"
+                }
+              ],
+              "max": [
+                {
+                  "num": 35,
+                  "unit": "lb"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "tags": [
+        "all-in-one diaper",
+        "infant",
+        "toddler",
+        "organic",
+        "waist snaps"
+      ],
+      "products": [
+        {
+          "name": "Baby Birds",
+          "pattern": "Baby Birds",
+          "listings": [
+            {
+              "retailer": "Green Mountain Diapers",
+              "currency": "USD",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "medium",
+                  "url": "https://www.greenmountaindiapers.com/products/organic-side-snap-simplex?variant=46208837512",
+                  "available": true
+                }
+              ],
+              "url": "https://www.greenmountaindiapers.com/products/organic-side-snap-simplex"
+            }
+          ]
+        },
+        {
+          "name": "Happy Trees",
+          "pattern": "Happy Trees",
+          "listings": [
+            {
+              "retailer": "Green Mountain Diapers",
+              "currency": "USD",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "medium",
+                  "url": "https://www.greenmountaindiapers.com/products/organic-side-snap-simplex?variant=31163632136",
+                  "available": true
+                }
+              ],
+              "url": "https://www.greenmountaindiapers.com/products/organic-side-snap-simplex"
+            }
+          ]
+        },
+        {
+          "name": "Ambrosia",
+          "pattern": "Ambrosia",
+          "default": true,
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=15070883938350",
+                  "available": false
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=15070886592558",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Avocados",
+          "pattern": "Avocados",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=7668749926446",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Balloons",
+          "pattern": "Balloons",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=15070884036654",
+                  "available": false
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=15070886461486",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bears and the Bees",
+          "pattern": "Bears and the Bees",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=8074723721262",
+                  "available": false
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=8074727129134",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Blueberry Blooms",
+          "pattern": "Blueberry Blooms",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=31393320894510",
+                  "available": false
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=31393321222190",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bouquet",
+          "pattern": "Bouquet",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=7668749598766",
+                  "available": false
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=7668749991982",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chickadee",
+          "pattern": "Chickadee",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=8074726506542",
+                  "available": false
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=8074727489582",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Froggies",
+          "pattern": "Froggies",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=8074732142638",
+                  "available": false
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=8074726899758",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hummingbirds",
+          "pattern": "Hummingbirds",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=15070884331566",
+                  "available": true
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=15070886297646",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ice Cap",
+          "pattern": "Ice Cap",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=7668749664302",
+                  "available": false
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=7668750057518",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ice Cream",
+          "pattern": "Ice Cream",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=7668749697070",
+                  "available": false
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=7668750090286",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jungle Jam",
+          "pattern": "Jungle Jam",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=31393327218734",
+                  "available": false
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=31393327710254",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Kitten",
+          "pattern": "Kitten",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=15053387628590",
+                  "available": false
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=15053387890734",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Llamas",
+          "pattern": "Llamas",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=31393325842478",
+                  "available": false
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=31393325416494",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Octopus",
+          "pattern": "Octopus",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=15070885347374",
+                  "available": true
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=15070887510062",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Old Macdonald",
+          "pattern": "Old Macdonald",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=7668749762606",
+                  "available": false
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=7668750155822",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rose",
+          "pattern": "Rose",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=15070884855854",
+                  "available": true
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=15070886133806",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sedona",
+          "pattern": "Sedona",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=7668749795374",
+                  "available": false
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=7668750188590",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadows",
+          "pattern": "Shadows",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=15070885511214",
+                  "available": false
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=15070885609518",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sleepy",
+          "pattern": "Sleepy",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=7668749828142",
+                  "available": false
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=7668750221358",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Space",
+          "pattern": "Space",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=7668749860910",
+                  "available": false
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=7668750254126",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "This Little Piggy",
+          "pattern": "This Little Piggy",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=8074727030830",
+                  "available": false
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=8074732765230",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Work Zone",
+          "pattern": "Work Zone",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=7668749893678",
+                  "available": false
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://blueberrydiapers.com/products/side-snap-simplex-in-organic-cotton?variant=7668750286894",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "One-Size Simplex All-In-One",
+      "sort_order": "1.1",
+      "details": {
+        "materials": "<ul><li>Outer: 100% polyester</li><li>Insert: 100% polyester</li><li>Inner: 100% organic cotton</li><ul>",
+        "origin_country": "United States",
+        "sizing": [
+          {
+            "name": "one size",
+            "dimensions": {
+              "waist": {
+                "min": [
+                  {
+                    "num": 9,
+                    "unit": "in"
+                  },
+                  {
+                    "num": 23,
+                    "unit": "cm"
+                  }
+                ],
+                "max": [
+                  {
+                    "num": 21,
+                    "unit": "in"
+                  },
+                  {
+                    "num": 53,
+                    "unit": "cm"
+                  }
+                ]
+              },
+              "thighs": {
+                "min": [
+                  {
+                    "num": 4,
+                    "unit": "in"
+                  },
+                  {
+                    "num": 10,
+                    "unit": "cm"
+                  }
+                ],
+                "max": [
+                  {
+                    "num": 12.5,
+                    "unit": "in"
+                  },
+                  {
+                    "num": 32,
+                    "unit": "cm"
+                  }
+                ]
+              },
+              "rise": {
+                "min": [
+                  {
+                    "num": 13.5,
+                    "unit": "in"
+                  },
+                  {
+                    "num": 34,
+                    "unit": "cm"
+                  }
+                ],
+                "max": [
+                  {
+                    "num": 18.5,
+                    "unit": "in"
+                  },
+                  {
+                    "num": 47,
+                    "unit": "cm"
+                  }
+                ]
+              }
+            },
+            "weight": {
+              "min": [
+                {
+                  "num": 10,
+                  "unit": "lb"
+                },
+                {
+                  "num": 4.5,
+                  "unit": "kg"
+                }
+              ],
+              "max": [
+                {
+                  "num": 35,
+                  "unit": "lb"
+                },
+                {
+                  "num": 16,
+                  "unit": "kg"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "tags": [
+        "all-in-one diaper",
+        "infant",
+        "toddler",
+        "organic",
+        "waist snaps"
+      ],
+      "products": [
+        {
+          "name": "Deep Blue Sea",
+          "pattern": "Deep Blue Sea",
+          "listings": [
+            {
+              "retailer": "Green Mountain Diapers",
+              "currency": "USD",
+              "price": 34.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "url": "https://www.greenmountaindiapers.com/products/blueberry-simplex-organic?variant=31783706820701",
+                  "available": false
+                }
+              ],
+              "url": "https://www.greenmountaindiapers.com/products/blueberry-simplex-organic"
+            }
+          ]
+        },
+        {
+          "name": "Ambrosia",
+          "pattern": "Ambrosia",
+          "default": true,
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton8",
+              "price": 34.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton?variant=15070747000878",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker",
+              "price": 35.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker?variant=16103113883738",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Avocados",
+          "pattern": "Avocados",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton",
+              "price": 34.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton?variant=7668676263982",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Balloons",
+          "pattern": "Balloons",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton4",
+              "price": 34.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton?variant=15070748213294",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bears and the Bees",
+          "pattern": "Bears and the Bees",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton",
+              "price": 34.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton?variant=8074710908974",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker",
+              "price": 35.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker?variant=12261511430234",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Blueberry Blooms",
+          "pattern": "Blueberry Blooms",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton8",
+              "price": 34.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton?variant=17108076429358",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker",
+              "price": 35.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker?variant=31634755813466",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bouquet",
+          "pattern": "Bouquet",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton",
+              "price": 34.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton?variant=7668676296750",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chickadee",
+          "pattern": "Chickadee",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton",
+              "price": 34.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton?variant=8074711269422",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker",
+              "price": 35.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker?variant=12261518835802",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Froggies",
+          "pattern": "Froggies",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton",
+              "price": 34.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton?variant=8074711498798",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hummingbirds",
+          "pattern": "Hummingbirds",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton8",
+              "price": 34.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton?variant=15070749130798",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker",
+              "price": 35.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker?variant=30605498908762",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jungle Jam",
+          "pattern": "Jungle Jam",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton8",
+              "price": 34.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton?variant=17108073807918",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker",
+              "price": 35.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker?variant=31634756501594",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Llamas",
+          "pattern": "Llamas",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton8",
+              "price": 34.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton?variant=17108067090478",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker",
+              "price": 35.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker?variant=31634758336602",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Octopus",
+          "pattern": "Octopus",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton4",
+              "price": 34.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton?variant=15070749687854",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker",
+              "price": 35.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker?variant=30873308495962",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Old Macdonald",
+          "pattern": "Old Macdonald",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton",
+              "price": 34.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton?variant=7668676427822",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker",
+              "price": 35.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker?variant=31955370213466",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rose",
+          "pattern": "Rose",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton4",
+              "price": 34.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton?variant=15070746247214",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker",
+              "price": 35.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker?variant=30873304694874",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadows",
+          "pattern": "Shadows",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton8",
+              "price": 34.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton?variant=15070748639278",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker",
+              "price": 35.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker?variant=30605500022874",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "This Little Piggy",
+          "pattern": "This Little Piggy",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton",
+              "price": 34.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton?variant=8074711564334",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Avocados",
+          "pattern": "Avocados",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker",
+              "price": 35.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker?variant=31955368575066",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Morgan",
+          "pattern": "Morgan",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker",
+              "price": 35.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker?variant=31998657953882",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lazy",
+          "pattern": "Lazy",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker",
+              "price": 35.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker?variant=32109821886554",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Huggables",
+          "pattern": "Huggables",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker",
+              "price": 35.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker?variant=32109826998362",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Prickly",
+          "pattern": "Prickly",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker",
+              "price": 35.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker?variant=32109828079706",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Newborn Simplex All-In-One",
+      "sort_order": "1.2",
+      "details": {
+        "materials": "<ul><li>Outer: 100% polyester</li><li>Inner: 100% organic cotton</li><ul>",
+        "origin_country": "United States",
+        "sizing": [
+          {
+            "name": "one size",
+            "dimensions": {
+              "waist": {
+                "min": [
+                  {
+                    "num": 9,
+                    "unit": "in"
+                  }
+                ],
+                "max": [
+                  {
+                    "num": 19,
+                    "unit": "in"
+                  }
+                ]
+              },
+              "thighs": {
+                "min": [
+                  {
+                    "num": 3.5,
+                    "unit": "in"
+                  }
+                ],
+                "max": [
+                  {
+                    "num": 10,
+                    "unit": "in"
+                  }
+                ]
+              },
+              "rise": {
+                "max": [
+                  {
+                    "num": 12,
+                    "unit": "in"
+                  }
+                ]
+              }
+            },
+            "weight": {
+              "min": [
+                {
+                  "num": 6,
+                  "unit": "lb"
+                }
+              ],
+              "max": [
+                {
+                  "num": 16,
+                  "unit": "lb"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "tags": [
+        "all-in-one diaper",
+        "preemie / newborn",
+        "infant",
+        "organic",
+        "waist snaps"
+      ],
+      "products": [
+        {
+          "name": "Balloons",
+          "pattern": "Balloons",
+          "listings": [
+            {
+              "retailer": "Green Mountain Diapers",
+              "currency": "USD",
+              "price": 21.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "url": "https://www.greenmountaindiapers.com/products/blueberry-newborn-simplex-organic-aio?variant=19864239833181",
+                  "available": false
+                }
+              ],
+              "url": "https://www.greenmountaindiapers.com/products/blueberry-newborn-simplex-organic-aio"
+            }
+          ]
+        },
+        {
+          "name": "Ambrosia",
+          "pattern": "Ambrosia",
+          "default": true,
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton",
+              "price": 21.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton?variant=15070776819758",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=16103117160538",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Avocados",
+          "pattern": "Avocados",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton",
+              "price": 21.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton?variant=8074332307502",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=31955372572762",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bears and the Bees",
+          "pattern": "Bears and the Bees",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton",
+              "price": 21.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton?variant=8074325622830",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Blueberry Blooms",
+          "pattern": "Blueberry Blooms",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton",
+              "price": 21.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton?variant=17108115587118",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=30873357385818",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bouquet",
+          "pattern": "Bouquet",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton",
+              "price": 21.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton?variant=15070779768878",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chickadee",
+          "pattern": "Chickadee",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton",
+              "price": 21.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton?variant=8074307567662",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=12261566808154",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hummingbirds",
+          "pattern": "Hummingbirds",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton",
+              "price": 21.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton?variant=15070779965486",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=30873356599386",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ice Cap",
+          "pattern": "Ice Cap",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton",
+              "price": 21.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton?variant=7668598177838",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jungle Jam",
+          "pattern": "Jungle Jam",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton",
+              "price": 21.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton?variant=17108113162286",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=30873336709210",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Kitten",
+          "pattern": "Kitten",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton",
+              "price": 21.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton?variant=8074317234222",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Llamas",
+          "pattern": "Llamas",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton",
+              "price": 21.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton?variant=17108111130670",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=30873342214234",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Octopus",
+          "pattern": "Octopus",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton",
+              "price": 21.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton?variant=15070779998254",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=30873333923930",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Old Macdonald",
+          "pattern": "Old Macdonald",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton",
+              "price": 21.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton?variant=7668598145070",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=31955372965978",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rose",
+          "pattern": "Rose",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton",
+              "price": 21.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton?variant=15070779310126",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=30873351290970",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadows",
+          "pattern": "Shadows",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton",
+              "price": 21.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton?variant=15070779932718",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=30605456113754",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "White",
+          "pattern": "White",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton",
+              "price": 21.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton?variant=7668598276142",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Work Zone",
+          "pattern": "Work Zone",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton",
+              "price": 21.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton?variant=7668598308910",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sedona",
+          "pattern": "Sedona",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=7938291564572",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "This Little Piggy",
+          "pattern": "This Little Piggy",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=12261547049050",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bears and the Bees",
+          "pattern": "Bears and the Bees",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=12261551800410",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Morgan",
+          "pattern": "Morgan",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=32018840256602",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lazy",
+          "pattern": "Lazy",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=32109836402778",
+                  "available": true
+                }
+              ],
+              "available": "false"
+            }
+          ]
+        },
+        {
+          "name": "Moose",
+          "pattern": "Moose",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=32109836599386",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bunnies",
+          "pattern": "Bunnies",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=32109837385818",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Huggable",
+          "pattern": "Huggable",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=32109845610586",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Prickly",
+          "pattern": "Prickly",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=34718874108057",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "One-Size Capri Diaper Cover",
+      "sort_order": "3.1",
+      "details": {
+        "materials": "<ul><li>Outer: 100% polyester</li><ul>",
+        "origin_country": "United States",
+        "sizing": [
+          {
+            "name": "one size",
+            "dimensions": {
+              "waist": {
+                "min": [
+                  {
+                    "num": 15,
+                    "unit": "in"
+                  }
+                ],
+                "max": [
+                  {
+                    "num": 23,
+                    "unit": "in"
+                  }
+                ]
+              },
+              "thighs": {
+                "min": [
+                  {
+                    "num": 6,
+                    "unit": "in"
+                  }
+                ],
+                "max": [
+                  {
+                    "num": 13.5,
+                    "unit": "in"
+                  }
+                ]
+              },
+              "rise": {
+                "min": [
+                  {
+                    "num": 15,
+                    "unit": "in"
+                  }
+                ],
+                "max": [
+                  {
+                    "num": 19,
+                    "unit": "in"
+                  }
+                ]
+              }
+            },
+            "weight": {
+              "min": [
+                {
+                  "num": 12,
+                  "unit": "lb"
+                }
+              ],
+              "max": [
+                {
+                  "num": 35,
+                  "unit": "lb"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "tags": ["diaper cover", "infant", "toddler", "organic", "waist snaps"],
+      "products": [
+        {
+          "name": "Ambrosia",
+          "pattern": "Ambrosia",
+          "default": true,
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover?variant=15070809456686",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Avocados",
+          "pattern": "Avocados",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover?variant=15070810013742",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover",
+              "price": 24.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover?variant=31767307583578",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bears and the Bees",
+          "pattern": "Bears and the Bees",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover?variant=8074700161070",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Blueberry Blooms",
+          "pattern": "Blueberry Blooms",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover?variant=17108157628462",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover",
+              "price": 24.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover?variant=31767307812954",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bouquet",
+          "pattern": "Bouquet",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover?variant=8074699604014",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover",
+              "price": 24.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover?variant=31767307780186",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chickadee",
+          "pattern": "Chickadee",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover?variant=8074693181486",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover",
+              "price": 24.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover?variant=31955375226970",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hummingbirds",
+          "pattern": "Hummingbirds",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover?variant=15070810898478",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jungle Jam",
+          "pattern": "Jungle Jam",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover?variant=17108153008174",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover",
+              "price": 24.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover?variant=31767307747418",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Llamas",
+          "pattern": "Llamas",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover?variant=17108147896366",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover",
+              "price": 24.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover?variant=31767307714650",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Octopus",
+          "pattern": "Octopus",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover?variant=15070811488302",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Old Macdonald",
+          "pattern": "Old Macdonald",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover?variant=7668513177646",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover",
+              "price": 24.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover?variant=31767307616346",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rose",
+          "pattern": "Rose",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover?variant=15070810603566",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover",
+              "price": 24.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover?variant=31767307681882",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadows",
+          "pattern": "Shadows",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover?variant=15070811258926",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover",
+              "price": 24.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover?variant=31767307649114",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sleepy",
+          "pattern": "Sleepy",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover?variant=7668513210414",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "This Little Piggy",
+          "pattern": "This Little Piggy",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover?variant=8074700980270",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Work Zone",
+          "pattern": "Work Zone",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover?variant=7668513308718",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bunnies",
+          "pattern": "Bunnies",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover",
+              "price": 24.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover?variant=32109866582106",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bears and the Bees",
+          "pattern": "Bears and the Bees",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover",
+              "price": 24.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover?variant=31767307845722",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Knights",
+          "pattern": "Knights",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover",
+              "price": 24.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover?variant=32018841960538",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Princess",
+          "pattern": "Princess",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover",
+              "price": 24.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover?variant=32018842288218",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Moose",
+          "pattern": "Moose",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover",
+              "price": 24.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover?variant=32109858685018",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Huggables",
+          "pattern": "Huggables",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover",
+              "price": 24.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover?variant=32109864255578",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lazy",
+          "pattern": "Lazy",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover",
+              "price": 24.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover?variant=32109864321114",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Prickly",
+          "pattern": "Prickly",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover",
+              "price": 24.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover?variant=32109864517722",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trainers",
+      "sort_order": "4.1",
+      "details": {
+        "materials": "<ul><li>Fabric: 50% cotton, 50% polyester</li><li>Soaker Pad: 100% polyester</li><li>Waterproof Lining: 100% polyester</li><ul>",
+        "origin_country": "United States",
+        "sizing": [
+          {
+            "name": "Small",
+            "sort_order": 1,
+            "weight": {
+              "min": [
+                {
+                  "num": 20,
+                  "unit": "lb"
+                }
+              ],
+              "max": [
+                {
+                  "num": 28,
+                  "unit": "lb"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Medium",
+            "sort_order": 2,
+            "weight": {
+              "min": [
+                {
+                  "num": 25,
+                  "unit": "lb"
+                }
+              ],
+              "max": [
+                {
+                  "num": 35,
+                  "unit": "lb"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Large",
+            "sort_order": 3,
+            "weight": {
+              "min": [
+                {
+                  "num": 32,
+                  "unit": "lb"
+                }
+              ],
+              "max": [
+                {
+                  "num": 42,
+                  "unit": "lb"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "tags": [
+        "potty training diaper",
+        "toddler",
+        "young child",
+        "non-organic"
+      ],
+      "products": [
+        {
+          "name": "Ambrosia",
+          "pattern": "Ambrosia",
+          "default": true,
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/trainers-1",
+              "price": 17.95,
+              "sizes": [
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?15960556765230",
+                  "name": "Small",
+                  "sort_order": 3,
+                  "available": true
+                },
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?15960645140526",
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "available": true
+                },
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?15960664277038",
+                  "name": "Large",
+                  "sort_order": 5,
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Avocados",
+          "pattern": "Avocados",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/trainers-1",
+              "price": 17.95,
+              "sizes": [
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?15960559648814",
+                  "name": "Small",
+                  "sort_order": 3,
+                  "available": false
+                },
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?31497611903022",
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "available": false
+                },
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?31497612066862",
+                  "name": "Large",
+                  "sort_order": 5,
+                  "available": false
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers",
+              "price": 20.99,
+              "sizes": [
+                {
+                  "name": "Small",
+                  "sort_order": 3,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=32109879361626",
+                  "available": true
+                },
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=31767397859418",
+                  "available": true
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=31767395958874",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Blueberry Blooms",
+          "pattern": "Blueberry Blooms",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/trainers-1",
+              "price": 17.95,
+              "sizes": [
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?17109128216622",
+                  "name": "Large",
+                  "sort_order": 5,
+                  "available": true
+                },
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?17109128871982",
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "available": true
+                },
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?17109129560110",
+                  "name": "Small",
+                  "sort_order": 3,
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bouquet",
+          "pattern": "Bouquet",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/trainers-1",
+              "price": 17.95,
+              "sizes": [
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?31497611771950",
+                  "name": "Small",
+                  "sort_order": 3,
+                  "available": true
+                },
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?31497611935790",
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "available": false
+                },
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?31497612099630",
+                  "name": "Large",
+                  "sort_order": 5,
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hummingbirds",
+          "pattern": "Hummingbirds",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/trainers-1",
+              "price": 17.95,
+              "sizes": [
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?15960571117614",
+                  "name": "Small",
+                  "sort_order": 3,
+                  "available": true
+                },
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?15960635080750",
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "available": true
+                },
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?15960671617070",
+                  "name": "Large",
+                  "sort_order": 5,
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers",
+              "price": 20.99,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=30873390907482",
+                  "available": true
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=31955359989850",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jungle Jam",
+          "pattern": "Jungle Jam",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/trainers-1",
+              "price": 17.95,
+              "sizes": [
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?17109123268654",
+                  "name": "Large",
+                  "sort_order": 5,
+                  "available": false
+                },
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?17109123825710",
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "available": false
+                },
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?17109124448302",
+                  "name": "Small",
+                  "sort_order": 3,
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers",
+              "price": 20.99,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=4832314064924",
+                  "available": true
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=31955363987546",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Llamas",
+          "pattern": "Llamas",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/trainers-1",
+              "price": 17.95,
+              "sizes": [
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?17109120548910",
+                  "name": "Small",
+                  "sort_order": 3,
+                  "available": true
+                },
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?17109122646062",
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "available": true
+                },
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?17109122875438",
+                  "name": "Large",
+                  "sort_order": 5,
+                  "available": false
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers",
+              "price": 20.99,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=32109886144602",
+                  "available": true
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=32209482580058",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Octopus",
+          "pattern": "Octopus",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/trainers-1",
+              "price": 17.95,
+              "sizes": [
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?15960583634990",
+                  "name": "Small",
+                  "sort_order": 3,
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Old Macdonald",
+          "pattern": "Old Macdonald",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/trainers-1",
+              "price": 17.95,
+              "sizes": [
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?31497611804718",
+                  "name": "Small",
+                  "sort_order": 3,
+                  "available": false
+                },
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?31497612001326",
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "available": false
+                },
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?31497612132398",
+                  "name": "Large",
+                  "sort_order": 5,
+                  "available": false
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers",
+              "price": 20.99,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=31767389634650",
+                  "available": true
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=31767393042522",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rose",
+          "pattern": "Rose",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/trainers-1",
+              "price": 17.95,
+              "sizes": [
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?15960575541294",
+                  "name": "Small",
+                  "sort_order": 3,
+                  "available": true
+                },
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?15960625610798",
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "available": true
+                },
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?15960681087022",
+                  "name": "Large",
+                  "sort_order": 5,
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers",
+              "price": 20.99,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=30873385336922",
+                  "available": true
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=30873385697370",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadows",
+          "pattern": "Shadows",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/trainers-1",
+              "price": 17.95,
+              "sizes": [
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?15960599101486",
+                  "name": "Small",
+                  "sort_order": 3,
+                  "available": true
+                },
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?15960609816622",
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "available": true
+                },
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?15960693014574",
+                  "name": "Large",
+                  "sort_order": 5,
+                  "available": false
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers",
+              "price": 20.99,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=30873388679258",
+                  "available": true
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=30873388351578",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sleepy",
+          "pattern": "Sleepy",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/trainers-1",
+              "price": 17.95,
+              "sizes": [
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?7668783841326",
+                  "name": "Large",
+                  "sort_order": 5,
+                  "available": false
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers",
+              "price": 20.99,
+              "sizes": [
+                {
+                  "name": "Small",
+                  "sort_order": 3,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=4832286638108",
+                  "available": true
+                },
+                {
+                  "name": "Large",
+                  "sort_order": 5,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=4832339787804",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "This Little Piggy",
+          "pattern": "This Little Piggy",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/trainers-1",
+              "price": 17.95,
+              "sizes": [
+                {
+                  "url": "https://blueberrydiapers.com/products/trainers-1?8074978852910",
+                  "name": "Small",
+                  "sort_order": 3,
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Round-About",
+          "pattern": "Round-About",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers",
+              "price": 20.99,
+              "sizes": [
+                {
+                  "name": "Small",
+                  "sort_order": 3,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=6449070401",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dinos",
+          "pattern": "Dinos",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers",
+              "price": 20.99,
+              "sizes": [
+                {
+                  "name": "Small",
+                  "sort_order": 3,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=6449083905",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bugs",
+          "pattern": "Bugs",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers",
+              "price": 20.99,
+              "sizes": [
+                {
+                  "name": "Small",
+                  "sort_order": 3,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=7527460865",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seahorse",
+          "pattern": "Seahorse",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers",
+              "price": 20.99,
+              "sizes": [
+                {
+                  "name": "Small",
+                  "sort_order": 3,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=27807621447",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Happy Trees",
+          "pattern": "Happy Trees",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers",
+              "price": 20.99,
+              "sizes": [
+                {
+                  "name": "Small",
+                  "sort_order": 3,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=36153396618",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Space",
+          "pattern": "Space",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers",
+              "price": 20.99,
+              "sizes": [
+                {
+                  "name": "Small",
+                  "sort_order": 3,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=4832207962140",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ice Cream",
+          "pattern": "Ice Cream",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers",
+              "price": 20.99,
+              "sizes": [
+                {
+                  "name": "Small",
+                  "sort_order": 3,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=4832357384220",
+                  "available": true
+                },
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=4832357384220",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Picnic",
+          "pattern": "Picnic",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers",
+              "price": 20.99,
+              "sizes": [
+                {
+                  "name": "Small",
+                  "sort_order": 3,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=12261583880282",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sedona",
+          "pattern": "Sedona",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers",
+              "price": 20.99,
+              "sizes": [
+                {
+                  "name": "Small",
+                  "sort_order": 3,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=12261583618138",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bears and the Bees",
+          "pattern": "Bears and the Bees",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers",
+              "price": 20.99,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=32249884770394",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paisley",
+          "pattern": "Paisley",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers",
+              "price": 20.99,
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "sort_order": 4,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=3469826497",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Newborn Capri Diaper Cover",
+      "sort_order": "3.2",
+      "details": {
+        "materials": "<ul><li>Outer: 100% polyester</li><ul>",
+        "origin_country": "United States",
+        "sizing": [
+          {
+            "name": "one size",
+            "dimensions": {
+              "waist": {
+                "min": [
+                  {
+                    "num": 11,
+                    "unit": "in"
+                  }
+                ],
+                "max": [
+                  {
+                    "num": 19,
+                    "unit": "in"
+                  }
+                ]
+              },
+              "thighs": {
+                "min": [
+                  {
+                    "num": 3.5,
+                    "unit": "in"
+                  }
+                ],
+                "max": [
+                  {
+                    "num": 10,
+                    "unit": "in"
+                  }
+                ]
+              },
+              "rise": {
+                "min": [
+                  {
+                    "num": 12.5,
+                    "unit": "in"
+                  }
+                ],
+                "max": [
+                  {
+                    "num": 15,
+                    "unit": "in"
+                  }
+                ]
+              }
+            },
+            "weight": {
+              "min": [
+                {
+                  "num": 6,
+                  "unit": "lb"
+                }
+              ],
+              "max": [
+                {
+                  "num": 16,
+                  "unit": "lb"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "tags": [
+        "diaper cover",
+        "infant",
+        "preemie / newborn",
+        "organic",
+        "waist snaps"
+      ],
+      "products": [
+        {
+          "name": "Ambrosia",
+          "pattern": "Ambrosia",
+          "default": true,
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-covers",
+              "price": 18.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-covers?variant=15070819450926",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Avocados",
+          "pattern": "Avocados",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-cover",
+              "price": 18.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-covers?variant=7668446003246",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-capri-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-capri-cover?variant=32204189925466",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bears and the Bees",
+          "pattern": "Bears and the Bees",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-cover",
+              "price": 18.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-covers?variant=8074268573742",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Blueberry Blooms",
+          "pattern": "Blueberry Blooms",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-covers",
+              "price": 18.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-covers?variant=17108264550446",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-capri-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-capri-cover?variant=31767363223642",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bouquet",
+          "pattern": "Bouquet",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-covers",
+              "price": 18.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-covers?variant=15070819975214",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chickadee",
+          "pattern": "Chickadee",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-cover",
+              "price": 18.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-covers?variant=8074272374830",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Froggies",
+          "pattern": "Froggies",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-cover",
+              "price": 18.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-covers?variant=8074263822382",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hummingbirds",
+          "pattern": "Hummingbirds",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-covers",
+              "price": 18.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-covers?variant=15070820532270",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jungle Jam",
+          "pattern": "Jungle Jam",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-covers",
+              "price": 18.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-covers?variant=17108263436334",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Llamas",
+          "pattern": "Llamas",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-covers",
+              "price": 18.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-covers?variant=17108262879278",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Octopus",
+          "pattern": "Octopus",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-covers",
+              "price": 18.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-covers?variant=15070821351470",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-capri-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-capri-cover?variant=31767370563674",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Old Macdonald",
+          "pattern": "Old Macdonald",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-cover",
+              "price": 18.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-covers?variant=7668446363694",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rose",
+          "pattern": "Rose",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-covers",
+              "price": 18.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-covers?variant=15070820237358",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-capri-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-capri-cover?variant=31767363092570",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadows",
+          "pattern": "Shadows",
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-covers",
+              "price": 18.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/newborn-capri-diaper-covers?variant=15070820597806",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-capri-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-capri-cover?variant=32249891684442",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hummingbird",
+          "pattern": "Hummingbird",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-capri-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-capri-cover?variant=31767373021274",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Prickly",
+          "pattern": "Prickly",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-capri-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-capri-cover?variant=34718879416473",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lazy",
+          "pattern": "Lazy",
+          "listings": [
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-capri-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-capri-cover?variant=34718880366745",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "One-Size Pocket Diaper",
+      "sort_order": "2.1",
+      "details": {
+        "materials": "<ul><li>Outer: 100% polyester</li><li>Insert: 100% organic cotton</li><ul>",
+        "origin_country": "United States",
+        "sizing": [
+          {
+            "name": "one size",
+            "dimensions": {
+              "waist": {
+                "min": [
+                  {
+                    "num": 9,
+                    "unit": "in"
+                  },
+                  {
+                    "num": 23,
+                    "unit": "kg"
+                  }
+                ],
+                "max": [
+                  {
+                    "num": 21,
+                    "unit": "in"
+                  },
+                  {
+                    "num": 53,
+                    "unit": "kg"
+                  }
+                ]
+              },
+              "thighs": {
+                "min": [
+                  {
+                    "num": 4,
+                    "unit": "in"
+                  },
+                  {
+                    "num": 10,
+                    "unit": "kg"
+                  }
+                ],
+                "max": [
+                  {
+                    "num": 12.5,
+                    "unit": "in"
+                  },
+                  {
+                    "num": 32,
+                    "unit": "kg"
+                  }
+                ]
+              },
+              "rise": {
+                "min": [
+                  {
+                    "num": 13.5,
+                    "unit": "in"
+                  },
+                  {
+                    "num": 34,
+                    "unit": "kg"
+                  }
+                ],
+                "max": [
+                  {
+                    "num": 18.5,
+                    "unit": "in"
+                  },
+                  {
+                    "num": 47,
+                    "unit": "kg"
+                  }
+                ]
+              }
+            },
+            "weight": {
+              "min": [
+                {
+                  "num": 10,
+                  "unit": "lb"
+                },
+                {
+                  "num": 4.5,
+                  "unit": "kg"
+                }
+              ],
+              "max": [
+                {
+                  "num": 35,
+                  "unit": "lb"
+                },
+                {
+                  "num": 16,
+                  "unit": "kg"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "tags": ["pocket diaper", "infant", "toddler", "organic", "waist snaps"],
+      "products": [
+        {
+          "name": "Ambrosia",
+          "pattern": "Ambrosia",
+          "default": true,
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts",
+              "price": 27.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts?variant=15070862671918",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Balloons",
+          "pattern": "Balloons",
+          "default": true,
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts",
+              "price": 27.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts?variant=15070863065134",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bears and the Bees",
+          "pattern": "Bears and the Bees",
+          "default": true,
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts",
+              "price": 27.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts?variant=8074704781358",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Blueberry Blooms",
+          "pattern": "Blueberry Blooms",
+          "default": true,
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts",
+              "price": 27.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts?variant=17108247805998",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chickadee",
+          "pattern": "Chickadee",
+          "default": true,
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts",
+              "price": 27.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts?variant=8074704486446",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hummingbirds",
+          "pattern": "Hummingbirds",
+          "default": true,
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts",
+              "price": 27.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts?variant=15070863523886",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Avocados",
+          "pattern": "Avocados",
+          "default": true,
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts",
+              "price": 27.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts?variant=8074707304494",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jungle Jam",
+          "pattern": "Jungle Jam",
+          "default": true,
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts",
+              "price": 27.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts?variant=17108244725806",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Llamas",
+          "pattern": "Llamas",
+          "default": true,
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts",
+              "price": 27.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts?variant=17108241055790",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Octopus",
+          "pattern": "Octopus",
+          "default": true,
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts",
+              "price": 27.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts?variant=15070864801838",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rose",
+          "pattern": "Rose",
+          "default": true,
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts",
+              "price": 27.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts?variant=15070864900142",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadows",
+          "pattern": "Shadows",
+          "default": true,
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts",
+              "price": 27.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts?variant=15070862901294",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bouquet",
+          "pattern": "Bouquet",
+          "default": true,
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts",
+              "price": 27.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts?variant=7668546240558",
+                  "available": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Old Macdonald",
+          "pattern": "Old Macdonald",
+          "default": true,
+          "listings": [
+            {
+              "currency": "USD",
+              "retailer": "Blueberry",
+              "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts",
+              "price": 27.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://blueberrydiapers.com/products/one-size-pocket-diapers-w-organic-cotton-inserts?variant=7668546273326",
+                  "available": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
