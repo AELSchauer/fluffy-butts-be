@@ -94,6 +94,12 @@
       ]
     },
     {
+      "name": "Jewel",
+      "tags": [
+        "stripes"
+      ]
+    },
+    {
       "name": "Koi",
       "tags": [
         "animals",
@@ -652,29 +658,6 @@
                   "name": "one size",
                   "sort_order": 1,
                   "url": "https://www.lilmonkeycheeks.ca/products/grovia-aio?variant=16820995293274",
-                  "available": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Onyx",
-          "pattern": "Onyx",
-          "listings": [
-            {
-              "countries": [
-                "Canada"
-              ],
-              "retailer": "Lil' Monkey Cheeks",
-              "currency": "CAD",
-              "url": "https://www.lilmonkeycheeks.ca/products/grovia-aio",
-              "price": 33.95,
-              "sizes": [
-                {
-                  "name": "one size",
-                  "sort_order": 1,
-                  "url": "https://www.lilmonkeycheeks.ca/products/grovia-aio?variant=16820995850330",
                   "available": true
                 }
               ]
@@ -3368,29 +3351,6 @@
                   "name": "one size",
                   "sort_order": 1,
                   "url": "https://www.lilmonkeycheeks.ca/products/grovia-o-n-e-diaper?variant=951876091932",
-                  "available": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Haze",
-          "pattern": "Haze",
-          "listings": [
-            {
-              "countries": [
-                "Canada"
-              ],
-              "retailer": "Lil' Monkey Cheeks",
-              "currency": "CAD",
-              "url": "https://www.lilmonkeycheeks.ca/products/grovia-o-n-e-diaper",
-              "price": 30.35,
-              "sizes": [
-                {
-                  "name": "one size",
-                  "sort_order": 1,
-                  "url": "https://www.lilmonkeycheeks.ca/products/grovia-o-n-e-diaper?variant=32283992195162",
                   "available": false
                 }
               ]

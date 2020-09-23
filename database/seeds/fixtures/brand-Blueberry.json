@@ -27,6 +27,10 @@
       "tags": ["flowers & foliage"]
     },
     {
+      "name": "Bunnies",
+      "tags": ["animals", "blue"]
+    },
+    {
       "name": "Chickadee",
       "tags": ["animals", "farm"]
     },
@@ -71,8 +75,16 @@
       "tags": ["pink", "animals", "pets"]
     },
     {
+      "name": "Lazy",
+      "tags": ["animals", "jungle"]
+    },
+    {
       "name": "Llamas",
       "tags": ["animals"]
+    },
+    {
+      "name": "Moose",
+      "tags": ["animals", "school", "forest"]
     },
     {
       "name": "Octopus",
@@ -273,25 +285,6 @@
         "waist snaps"
       ],
       "products": [
-        {
-          "name": "Baby Birds",
-          "pattern": "Baby Birds",
-          "listings": [
-            {
-              "retailer": "Green Mountain Diapers",
-              "currency": "USD",
-              "price": 25.95,
-              "sizes": [
-                {
-                  "name": "medium",
-                  "url": "https://www.greenmountaindiapers.com/products/organic-side-snap-simplex?variant=46208837512",
-                  "available": true
-                }
-              ],
-              "url": "https://www.greenmountaindiapers.com/products/organic-side-snap-simplex"
-            }
-          ]
-        },
         {
           "name": "Happy Trees",
           "pattern": "Happy Trees",
@@ -1016,25 +1009,6 @@
         "waist snaps"
       ],
       "products": [
-        {
-          "name": "Deep Blue Sea",
-          "pattern": "Deep Blue Sea",
-          "listings": [
-            {
-              "retailer": "Green Mountain Diapers",
-              "currency": "USD",
-              "price": 34.95,
-              "sizes": [
-                {
-                  "name": "one size",
-                  "url": "https://www.greenmountaindiapers.com/products/blueberry-simplex-organic?variant=31783706820701",
-                  "available": false
-                }
-              ],
-              "url": "https://www.greenmountaindiapers.com/products/blueberry-simplex-organic"
-            }
-          ]
-        },
         {
           "name": "Ambrosia",
           "pattern": "Ambrosia",
@@ -2296,66 +2270,6 @@
                 }
               ],
               "available": "false"
-            }
-          ]
-        },
-        {
-          "name": "Moose",
-          "pattern": "Moose",
-          "listings": [
-            {
-              "retailer": "Lil' Monkey Cheeks",
-              "currency": "CAD",
-              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
-              "price": 25.95,
-              "sizes": [
-                {
-                  "name": "one size",
-                  "sort_order": 1,
-                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=32109836599386",
-                  "available": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Bunnies",
-          "pattern": "Bunnies",
-          "listings": [
-            {
-              "retailer": "Lil' Monkey Cheeks",
-              "currency": "CAD",
-              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
-              "price": 25.95,
-              "sizes": [
-                {
-                  "name": "one size",
-                  "sort_order": 1,
-                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=32109837385818",
-                  "available": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Huggable",
-          "pattern": "Huggable",
-          "listings": [
-            {
-              "retailer": "Lil' Monkey Cheeks",
-              "currency": "CAD",
-              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
-              "price": 25.95,
-              "sizes": [
-                {
-                  "name": "one size",
-                  "sort_order": 1,
-                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=32109845610586",
-                  "available": true
-                }
-              ]
             }
           ]
         },
@@ -3879,26 +3793,6 @@
                   "name": "Medium",
                   "sort_order": 4,
                   "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=32249884770394",
-                  "available": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Paisley",
-          "pattern": "Paisley",
-          "listings": [
-            {
-              "retailer": "Lil' Monkey Cheeks",
-              "currency": "CAD",
-              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers",
-              "price": 20.99,
-              "sizes": [
-                {
-                  "name": "Medium",
-                  "sort_order": 4,
-                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-trainers?variant=3469826497",
                   "available": true
                 }
               ]

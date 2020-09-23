@@ -11,6 +11,10 @@
       "tags": ["solid", "pink"]
     },
     {
+      "name": "Burnt Orange",
+      "tags": ["solid", "orange"]
+    },
+    {
       "name": "Green Scene",
       "tags": ["green", "industrial"]
     },
@@ -103,8 +107,16 @@
       "tags": ["solid", "blue"]
     },
     {
+      "name": "Moss",
+      "tags": ["solid", "green"]
+    },
+    {
       "name": "Mountain Bike",
       "tags": ["travel & transportation", "hobbies"]
+    },
+    {
+      "name": "Mountain Range",
+      "tags": []
     },
     {
       "name": "Mountain Twilight",
@@ -7289,25 +7301,6 @@
           ]
         },
         {
-          "name": "Autumn Blaze",
-          "pattern": "Autumn Blaze",
-          "listings": [
-            {
-              "retailer": "Lil' Monkey Cheeks",
-              "currency": "CAD",
-              "url": "https://www.lilmonkeycheeks.ca/products/thirsties-natural-newborn-all-in-one",
-              "price": 27.25,
-              "sizes": [
-                {
-                  "name": "one size",
-                  "url": "https://www.lilmonkeycheeks.ca/products/thirsties-natural-newborn-all-in-one?variant=13701347213402",
-                  "available": false
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "Sugar Plum",
           "pattern": "Sugar Plum",
           "listings": [
@@ -7391,25 +7384,6 @@
                 {
                   "name": "one size",
                   "url": "https://www.lilmonkeycheeks.ca/products/thirsties-natural-newborn-all-in-one?variant=32185304449114",
-                  "available": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Endangered",
-          "pattern": "Endangered",
-          "listings": [
-            {
-              "retailer": "Lil' Monkey Cheeks",
-              "currency": "CAD",
-              "url": "https://www.lilmonkeycheeks.ca/products/thirsties-natural-newborn-all-in-one",
-              "price": 27.25,
-              "sizes": [
-                {
-                  "name": "one size",
-                  "url": "https://www.lilmonkeycheeks.ca/products/thirsties-natural-newborn-all-in-one?variant=32303317319770",
                   "available": false
                 }
               ]
@@ -9476,7 +9450,6 @@
         },
         {
           "name": "Ocean",
-          "pattern": "Ocean",
           "listings": [
             {
               "retailer": "Nicki's Diapers",
@@ -9496,7 +9469,6 @@
         },
         {
           "name": "Plum",
-          "pattern": "Plum",
           "listings": [
             {
               "retailer": "Nicki's Diapers",
@@ -10356,26 +10328,6 @@
                   "name": "one size",
                   "sort_order": 1,
                   "url": "https://www.lilmonkeycheeks.ca/products/thirsties-natural-one-size-pocket-diaper?variant=17259825856602",
-                  "available": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Autumn Blaze",
-          "pattern": "Autumn Blaze",
-          "listings": [
-            {
-              "retailer": "Lil' Monkey Cheeks",
-              "currency": "CAD",
-              "url": "https://www.lilmonkeycheeks.ca/products/thirsties-natural-one-size-pocket-diaper?variant=30357906292826",
-              "price": 34.25,
-              "sizes": [
-                {
-                  "name": "one size",
-                  "sort_order": 1,
-                  "url": "https://www.lilmonkeycheeks.ca/products/thirsties-natural-one-size-pocket-diaper?variant=30357906292826",
                   "available": true
                 }
               ]

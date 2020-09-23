@@ -3,6 +3,13 @@
   "country_origin": "?",
   "patterns": [
     {
+      "name": "Albert",
+      "tags": [
+        "black & white",
+        "school"
+      ]
+    },
+    {
       "name": "Ballet",
       "tags": [
         "pink",
