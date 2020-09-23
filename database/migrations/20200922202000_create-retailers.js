@@ -8,7 +8,7 @@ exports.up = function (knex) {
 
       table.timestamps();
     })
-    .then(() => knex.seed.run({ specific: "002-seed-retailers.js" }));
+    .then(() => knex.seed.run({ specific: "001-seed-retailers.js" }));
 };
 
 exports.down = function (knex) {

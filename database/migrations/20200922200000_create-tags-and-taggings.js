@@ -26,7 +26,7 @@ exports.up = function (knex) {
 
       table.timestamps();
     }),
-  ]).then(() => knex.seed.run({ specific: "001-seed-tags.js" }));
+  ]).then(() => knex.seed.run({ specific: "000-seed-tags.js" }));
 };
 
 exports.down = function (knex) {
