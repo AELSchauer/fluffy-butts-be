@@ -6,7 +6,7 @@ exports.up = function(knex) {
       table.string("name_insensitive").notNullable();
       table.timestamps();
     })
-    .then(() => knex.seed.run({ specific: "002-seed-brands.js" }));
+    .then(() => knex.seed.run({ specific: "003-seed-brands.js" }));
 };
 
 exports.down = function(knex) {
