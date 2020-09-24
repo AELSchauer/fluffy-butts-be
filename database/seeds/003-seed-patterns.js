@@ -1,9 +1,9 @@
 const brands = require("./utils/get-brand-fixture-data");
-const { deleteTagsAndTaggings } = require("./utils/delete-polymorphic-entries");
+const { deleteTaggings } = require("./utils/delete-polymorphic-entries");
 
 exports.seed = async function (knex) {
   await knex("patterns").delete();
-  await deleteTagsAndTaggings(knex, "Pattern");
+  await deleteTaggings(knex, "Pattern");
 
   for (const { brand: brand_name, patterns } of brands) {
     const [{ id: brand_id }] = await knex

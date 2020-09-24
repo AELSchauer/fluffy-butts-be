@@ -12,7 +12,7 @@ module.exports = {
         .delete());
     await knex("imagings").where({ imageable_type }).delete();
   },
-  deleteTagsAndTaggings: async (knex, taggable_type) => {
+  deleteTaggings: async (knex, taggable_type) => {
     await knex("taggings").where({ taggable_type }).delete();
   },
 };
