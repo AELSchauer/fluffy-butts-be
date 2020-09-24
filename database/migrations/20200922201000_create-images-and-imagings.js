@@ -2,10 +2,9 @@ exports.up = function (knex) {
   return Promise.all([
     knex.schema.createTable("images", function (table) {
       table.increments("id");
-      table.string("name").notNullable();
       table.string("url").notNullable();
 
-      table.index("name", "index_images_on_name");
+      table.index("url", "index_images_on_url");
 
       table.timestamps();
     }),
