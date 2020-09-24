@@ -2,7 +2,7 @@ const _ = require("lodash");
 const brandData = require("./utils/get-brand-fixture-data");
 const getImageUrl = (name) =>
   `https://fluffy-butts-product-images.s3.us-east-2.amazonaws.com/${name.replace(
-    / /,
+    / /g,
     "%20"
   )}/Logo.png`;
 
