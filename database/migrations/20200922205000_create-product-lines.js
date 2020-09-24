@@ -12,7 +12,7 @@ exports.up = function (knex) {
 
       table.timestamps();
     })
-    .then(() => knex.seed.run({ specific: "004-seed-product-lines.js" }));
+    .then(() => knex.seed.run({ specific: "004-seed-product-lines-and-images.js" }));
 };
 
 exports.down = function (knex) {

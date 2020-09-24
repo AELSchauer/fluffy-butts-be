@@ -1,49 +1,44 @@
-const _ = require("lodash");
-const brandData = require("./utils/get-brand-fixture-data");
-const getImageUrl = (name) =>
-  `https://fluffy-butts-product-images.s3.us-east-2.amazonaws.com/${name.replace(
-    / /g,
-    "%20"
-  )}/Logo.png`;
+const brands = require("./utils/get-brand-fixture-data");
+const { getBrandImageUrl } = require("./utils/get-image-url");
+const {
+  deleteImagesAndImagings,
+} = require("./utils/delete-polymorphic-entries");
 
 exports.seed = async function (knex) {
   // Delete existing data
   await knex("brands").delete();
-  const imageIds = await knex
-    .select("image_id")
-    .table("imagings")
-    .where({ imageable_type: "Brand" });
-  imageIds.length &&
-    (await knex("images").whereIn("id", _.map(imageIds, "image_id")).delete());
-  await knex("imagings").where({ imageable_type: "Brand" }).delete();
+  await deleteImagesAndImagings(knex, "Brand");
 
   // Seed new data
-  await knex("brands").insert(
-    brandData.map(({ brand }) => ({
-      name: brand,
-      name_insensitive: brand.toLowerCase(),
+  for (const { brand: brand_name } of brands) {
+    await knex("brands").insert({
+      name: brand_name,
+      name_insensitive: brand_name.toLowerCase(),
       created_at: new Date(),
-    }))
-  );
+    });
 
-  await knex("images").insert(
-    brandData.map(({ brand }) => ({
-      url: getImageUrl(brand),
+    await knex("images").insert({
+      url: getBrandImageUrl(brand_name),
       created_at: new Date(),
-    }))
-  );
+    });
 
-  const brandEntries = await knex.select().table("brands");
-  const imageEntries = await knex.select().table("images");
+    const [{ id: image_id }] = await knex
+      .select("id")
+      .table("images")
+      .where({ url: getBrandImageUrl(brand_name) });
 
-  await knex("imagings").insert(
-    brandData.map(({ brand }) => ({
-      image_id: imageEntries.find(({ url }) => url ===  getImageUrl(brand)).id,
+    const [{ id: brand_id }] = await knex
+      .select("id")
+      .table("brands")
+      .where({ name: brand_name });
+
+    await knex("imagings").insert({
+      image_id,
       imageable_type: "Brand",
-      imageable_id: brandEntries.find(({ name }) => name === brand).id,
-      created_at: new Date()
-    }))
-  );
+      imageable_id: brand_id,
+      created_at: new Date(),
+    });
+  }
 
   return;
 };

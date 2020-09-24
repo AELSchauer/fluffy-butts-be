@@ -1,4 +1,4 @@
-const brandData = require("./utils/get-brand-fixture-data");
+const brands = require("./utils/get-brand-fixture-data");
 exports.seed = async function (knex) {
   await knex("patterns").delete();
   await knex("taggings").where({ taggable_type: "Pattern" }).delete();
@@ -7,8 +7,8 @@ exports.seed = async function (knex) {
   const taggingData = [];
   const newTaggingEntries = [];
 
-  for (let i = 0; i < brandData.length; i++) {
-    const { brand, patterns } = brandData[i];
+  for (let i = 0; i < brands.length; i++) {
+    const { brand, patterns } = brands[i];
     const [{ id: brand_id }] = await knex
       .select("id")
       .table("brands")
