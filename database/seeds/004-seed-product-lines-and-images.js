@@ -1,10 +1,15 @@
 const brands = require("./utils/get-brand-fixture-data");
 const { getProductImageUrl } = require("./utils/get-image-url");
+const {
+  deleteImagesAndImagings,
+  deleteTagsAndTaggings,
+} = require("./utils/delete-polymorphic-entries");
 
 exports.seed = async function (knex) {
   // Delete existing data
   await knex("product_lines").delete();
   await deleteImagesAndImagings(knex, "ProductLine");
+  await deleteTagsAndTaggings(knex, "ProductLine");
 
   // Seed new data
   for (const { brand: brand_name, product_lines } of brands) {

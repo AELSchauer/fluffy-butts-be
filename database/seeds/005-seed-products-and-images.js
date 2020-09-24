@@ -4,7 +4,7 @@ const {
 } = require("./utils/delete-polymorphic-entries");
 const { getProductImageUrl } = require("./utils/get-image-url");
 
-const getImageUrl = (exports.seed = async function (knex) {
+exports.seed = async function (knex) {
   // Delete existing data
   await knex("products").delete();
   await deleteImagesAndImagings(knex, "Product");
@@ -70,4 +70,4 @@ const getImageUrl = (exports.seed = async function (knex) {
   }
 
   return;
-});
+};

@@ -1,59 +1,46 @@
 const brands = require("./utils/get-brand-fixture-data");
+const { deleteTagsAndTaggings } = require("./utils/delete-polymorphic-entries");
+
 exports.seed = async function (knex) {
   await knex("patterns").delete();
-  await knex("taggings").where({ taggable_type: "Pattern" }).delete();
+  await deleteTagsAndTaggings(knex, "Pattern");
 
-  const newPatternEntries = [];
-  const taggingData = [];
-  const newTaggingEntries = [];
-
-  for (let i = 0; i < brands.length; i++) {
-    const { brand, patterns } = brands[i];
+  for (const { brand: brand_name, patterns } of brands) {
     const [{ id: brand_id }] = await knex
       .select("id")
       .table("brands")
-      .where({ name: brand });
+      .where({ name: brand_name });
 
-    patterns.forEach(({ name, tags }) => {
-      newPatternEntries.push({
-        name,
+    for (const { name: pattern_name, tags } of patterns) {
+      await knex("patterns").insert({
+        name: pattern_name,
         brand_id,
         created_at: new Date(),
       });
-      tags.forEach((tagName) => {
-        taggingData.push({
-          name,
+
+      const [{ id: pattern_id } = {}] = await knex
+        .select("id")
+        .table("patterns")
+        .where({
+          name: pattern_name,
           brand_id,
-          tagName,
         });
-      });
-    });
+
+      for (const tagName of tags) {
+        const [{ id: tag_id } = {}] = await knex
+          .select("id")
+          .table("tags")
+          .where({ name: tagName });
+
+        await knex("taggings").insert({
+          tag_id,
+          taggable_id: pattern_id,
+          taggable_type: "Pattern",
+          created_at: new Date(),
+        });
+      }
+    }
   }
-
-  await knex("patterns").insert(newPatternEntries);
-  const patternEntries = await knex.select().table("patterns");
-  const tagEntries = await knex.select().table("tags");
-
-  for (let j = 0; j < taggingData.length; j++) {
-    const { tagName, name, brand_id } = taggingData[j];
-
-    const { id: taggable_id } = patternEntries.find(
-      (entry) => entry.name === name && entry.brand_id === brand_id
-    );
-
-    const { id: tag_id } = tagEntries.find(
-      (entry) => entry.name === tagName
-    );
-
-    newTaggingEntries.push({
-      tag_id,
-      taggable_id,
-      taggable_type: "Pattern",
-      created_at: new Date(),
-    });
-  }
-
-  await knex("taggings").insert(newTaggingEntries);
 
   return;
 };
