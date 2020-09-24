@@ -12,6 +12,11 @@ exports.seed = async function (knex) {
   // Seed new data
   for (const { brand: brand_name, product_lines } of brands) {
     for (const { name: product_line_name, products } of product_lines) {
+      const [{ id: product_line_id = null } = {}] = await knex
+        .select()
+        .table("product_lines")
+        .where({ name: product_line_name });
+
       for (const {
         name: product_name,
         pattern: pattern_name,
@@ -24,11 +29,6 @@ exports.seed = async function (knex) {
                 .table("patterns")
                 .where({ name: pattern_name })
             : [];
-
-        const [{ id: product_line_id = null } = {}] = await knex
-          .select()
-          .table("product_lines")
-          .where({ name: product_line_name });
 
         await knex("products").insert({
           name: product_name,

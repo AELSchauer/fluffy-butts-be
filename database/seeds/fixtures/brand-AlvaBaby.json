@@ -5220,7 +5220,7 @@
           "name": "SB01",
           "listings": [
             {
-              "comapny": "AlvaBaby",
+              "retailer": "AlvaBaby",
               "currency": "USD",
               "price": 4.5,
               "sizes": [
@@ -6108,7 +6108,7 @@
           "listings": [
             {
               "currency": "US$",
-              "company": "AlvaBaby",
+              "retailer": "AlvaBaby",
               "price": 3.8,
               "sizes": [
                 {
@@ -6127,7 +6127,7 @@
           "listings": [
             {
               "currency": "US$",
-              "company": "AlvaBaby",
+              "retailer": "AlvaBaby",
               "price": 3.8,
               "sizes": [
                 {
@@ -6146,7 +6146,7 @@
           "listings": [
             {
               "currency": "US$",
-              "company": "AlvaBaby",
+              "retailer": "AlvaBaby",
               "price": 3.8,
               "sizes": [
                 {
@@ -6165,7 +6165,7 @@
           "listings": [
             {
               "currency": "US$",
-              "company": "AlvaBaby",
+              "retailer": "AlvaBaby",
               "price": 3.8,
               "sizes": [
                 {
@@ -6184,7 +6184,7 @@
           "listings": [
             {
               "currency": "US$",
-              "company": "AlvaBaby",
+              "retailer": "AlvaBaby",
               "price": 3.8,
               "sizes": [
                 {
@@ -6204,7 +6204,7 @@
           "listings": [
             {
               "currency": "US$",
-              "company": "AlvaBaby",
+              "retailer": "AlvaBaby",
               "price": 3.8,
               "sizes": [
                 {
@@ -6223,7 +6223,7 @@
           "listings": [
             {
               "currency": "US$",
-              "company": "AlvaBaby",
+              "retailer": "AlvaBaby",
               "price": 3.8,
               "sizes": [
                 {
@@ -6242,7 +6242,7 @@
           "listings": [
             {
               "currency": "US$",
-              "company": "AlvaBaby",
+              "retailer": "AlvaBaby",
               "price": 4.5,
               "sizes": [
                 {
@@ -6262,7 +6262,7 @@
           "listings": [
             {
               "currency": "US$",
-              "company": "AlvaBaby",
+              "retailer": "AlvaBaby",
               "price": 4.5,
               "sizes": [
                 {
@@ -6281,7 +6281,7 @@
           "listings": [
             {
               "currency": "US$",
-              "company": "AlvaBaby",
+              "retailer": "AlvaBaby",
               "price": 4.5,
               "sizes": [
                 {
@@ -6300,7 +6300,7 @@
           "listings": [
             {
               "currency": "US$",
-              "company": "AlvaBaby",
+              "retailer": "AlvaBaby",
               "price": 4.5,
               "sizes": [
                 {
@@ -6319,7 +6319,7 @@
           "listings": [
             {
               "currency": "US$",
-              "company": "AlvaBaby",
+              "retailer": "AlvaBaby",
               "price": 4.5,
               "sizes": [
                 {
@@ -6338,7 +6338,7 @@
           "listings": [
             {
               "currency": "US$",
-              "company": "AlvaBaby",
+              "retailer": "AlvaBaby",
               "price": 4.5,
               "sizes": [
                 {
@@ -6357,7 +6357,7 @@
           "listings": [
             {
               "currency": "US$",
-              "company": "AlvaBaby",
+              "retailer": "AlvaBaby",
               "price": 4.5,
               "sizes": [
                 {
