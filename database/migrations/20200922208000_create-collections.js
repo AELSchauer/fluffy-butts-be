@@ -28,7 +28,9 @@ exports.up = function (knex) {
 
       table.timestamps();
     }),
-  ]);
+  ]).then(() =>
+    knex.seed.run({ specific: "007-seed-collections-and-listings.js" })
+  );
 };
 
 exports.down = function (knex) {
