@@ -4645,11 +4645,17 @@
             {
               "retailer": "Green Mountain Diapers",
               "url": "https://www.greenmountaindiapers.com/collections/thirsties/products/thirsties-duo-wrap-collection?variant=31213396426845",
+              "currency":"USD",
+              "price": 66.25,
               "sizes": [
                 {
                   "name": "size 1",
-                  "sort_order": 1,
                   "url": "https://www.greenmountaindiapers.com/collections/thirsties/products/thirsties-duo-wrap-collection?variant=31213396426845",
+                  "available": true
+                },
+                {
+                  "name": "size 2",
+                  "url": "https://www.greenmountaindiapers.com/collections/thirsties/products/thirsties-duo-wrap-collection?variant=31213398065245",
                   "available": true
                 }
               ]
@@ -4668,8 +4674,21 @@
           "listings": [
             {
               "retailer": "Green Mountain Diapers",
-              "url": "https://www.greenmountaindiapers.com/collections/thirsties/products/thirsties-snap-natural-newborn-natures-canopy-collection?variant=31213677379677",
-              "available": false
+              "url": "https://www.greenmountaindiapers.com/collections/thirsties/products/thirsties-duo-wrap-collection?variant=31213417627741",
+              "currency": "USD",
+              "price": 66.25,
+              "sizes": [
+                {
+                  "name": "size 1",
+                  "url": "https://www.greenmountaindiapers.com/collections/thirsties/products/thirsties-duo-wrap-collection?variant=31213417627741",
+                  "available": true
+                },
+                {
+                  "name": "size 2",
+                  "url": "https://www.greenmountaindiapers.com/collections/thirsties/products/thirsties-duo-wrap-collection?variant=31213418872925",
+                  "available": true
+                }
+              ]
             }
           ]
         },
@@ -4685,8 +4704,21 @@
           "listings": [
             {
               "retailer": "Green Mountain Diapers",
-              "url": "https://www.greenmountaindiapers.com/collections/thirsties/products/thirsties-snap-natural-newborn-natures-canopy-collection?variant=31212658229341",
-              "available": false
+              "url": "https://www.greenmountaindiapers.com/collections/thirsties/products/thirsties-duo-wrap-collection?variant=31213112098909",
+              "currency": "USD",
+              "price": 66.25,
+              "sizes": [
+                {
+                  "name": "size 1",
+                  "url": "https://www.greenmountaindiapers.com/collections/thirsties/products/thirsties-duo-wrap-collection?variant=31213112098909",
+                  "available": true
+                },
+                {
+                  "name": "size 2",
+                  "url": "https://www.greenmountaindiapers.com/collections/thirsties/products/thirsties-duo-wrap-collection?variant=31213278462045",
+                  "available": true
+                }
+              ]
             }
           ]
         },
@@ -4703,16 +4735,16 @@
             {
               "retailer": "Green Mountain Diapers",
               "url": "https://www.greenmountaindiapers.com/collections/thirsties/products/thirsties-duo-wrap-collection?variant=31213320634461",
+              "currency": "USD",
+              "price": 66.25,
               "sizes": [
                 {
                   "name": "size 1",
-                  "sort_order": 1,
                   "url": "https://www.greenmountaindiapers.com/collections/thirsties/products/thirsties-duo-wrap-collection?variant=31213320634461",
                   "available": true
                 },
                 {
                   "name": "size 2",
-                  "sort_order": 2,
                   "url": "https://www.greenmountaindiapers.com/collections/thirsties/products/thirsties-duo-wrap-collection?variant=31213322043485",
                   "available": true
                 }
@@ -7444,12 +7476,13 @@
             {
               "retailer": "Green Mountain Diapers",
               "currency": "USD",
+              "price": 93.75,
               "url": "https://www.greenmountaindiapers.com/collections/thirsties/products/thirsties-snap-natural-newborn-natures-canopy-collection",
               "sizes": [
                 {
                   "name": "one size",
                   "url": "https://www.greenmountaindiapers.com/collections/thirsties/products/thirsties-snap-natural-newborn-natures-canopy-collection?variant=31213675511901",
-                  "available": false
+                  "available": true
                 }
               ]
             }
@@ -7468,6 +7501,7 @@
             {
               "retailer": "Green Mountain Diapers",
               "currency": "USD",
+              "price": 93.75,
               "url": "https://www.greenmountaindiapers.com/collections/thirsties/products/thirsties-snap-natural-newborn-natures-canopy-collection",
               "sizes": [
                 {
@@ -7492,12 +7526,13 @@
             {
               "retailer": "Green Mountain Diapers",
               "currency": "USD",
+              "price": 93.75,
               "url": "https://www.greenmountaindiapers.com/collections/thirsties/products/thirsties-snap-natural-newborn-natures-canopy-collection",
               "sizes": [
                 {
                   "name": "one size",
                   "url": "https://www.greenmountaindiapers.com/collections/thirsties/products/thirsties-snap-natural-newborn-natures-canopy-collection?variant=31212658229341",
-                  "available": false
+                  "available": true
                 }
               ]
             }

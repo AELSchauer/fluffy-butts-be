@@ -6,7 +6,7 @@ const { getProductImageUrl } = require("./utils/get-image-url");
 
 exports.seed = async function (knex) {
   // Delete existing data
-  await knex("listings").delete();
+  await knex("listings").where({ listable_type: "Product" }).delete();
 
   // Seed new data
   for (const { product_lines } of brands) {
@@ -23,11 +23,11 @@ exports.seed = async function (knex) {
           .where({ name: product_name, product_line_id });
 
         for (const {
-          countries = null,
+          countries,
           currency,
           url,
           price,
-          sizes = null,
+          sizes,
           retailer: retailer_name,
         } of listings) {
           const [{ id: retailer_id = null } = {}] = await knex
@@ -36,11 +36,11 @@ exports.seed = async function (knex) {
             .where({ name: retailer_name });
 
           await knex("listings").insert({
-            countries: JSON.stringify(countries),
+            countries: !!countries ? JSON.stringify(countries) : null,
             currency,
             url: url || sizes[0].url,
             price,
-            sizes: JSON.stringify(sizes),
+            sizes: !!sizes ? JSON.stringify(sizes) : null,
             retailer_id,
             listable_id: product_id,
             listable_type: "Product",
