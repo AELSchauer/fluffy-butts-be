@@ -8,7 +8,7 @@ const {
   GraphQLString,
 } = require("graphql");
 const { GraphQLDateTime } = require("graphql-iso-date");
-const orderBy = require("./utils/order-by");
+const order_by = require("./utils/order-by");
 const { whereWithStringProp } = require("./utils/where");
 
 const categoriesEnum = {
@@ -18,7 +18,7 @@ const categoriesEnum = {
   COLOR: {
     value: 1,
   },
-  PATTERN_THEME: {
+  PATTERN_AND_THEME: {
     value: 2,
   },
   FEATURES: {
@@ -46,6 +46,7 @@ const TagType = new GraphQLObjectType({
         values: categoriesEnum,
       }),
     },
+    display_order: { type: GraphQLString },
     created_at: { type: GraphQLDateTime },
     updated_at: { type: GraphQLDateTime },
   }),
@@ -54,27 +55,26 @@ const TagType = new GraphQLObjectType({
 const TagEndpoint = {
   type: new GraphQLList(TagType),
   args: {
-    orderBy: { type: GraphQLString },
-    filter_id: { type: GraphQLString },
-    filter_name: { type: GraphQLString },
-    filter_category: { type: GraphQLString },
+    order_by: { type: GraphQLString },
+    filter__id: { type: GraphQLString },
+    filter__name: { type: GraphQLString },
+    filter__category: { type: GraphQLString },
   },
   resolve(parent, args) {
-    console.log(parent, args);
     let query = ["SELECT DISTINCT tags.* FROM tags"];
     let where = [];
-    if (!!args.filter_id) where.push(`tags.id IN (${args.filter_id})`);
-    if (!!args.filter_name)
-      where.push(whereWithStringProp("tags.name", args.filter_name));
-    if (!!args.filter_category)
-      where.push(whereWithStringProp("tags.category", args.filter_category));
+    if (!!args.filter__id) where.push(`tags.id IN (${args.filter__id})`);
+    if (!!args.filter__name)
+      where.push(whereWithStringProp("tags.name", args.filter__name));
+    if (!!args.filter__category)
+      where.push(whereWithStringProp("tags.category", args.filter__category));
 
     return client
       .query(
         [
           ...query,
           ...(where.length ? ["WHERE"].concat(where.join(" AND ")) : []),
-          orderBy(args.orderBy, "tags"),
+          order_by(args.order_by, "tags"),
         ]
           .filter(Boolean)
           .join(" ")

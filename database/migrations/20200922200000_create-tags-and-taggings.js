@@ -4,6 +4,7 @@ exports.up = function (knex) {
       table.increments("id");
       table.string("name").notNullable();
       table.integer("category").notNullable().defaultTo(0);
+      table.string("display_order");
 
       table.index("name", "index_tags_on_name");
       table.index("category", "index_tags_on_category");

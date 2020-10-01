@@ -9,7 +9,9 @@ const {
 } = require("graphql");
 const { GraphQLDateTime } = require("graphql-iso-date");
 const { GraphQLJSON } = require("graphql-type-json");
-const orderBy = require("./utils/order-by");
+
+const selectNameInsensitive = require("./utils/select-name-insensitive");
+const order_by = require("./utils/order-by");
 const { whereWithStringProp } = require("./utils/where");
 
 const RetailerType = new GraphQLObjectType({
@@ -35,23 +37,29 @@ const RetailerType = new GraphQLObjectType({
 const RetailerEndpoint = {
   type: new GraphQLList(RetailerType),
   args: {
-    orderBy: { type: GraphQLString },
-    filter_id: { type: GraphQLString },
-    filter_name: { type: GraphQLString },
+    order_by: { type: GraphQLString },
+    filter__id: { type: GraphQLString },
+    filter__name: { type: GraphQLString },
+    filter__name_insensitive: { type: GraphQLString },
   },
   resolve(parent, args) {
-    let query = ["SELECT DISTINCT retailers.* FROM retailers"];
+    let query = [
+      `SELECT DISTINCT retailers.* ${selectNameInsensitive(
+        args,
+        "retailers"
+      )} FROM retailers`,
+    ];
     let where = [];
-    if (!!args.filter_id) where.push(`retailers.id IN (${args.filter_id})`);
-    if (!!args.filter_name)
-      where.push(whereWithStringProp("retailers.name", args.filter_name));
+    if (!!args.filter__id) where.push(`retailers.id IN (${args.filter__id})`);
+    if (!!args.filter__name)
+      where.push(whereWithStringProp("retailers.name", args.filter__name));
 
     return client
       .query(
         [
           ...query,
           ...(where.length ? ["WHERE"].concat(where.join(" AND ")) : []),
-          orderBy(args.orderBy, "retailers"),
+          order_by(args.order_by, "retailers"),
         ].join(" ")
       )
       .then(({ rows }) => rows);

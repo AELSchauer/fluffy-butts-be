@@ -303,9 +303,30 @@
             {
               "currency": "USD",
               "retailer": "Bambino Mio",
-              "countries": ["United States"],
+              "countries": ["Canada"],
               "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
-              "price": 14.49,
+              "price": 24.00,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002571374669",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002571440205",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
               "sizes": [
                 {
                   "name": "Size 1",
@@ -347,6 +368,27 @@
                   "available": true
                 }
               ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002580320333",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002581172301",
+                  "available": true
+                }
+              ]
             }
           ],
           "pattern": "Butterfly Bloom"
@@ -360,6 +402,27 @@
               "countries": ["United States"],
               "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
               "price": 14.49,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002571800653",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002572193869",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
               "sizes": [
                 {
                   "name": "Size 1",
@@ -401,6 +464,27 @@
                   "available": true
                 }
               ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002580418637",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002581303373",
+                  "available": true
+                }
+              ]
             }
           ],
           "pattern": "Dragonfly Daze"
@@ -414,6 +498,27 @@
               "countries": ["United States"],
               "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
               "price": 14.49,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31763212894285",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31763212697677",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
               "sizes": [
                 {
                   "name": "Size 1",
@@ -456,6 +561,27 @@
                   "available": true
                 }
               ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31763212861517",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31763212664909",
+                  "available": true
+                }
+              ]
             }
           ],
           "pattern": "Giraffe Jamboree"
@@ -469,6 +595,27 @@
               "countries": ["United States"],
               "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
               "price": 14.49,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002580484173",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002581762125",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
               "sizes": [
                 {
                   "name": "Size 1",
@@ -510,6 +657,27 @@
                   "available": true
                 }
               ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002581827661",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002581893197",
+                  "available": true
+                }
+              ]
             }
           ],
           "pattern": "Honeybee Hive"
@@ -523,6 +691,27 @@
               "countries": ["United States"],
               "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
               "price": 14.49,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002577862733",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002578583629",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
               "sizes": [
                 {
                   "name": "Size 1",
@@ -564,6 +753,27 @@
                   "available": true
                 }
               ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002578157645",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002578944077",
+                  "available": true
+                }
+              ]
             }
           ],
           "pattern": "Jungle Snake"
@@ -577,6 +787,27 @@
               "countries": ["United States"],
               "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
               "price": 14.49,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002581139533",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002581794893",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
               "sizes": [
                 {
                   "name": "Size 1",
@@ -618,6 +849,27 @@
                   "available": true
                 }
               ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002571014221",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002571112525",
+                  "available": true
+                }
+              ]
             }
           ],
           "pattern": "Pure White"
@@ -631,6 +883,27 @@
               "countries": ["United States"],
               "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
               "price": 14.49,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002574946381",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002575372365",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
               "sizes": [
                 {
                   "name": "Size 1",
@@ -672,6 +945,27 @@
                   "available": true
                 }
               ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31763212795981",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31763212599373",
+                  "available": true
+                }
+              ]
             }
           ],
           "pattern": "Safari Spots"
@@ -685,6 +979,27 @@
               "countries": ["United States"],
               "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
               "price": 14.49,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002574389325",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002574520397",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
               "sizes": [
                 {
                   "name": "Size 1",
@@ -726,6 +1041,27 @@
                   "available": true
                 }
               ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31763212828749",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31763212632141",
+                  "available": true
+                }
+              ]
             }
           ],
           "pattern": "Savanna Stripes"
@@ -739,6 +1075,27 @@
               "countries": ["United States"],
               "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
               "price": 14.49,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002581860429",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002582024269",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
               "sizes": [
                 {
                   "name": "Size 1",
@@ -780,6 +1137,27 @@
                   "available": true
                 }
               ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002577961037",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002578681933",
+                  "available": true
+                }
+              ]
             }
           ],
           "pattern": "Spider Monkey"
@@ -801,6 +1179,21 @@
                   "available": true
                 }
               ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002573570125",
+                  "available": true
+                }
+              ]
             }
           ],
           "pattern": "Starry Night"
@@ -814,6 +1207,27 @@
               "countries": ["United States"],
               "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
               "price": 14.49,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002573275213",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002573307981",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
               "sizes": [
                 {
                   "name": "Size 1",
@@ -855,6 +1269,27 @@
                   "available": true
                 }
               ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002577993805",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002578911309",
+                  "available": true
+                }
+              ]
             }
           ],
           "pattern": "Swinging Sloth"
@@ -868,6 +1303,27 @@
               "countries": ["United States"],
               "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
               "price": 14.49,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31763212763213",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31763212566605",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
               "sizes": [
                 {
                   "name": "Size 1",
@@ -909,6 +1365,27 @@
                   "available": true
                 }
               ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002578419789",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002580254797",
+                  "available": true
+                }
+              ]
             }
           ],
           "pattern": "Tropical Toucan"
@@ -922,6 +1399,27 @@
               "countries": ["United States"],
               "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
               "price": 14.49,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002576715853",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002578550861",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
               "sizes": [
                 {
                   "name": "Size 1",
@@ -957,6 +1455,21 @@
                   "available": true
                 }
               ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31002571472973",
+                  "available": true
+                }
+              ]
             }
           ],
           "pattern": "Zebra Crossing"
@@ -970,6 +1483,27 @@
               "countries": ["United States"],
               "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
               "price": 14.49,
+              "sizes": [
+                {
+                  "name": "Size 1",
+                  "sort_order": 1,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31763212730445",
+                  "available": true
+                },
+                {
+                  "name": "Size 2",
+                  "sort_order": 2,
+                  "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover?variant=31763212533837",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "currency": "USD",
+              "retailer": "Bambino Mio",
+              "countries": ["Canada"],
+              "url": "https://www.bambinomio.com/collections/mioduo/products/mioduo-diaper-cover",
+              "price": 24.00,
               "sizes": [
                 {
                   "name": "Size 1",

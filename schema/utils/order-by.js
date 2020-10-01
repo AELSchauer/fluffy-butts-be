@@ -1,9 +1,9 @@
-module.exports = (orderBy = "id:asc", className) =>
+module.exports = (order_by = "id:asc", className) =>
   "ORDER BY " +
-  orderBy
+  order_by
     .replace(/:/g, " ")
     .replace(/asc/, "ASC")
     .replace(/desc/, "DESC")
     .split(/, ?/g)
-    .map((o) => `${className}.${o}`)
+    .map((o) => (o.indexOf("name_insensitive") > -1 ? o : `${className}.${o}`))
     .join(", ");

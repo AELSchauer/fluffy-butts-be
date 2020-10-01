@@ -1,7 +1,7 @@
 const { camelCase } = require("lodash");
 
 const getKeyName = (classPropName) =>
-  "filter_" + camelCase(classPropName.split(".")[1]);
+  "filter__" + camelCase(classPropName.split(".")[1]);
 
 const whereWithStringProp = (classPropName, argVals) =>
   `${classPropName} IN (${argVals

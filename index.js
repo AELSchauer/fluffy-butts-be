@@ -1,4 +1,5 @@
 const express = require("express");
+const cors = require("cors");
 const { graphqlHTTP } = require("express-graphql");
 const { Client } = require("pg");
 
@@ -13,16 +14,17 @@ client.connect((err) => {
 });
 
 const app = new express();
-// app.use(require('./middleware/convert-keys'));
+app.use(cors());
 
 const schema = require("./schema");
 
-app.use(
-  "/graphql",
+app.use("/graphql", (req, res) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Headers", "origin, content-type, accept");
   graphqlHTTP({
     schema,
     graphiql: true,
-  })
-);
+  })(req, res);
+});
 
 app.listen(3000);

@@ -9,7 +9,7 @@ const {
 } = require("graphql");
 const { GraphQLJSON } = require("graphql-type-json");
 const { GraphQLDateTime } = require("graphql-iso-date");
-const orderBy = require("./utils/order-by");
+const order_by = require("./utils/order-by");
 const { whereWithStringProp } = require("./utils/where");
 
 const CollectionType = new GraphQLObjectType({
@@ -50,24 +50,23 @@ const CollectionType = new GraphQLObjectType({
 const CollectionEndpoint = {
   type: new GraphQLList(CollectionType),
   args: {
-    orderBy: { type: GraphQLString },
-    filter_id: { type: GraphQLString },
-    filter_name: { type: GraphQLString },
+    order_by: { type: GraphQLString },
+    filter__id: { type: GraphQLString },
+    filter__name: { type: GraphQLString },
   },
   resolve(parent, args) {
-    console.log(args);
     let query = ["SELECT DISTINCT brands.* FROM brands"];
     let where = [];
-    if (!!args.filter_id) where.push(`brands.id IN (${args.filter_id})`);
-    if (!!args.filter_name)
-      where.push(whereWithStringProp("brands.name", args.filter_name));
+    if (!!args.filter__id) where.push(`brands.id IN (${args.filter__id})`);
+    if (!!args.filter__name)
+      where.push(whereWithStringProp("brands.name", args.filter__name));
 
     return client
       .query(
         [
           ...query,
           ...(where.length ? ["WHERE"].concat(where.join(" AND ")) : []),
-          orderBy(args.orderBy, "brands"),
+          order_by(args.order_by, "brands"),
         ].join(" ")
       )
       .then(({ rows }) => rows);

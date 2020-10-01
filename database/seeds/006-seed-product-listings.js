@@ -9,12 +9,17 @@ exports.seed = async function (knex) {
   await knex("listings").where({ listable_type: "Product" }).delete();
 
   // Seed new data
-  for (const { product_lines } of brands) {
+  for (const { brand: brand_name, product_lines } of brands) {
+    const [{ id: brand_id = null } = {}] = await knex
+      .select()
+      .table("brands")
+      .where({ name: brand_name });
+
     for (const { name: product_line_name, products } of product_lines) {
       const [{ id: product_line_id = null } = {}] = await knex
         .select()
         .table("product_lines")
-        .where({ name: product_line_name });
+        .where({ name: product_line_name, brand_id });
 
       for (const { name: product_name, listings } of products) {
         const [{ id: product_id = null } = {}] = await knex

@@ -13,7 +13,6 @@ exports.seed = async function (knex) {
   for (const { brand: brand_name } of brands) {
     await knex("brands").insert({
       name: brand_name,
-      name_insensitive: brand_name.toLowerCase(),
       created_at: new Date(),
     });
 

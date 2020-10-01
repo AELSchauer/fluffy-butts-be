@@ -12,7 +12,7 @@ const {
 const { GraphQLDateTime } = require("graphql-iso-date");
 const { GraphQLJSON } = require("graphql-type-json");
 const pluralize = require("pluralize");
-const orderBy = require("./utils/order-by");
+const order_by = require("./utils/order-by");
 const { whereWithStringProp } = require("./utils/where");
 
 const { ProductType } = require(`./product`);
@@ -65,25 +65,24 @@ const ListingType = new GraphQLObjectType({
 const ListingEndpoint = {
   type: new GraphQLList(ListingType),
   args: {
-    orderBy: { type: GraphQLString },
-    filter_id: { type: GraphQLString },
-    filter_name: { type: GraphQLString },
-    filter_retailer: { type: GraphQLString },
-    filter_listableId: { type: GraphQLString },
-    filter_listableType: { type: GraphQLString },
+    order_by: { type: GraphQLString },
+    filter__id: { type: GraphQLString },
+    filter__name: { type: GraphQLString },
+    filter__retailer: { type: GraphQLString },
+    filter__listableId: { type: GraphQLString },
+    filter__listableType: { type: GraphQLString },
   },
   resolve(parent, args) {
-    console.log(args)
     let query = ["SELECT DISTINCT listings.* FROM listings"];
     let where = [];
-    if (!!args.filter_id) where.push(`listings.id IN (${args.filter_id})`);
-    if (!!args.filter_name)
-      where.push(whereWithStringProp("listings.name", args.filter_name));
-    if (!!args.filter_retailer)
-      where.push(`listings.retailer_id IN (${args.filter_retailer})`);
-    if (!!args.filter_listableType && !!args.filter_listableId) {
-      where.push(`listings.listable_type = '${args.filter_listableType}'`);
-      where.push(`listings.listable_id IN (${args.filter_listableId})`);
+    if (!!args.filter__id) where.push(`listings.id IN (${args.filter__id})`);
+    if (!!args.filter__name)
+      where.push(whereWithStringProp("listings.name", args.filter__name));
+    if (!!args.filter__retailer)
+      where.push(`listings.retailer_id IN (${args.filter__retailer})`);
+    if (!!args.filter__listableType && !!args.filter__listableId) {
+      where.push(`listings.listable_type = '${args.filter__listableType}'`);
+      where.push(`listings.listable_id IN (${args.filter__listableId})`);
     }
 
     return client
@@ -91,7 +90,7 @@ const ListingEndpoint = {
         [
           ...query,
           ...(where.length ? ["WHERE"].concat(where.join(" AND ")) : []),
-          orderBy(args.orderBy, "listings"),
+          order_by(args.order_by, "listings"),
         ]
           .filter(Boolean)
           .join(" ")

@@ -3,7 +3,6 @@ exports.up = function(knex) {
     .createTable("brands", function (table) {
       table.increments("id");
       table.string("name").notNullable();
-      table.string("name_insensitive").notNullable();
       table.timestamps();
     })
     .then(() => knex.seed.run({ specific: "002-seed-brands-and-images.js" }));

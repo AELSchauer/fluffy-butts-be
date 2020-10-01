@@ -8,7 +8,9 @@ const {
   GraphQLString,
 } = require("graphql");
 const { GraphQLDateTime } = require("graphql-iso-date");
-const orderBy = require("./utils/order-by");
+
+const selectNameInsensitive = require("./utils/select-name-insensitive");
+const order_by = require("./utils/order-by");
 const { whereWithStringProp } = require("./utils/where");
 
 const BrandType = new GraphQLObjectType({
@@ -29,8 +31,8 @@ const BrandType = new GraphQLObjectType({
               "SELECT images.*",
               "FROM images",
               "LEFT JOIN imagings ON images.id = imagings.image_id",
-              "WHERE imagable_type = 'Brand'",
-              `AND imagings.imagable_id = ${parent.id}`,
+              "WHERE imageable_type = 'Brand'",
+              `AND imagings.imageable_id = ${parent.id}`,
             ].join(" ")
           )
           .then(({ rows }) => rows);
@@ -46,22 +48,26 @@ const BrandType = new GraphQLObjectType({
     },
     product_lines: {
       type: new GraphQLList(require("./product-line").ProductLineType),
+      args: require("./product-line").ProductLineEndpoint.args,
       resolve(parent, args) {
-        return client
-          .query(`SELECT * FROM product_lines WHERE brand_id = ${parent.id};`)
-          .then(({ rows }) => rows);
+        return require("./product-line").ProductLineEndpoint.resolve(
+          {},
+          { ...args, filter__brand: parent.id }
+        );
       },
     },
     products: {
       type: new GraphQLList(require("./product-line").ProductLineType),
       resolve(parent, args) {
         return client
-          .query([
-            "SELECT products.* FROM products",
-            "LEFT JOIN product_lines ON product_lines.id = products.product_line_id",
-            "LEFT JOIN brands ON product_lines.brand_id = brands.id",
-            `WHERE brands.id = ${parent.id};`,
-          ].join(" "))
+          .query(
+            [
+              "SELECT products.* FROM products",
+              "LEFT JOIN product_lines ON product_lines.id = products.product_line_id",
+              "LEFT JOIN brands ON product_lines.brand_id = brands.id",
+              `WHERE brands.id = ${parent.id};`,
+            ].join(" ")
+          )
           .then(({ rows }) => rows);
       },
     },
@@ -71,27 +77,29 @@ const BrandType = new GraphQLObjectType({
 const BrandEndpoint = {
   type: new GraphQLList(BrandType),
   args: {
-    orderBy: { type: GraphQLString },
-    filter_id: { type: GraphQLString },
-    filter_name: { type: GraphQLString },
-    filter_nameInsensitive: { type: GraphQLString },
+    order_by: { type: GraphQLString },
+    filter__id: { type: GraphQLString },
+    filter__name: { type: GraphQLString },
+    filter__name_insensitive: { type: GraphQLString },
   },
   resolve(parent, args) {
-    console.log(args);
-    let query = ["SELECT DISTINCT brands.* FROM brands"];
+    let query = [
+      `SELECT DISTINCT brands.* ${selectNameInsensitive(
+        args,
+        "brands"
+      )} FROM brands`,
+    ];
     let where = [];
-    if (!!args.filter_id) where.push(`brands.id IN (${args.filter_id})`);
-    if (!!args.filter_name)
-      where.push(whereWithStringProp("brands.name", args.filter_name));
-    if (!!args.filter_nameInsensitive)
-      where.push(whereWithStringProp("brands.name_insensitive", args.filter_nameInsensitive));
+    if (!!args.filter__id) where.push(`brands.id IN (${args.filter__id})`);
+    if (!!args.filter__name)
+      where.push(whereWithStringProp("brands.name", args.filter__name));
 
     return client
       .query(
         [
           ...query,
           ...(where.length ? ["WHERE"].concat(where.join(" AND ")) : []),
-          orderBy(args.orderBy, "brands"),
+          order_by(args.order_by, "brands"),
         ].join(" ")
       )
       .then(({ rows }) => rows);

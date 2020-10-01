@@ -9,7 +9,8 @@ const {
 const { GraphQLDateTime } = require("graphql-iso-date");
 const { GraphQLJSON } = require("graphql-type-json");
 
-const orderBy = require("./utils/order-by");
+const selectNameInsensitive = require("./utils/select-name-insensitive");
+const order_by = require("./utils/order-by");
 const { whereWithStringProp } = require("./utils/where");
 
 const ProductLineType = new GraphQLObjectType({
@@ -48,8 +49,8 @@ const ProductLineType = new GraphQLObjectType({
               "SELECT images.*",
               "FROM images",
               "LEFT JOIN imagings ON images.id = imagings.image_id",
-              "WHERE imagable_type = 'ProductLine'",
-              `AND imagings.imagable_id = ${parent.id}`,
+              "WHERE imageable_type = 'ProductLine'",
+              `AND imagings.imageable_id = ${parent.id}`,
             ].join(" ")
           )
           .then(({ rows }) => rows);
@@ -65,10 +66,12 @@ const ProductLineType = new GraphQLObjectType({
     },
     products: {
       type: new GraphQLList(require("./product").ProductType),
+      args: require("./product").ProductEndpoint.args,
       resolve(parent, args) {
-        return client
-          .query(`SELECT * FROM products WHERE product_line_id = ${parent.id};`)
-          .then(({ rows }) => rows);
+        return require("./product").ProductEndpoint.resolve(parent, {
+          ...args,
+          filter__product_line: parent.id,
+        });
       },
     },
     tags: {
@@ -93,24 +96,30 @@ const ProductLineType = new GraphQLObjectType({
 const ProductLineEndpoint = {
   type: new GraphQLList(ProductLineType),
   args: {
-    orderBy: { type: GraphQLString },
-    filter_id: { type: GraphQLString },
-    filter_name: { type: GraphQLString },
-    filter_brand: { type: GraphQLString },
-    filter_tags: { type: GraphQLString },
+    order_by: { type: GraphQLString },
+    filter__id: { type: GraphQLString },
+    filter__name: { type: GraphQLString },
+    filter__brand: { type: GraphQLString },
+    filter__tags: { type: GraphQLString },
   },
   resolve(parent, args) {
-    let query = ["SELECT DISTINCT product_lines.* FROM product_lines"];
+    let query = [
+      `SELECT DISTINCT product_lines.* ${selectNameInsensitive(
+        args,
+        "product_lines"
+      )} FROM product_lines`,
+    ];
     let where = [];
-    if (!!args.filter_id) where.push(`product_lines.id IN (${args.filter_id})`);
-    if (!!args.filter_name)
-      where.push(whereWithStringProp("product_lines.name", args.filter_name));
-    if (!!args.filter_brand)
-      where.push(`product_lines.brand_id IN (${args.filter_brand})`);
-    if (!!args.filter_tags) {
+    if (!!args.filter__id)
+      where.push(`product_lines.id IN (${args.filter__id})`);
+    if (!!args.filter__name)
+      where.push(whereWithStringProp("product_lines.name", args.filter__name));
+    if (!!args.filter__brand)
+      where.push(`product_lines.brand_id IN (${args.filter__brand})`);
+    if (!!args.filter__tags) {
       query.push("INNER JOIN taggings ON product_lines.id = taggings.tag_id");
       where.push("taggings.taggable_type = 'ProductLine'");
-      where.push(`taggings.taggable_id IN (${args.filter_tags})`);
+      where.push(`taggings.taggable_id IN (${args.filter__tags})`);
     }
 
     return client
@@ -118,7 +127,7 @@ const ProductLineEndpoint = {
         [
           ...query,
           ...(where.length ? ["WHERE"].concat(where.join(" AND ")) : []),
-          orderBy(args.orderBy, "product_lines"),
+          order_by(args.order_by, "product_lines"),
         ]
           .filter(Boolean)
           .join(" ")
