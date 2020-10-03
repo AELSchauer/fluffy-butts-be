@@ -3,7 +3,7 @@
 const { GraphQLID, GraphQLObjectType, GraphQLString } = require("graphql");
 const { GraphQLDateTime } = require("graphql-iso-date");
 
-const ImageType = new GraphQLObjectType({
+module.exports = new GraphQLObjectType({
   name: "Image",
   fields: () => ({
     id: { type: GraphQLID },
@@ -13,7 +13,3 @@ const ImageType = new GraphQLObjectType({
     updated_at: { type: GraphQLDateTime },
   }),
 });
-
-module.exports = {
-  ImageType,
-};

@@ -18,7 +18,7 @@ module.exports = new GraphQLObjectType({
     created_at: { type: GraphQLDateTime },
     updated_at: { type: GraphQLDateTime },
     images: {
-      type: new GraphQLList(require("../image").ImageType),
+      type: new GraphQLList(require("../image/type")),
       resolve(parent, args) {
         return client
           .query(
@@ -34,7 +34,7 @@ module.exports = new GraphQLObjectType({
       },
     },
     patterns: {
-      type: new GraphQLList(require("../pattern").PatternType),
+      type: new GraphQLList(require("../pattern/type")),
       resolve(parent, args) {
         return client
           .query(`SELECT * FROM patterns WHERE brand_id = ${parent.id};`)
@@ -42,17 +42,17 @@ module.exports = new GraphQLObjectType({
       },
     },
     product_lines: {
-      type: new GraphQLList(require("../product-line").ProductLineType),
-      args: require("../product-line").ProductLineEndpoint.args,
+      type: new GraphQLList(require("../product-line/type")),
+      args: require("../product-line/query").args,
       resolve(parent, args) {
-        return require("../product-line").ProductLineEndpoint.resolve(
+        return require("../product-line/query").resolve(
           {},
           { ...args, filter__brand: parent.id }
         );
       },
     },
     products: {
-      type: new GraphQLList(require("../product-line").ProductLineType),
+      type: new GraphQLList(require("../product-line/type")),
       resolve(parent, args) {
         return client
           .query(
