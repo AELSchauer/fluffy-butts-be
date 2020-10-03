@@ -1,0 +1,43 @@
+// Conversion DONE! :D
+
+const _ = require("lodash");
+const {
+  GraphQLList,
+  GraphQLString,
+} = require("graphql");
+
+const selectNameInsensitive = require("../utils/select-name-insensitive");
+const order_by = require("../utils/order-by");
+const { whereWithStringProp } = require("../utils/where");
+
+module.exports = {
+  type: new GraphQLList(require('./type')),
+  args: {
+    order_by: { type: GraphQLString },
+    filter__id: { type: GraphQLString },
+    filter__name: { type: GraphQLString },
+    filter__name_insensitive: { type: GraphQLString },
+  },
+  resolve(parent, args) {
+    let query = [
+      `SELECT DISTINCT brands.* ${selectNameInsensitive(
+        args,
+        "brands"
+      )} FROM brands`,
+    ];
+    let where = [];
+    if (!!args.filter__id) where.push(`brands.id IN (${args.filter__id})`);
+    if (!!args.filter__name)
+      where.push(whereWithStringProp("brands.name", args.filter__name));
+
+    return client
+      .query(
+        [
+          ...query,
+          ...(where.length ? ["WHERE"].concat(where.join(" AND ")) : []),
+          order_by(args.order_by, "brands"),
+        ].join(" ")
+      )
+      .then(({ rows }) => rows);
+  },
+};

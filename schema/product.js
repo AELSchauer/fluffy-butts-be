@@ -74,42 +74,32 @@ const ProductType = new GraphQLObjectType({
     },
     product_line: {
       type: require("./product-line").ProductLineType,
+      args: require("./product-line").ProductLineEndpoint.args,
       resolve(parent, args) {
-        return client
-          .query(
-            `SELECT * FROM product_lines WHERE id = ${parent.product_line_id};`
-          )
-          .then(({ rows: [row] = [] }) => row);
+        return require("./product-line")
+          .ProductLineEndpoint.resolve(parent, {
+            ...args,
+            filter__id: parent.product_line_id,
+          })
+          .then(([row]) => row);
+      },
+    },
+    tags: {
+      type: new GraphQLList(require("./tag").TagType),
+      resolve(parent, args) {
+        return require("./tag").TagEndpoint.resolve(parent, {
+          ...args,
+          custom: {
+            query: ["LEFT JOIN taggings ON tags.id = taggings.tag_id"],
+            where: [
+              `(taggable_type = 'ProductLine' AND taggings.taggable_id = '${parent.product_line_id}') OR (taggable_type = 'Pattern' AND taggings.taggable_id = '${parent.pattern_id}')`,
+            ],
+          },
+        });
       },
     },
   }),
 });
-
-const getTagQuery = async (client, tagNames) => {
-  const where = [];
-  const { rows: tags = [] } = tagNames
-    ? await client.query(
-        "SELECT DISTINCT * FROM tags WHERE name IN ('solid','blue','sleep')"
-      )
-    : {};
-  return !tags.length
-    ? []
-    : _.chain(tags)
-        .groupBy("category")
-        .values()
-        .value()
-        .map((categoryGroup) =>
-          categoryGroup
-            .map(
-              ({ name }) =>
-                `(${whereWithStringProp(
-                  "product_line_tags.name",
-                  name
-                )} OR ${whereWithStringProp("pattern_tags.name", name)})`
-            )
-            .join(" OR ")
-        );
-};
 
 const ProductEndpoint = {
   type: new GraphQLList(ProductType),
@@ -123,62 +113,47 @@ const ProductEndpoint = {
     filter__tag_names: { type: GraphQLString },
   },
   resolve(parent, args) {
-    const resolver = async () => {
-      let query = [
-        `SELECT DISTINCT products.* ${selectNameInsensitive(
-          args,
-          "products"
-        )} FROM products`,
-      ];
-      let where = [];
-      if (!!args.filter__id) where.push(`products.id IN (${args.filter__id})`);
-      if (!!args.filter__name)
-        where.push(whereWithStringProp("products.name", args.filter__name));
-      if (!!args.filter__product_line)
-        where.push(
-          `products.product_line_id IN (${args.filter__product_line})`
-        );
-      if (!!args.filter__pattern)
-        where.push(`products.pattern_id IN (${args.filter__pattern})`);
-      if (typeof args.filter__available !== "undefined") {
-        query.push(
-          "LEFT JOIN listings ON listings.listable_type = 'Product' AND listings.listable_id = products.id"
-        );
-        where.push(
-          `listings.sizes @> '[{"available": ${args.filter__available} }]'`
-        );
-      }
-      if (!!args.filter__availability) {
-        query.push(
-          "LEFT JOIN listings ON listings.listable_type = 'Product' AND listings.listable_id = products.id",
-          "LEFT JOIN retailers ON listings.retailer_id = retailers.id"
-        );
-        where.push(
-          `retailers.shipping -> 'ships_to' @> '[{"country": "${args.filter__availability}" }]'`
-        );
-      }
-      if (!!args.filter__tag_names) {
-        query.push(
-          "LEFT JOIN taggings AS pattern_taggings ON pattern_taggings.taggable_id = products.pattern_id AND pattern_taggings.taggable_type = 'Pattern'",
-          "LEFT JOIN tags as pattern_tags ON pattern_taggings.tag_id = pattern_tags.id",
-          "LEFT JOIN taggings as product_line_taggings ON product_line_taggings.taggable_id = products.product_line_id AND product_line_taggings.taggable_type = 'ProductLine'",
-          "LEFT JOIN tags as product_line_tags ON product_line_taggings.tag_id = product_line_tags.id"
-        );
-        const tagQuery = await getTagQuery(client, args.filter__tag_names);
-        where.push(...tagQuery);
-      }
+    let query = [
+      `SELECT DISTINCT products.* ${selectNameInsensitive(
+        args,
+        "products"
+      )} FROM products`,
+    ];
+    let where = [];
+    if (!!args.filter__id) where.push(`products.id IN (${args.filter__id})`);
+    if (!!args.filter__name)
+      where.push(whereWithStringProp("products.name", args.filter__name));
+    if (!!args.filter__product_line)
+      where.push(`products.product_line_id IN (${args.filter__product_line})`);
+    if (!!args.filter__pattern)
+      where.push(`products.pattern_id IN (${args.filter__pattern})`);
+    if (typeof args.filter__available !== "undefined") {
+      query.push(
+        "LEFT JOIN listings ON listings.listable_type = 'Product' AND listings.listable_id = products.id"
+      );
+      where.push(
+        `listings.sizes @> '[{"available": ${args.filter__available} }]'`
+      );
+    }
+    if (!!args.filter__availability) {
+      query.push(
+        "LEFT JOIN listings ON listings.listable_type = 'Product' AND listings.listable_id = products.id",
+        "LEFT JOIN retailers ON listings.retailer_id = retailers.id"
+      );
+      where.push(
+        `retailers.shipping -> 'ships_to' @> '[{"country": "${args.filter__availability}" }]'`
+      );
+    }
 
-      return client
-        .query(
-          [
-            ..._.uniq(query),
-            ...(where.length ? ["WHERE"].concat(where.join(" AND ")) : []),
-            order_by(args.order_by, "products"),
-          ].join(" ")
-        )
-        .then(({ rows }) => rows);
-    };
-    return resolver();
+    return client
+      .query(
+        [
+          ..._.uniq(query),
+          ...(where.length ? ["WHERE"].concat(where.join(" AND ")) : []),
+          order_by(args.order_by, "products"),
+        ].join(" ")
+      )
+      .then(({ rows }) => rows);
   },
 };
 

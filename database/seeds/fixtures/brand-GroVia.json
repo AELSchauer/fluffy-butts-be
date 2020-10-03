@@ -846,6 +846,7 @@
               "retailer": "Green Mountain Diapers",
               "currency": "USD",
               "price": 16.95,
+              "url": "https://www.greenmountaindiapers.com/collections/gro-via-brand/products/grovia-buttah-newborn-all-in-one",
               "sizes": [
                 {
                   "name": "one size",
@@ -876,6 +877,7 @@
         {
           "name": "Glacier",
           "pattern": "Glacier",
+          "default": true,
           "listings": [
             {
               "retailer": "GroVia",
@@ -884,8 +886,8 @@
               "sizes": [
                 {
                   "name": "one size",
-                  "url": "https://www.grovia.com/products/buttah-newborn-aio-glacier?variant=30300626681967",
-                  "available": false
+                  "url": "https://www.grovia.com/collections/all-in-one-newborn-cloth/products/buttah-newborn-aio-glacier",
+                  "available": true
                 }
               ]
             },
@@ -893,6 +895,7 @@
               "retailer": "Green Mountain Diapers",
               "currency": "USD",
               "price": 16.95,
+              "url": "https://www.greenmountaindiapers.com/collections/gro-via-brand/products/grovia-buttah-newborn-all-in-one",
               "sizes": [
                 {
                   "name": "one size",
@@ -914,7 +917,7 @@
                   "name": "one size",
                   "sort_order": 1,
                   "url": "https://www.lilmonkeycheeks.ca/products/grovia-buttah-newborn-all-in-one?variant=30933851242586",
-                  "available": false
+                  "available": true
                 }
               ]
             }
@@ -940,6 +943,7 @@
               "retailer": "Green Mountain Diapers",
               "currency": "USD",
               "price": 16.95,
+              "url": "https://www.greenmountaindiapers.com/collections/gro-via-brand/products/grovia-buttah-newborn-all-in-one",
               "sizes": [
                 {
                   "name": "one size",

@@ -13,16 +13,32 @@ client.connect((err) => {
   }
 });
 
-const app = new express();
-app.use(cors());
+// const verifyToken = (req, res, next) => {
+//   jwt.verify(req.headers.authorization, "secret", (err, decoded) => {
+//     if (err) {
+//       return res.send(401);
+//     }
+//     next();
+//   });
+// };
+// verifyToken.unless = unless;
 
-const schema = require("./schema");
+const app = new express();
+
+app.use(cors());
+// app.use(verifyToken.unless({ path: ["/auth"] }));
+
+// app.post("/auth", (req, res) => {
+//   const token = jwt.sign({ foo: "bar" }, "secret");
+//   res.send(token);
+// });
 
 app.use("/graphql", (req, res) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Headers", "origin, content-type, accept");
   graphqlHTTP({
-    schema,
+    schema: require("./schema"),
+    // rootValue: root,
     graphiql: true,
   })(req, res);
 });

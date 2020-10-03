@@ -15,22 +15,22 @@ const categoriesEnum = {
   TBD: {
     value: 0,
   },
-  COLOR: {
+  PATTERN__COLOR: {
     value: 1,
   },
-  PATTERN_AND_THEME: {
+  PATTERN__PATTERN_AND_THEME: {
     value: 2,
   },
-  FEATURES: {
+  PRODUCT__FEATURES: {
     value: 3,
   },
-  AGE: {
+  PRODUCT__AGE: {
     value: 4,
   },
-  PRODUCT_TYPE: {
+  PRODUCT__PRODUCT_TYPE: {
     value: 5,
   },
-  PRODUCT_SERIES: {
+  PRODUCT__PRODUCT_SERIES: {
     value: 6,
   },
 };
@@ -60,9 +60,14 @@ const TagEndpoint = {
     filter__name: { type: GraphQLString },
     filter__category: { type: GraphQLString },
   },
-  resolve(parent, args) {
+  resolve(
+    parent,
+    {
+      custom: { query: customQuery = [], where = [] } = {},
+      ...args
+    }
+  ) {
     let query = ["SELECT DISTINCT tags.* FROM tags"];
-    let where = [];
     if (!!args.filter__id) where.push(`tags.id IN (${args.filter__id})`);
     if (!!args.filter__name)
       where.push(whereWithStringProp("tags.name", args.filter__name));
@@ -72,8 +77,10 @@ const TagEndpoint = {
     return client
       .query(
         [
-          ...query,
-          ...(where.length ? ["WHERE"].concat(where.join(" AND ")) : []),
+          ...query.concat(customQuery),
+          ...(where.length
+            ? ["WHERE"].concat(where.join(" AND "))
+            : []),
           order_by(args.order_by, "tags"),
         ]
           .filter(Boolean)

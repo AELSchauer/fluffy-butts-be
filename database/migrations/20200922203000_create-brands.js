@@ -4,6 +4,8 @@ exports.up = function(knex) {
       table.increments("id");
       table.string("name").notNullable();
       table.timestamps();
+
+      table.unique("name")
     })
     .then(() => knex.seed.run({ specific: "002-seed-brands-and-images.js" }));
 };
