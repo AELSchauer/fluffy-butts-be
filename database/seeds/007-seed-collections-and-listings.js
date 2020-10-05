@@ -4,15 +4,20 @@ exports.seed = async function (knex) {
   // Delete existing data
   await knex("collection_products").delete();
   await knex("collections").delete();
-  // await knex("listings").where({ listable_type: "Collection" }).delete();
+  await knex("listings").where({ listable_type: "Collection" }).delete();
 
   // Seed new data
-  for (const { product_lines } of brands) {
+  for (const { brand: brand_name, product_lines } of brands) {
+    const [{ id: brand_id = null } = {}] = await knex
+      .select()
+      .table("brands")
+      .where({ name: brand_name });
+
     for (const { name: product_line_name, collections = [] } of product_lines) {
       const [{ id: product_line_id = null } = {}] = await knex
         .select()
         .table("product_lines")
-        .where({ name: product_line_name });
+        .where({ name: product_line_name, brand_id });
 
       for (const {
         name: collection_name,
@@ -30,7 +35,7 @@ exports.seed = async function (knex) {
         const [{ id: collection_id = null } = {}] = await knex
           .select()
           .table("collections")
-          .where({ name: collection_name });
+          .where({ name: collection_name, product_line_id });
 
         const product_ids = (
           await knex

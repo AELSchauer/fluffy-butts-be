@@ -14,6 +14,8 @@ exports.up = function (knex) {
       table.index("product_line_id", "index_products_on_product_line_id");
 
       table.timestamps();
+
+      table.unique(["name", "product_line_id"]);
     })
     .then(() => knex.seed.run({ specific: "005-seed-products-and-images.js" }));
 };

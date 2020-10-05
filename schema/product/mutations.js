@@ -3,19 +3,25 @@
 const { GraphQLInt, GraphQLNonNull, GraphQLString } = require("graphql");
 
 module.exports = {
-  CreateBrand: {
+  CreateProduct: {
     type: require("./type"),
     args: {
       name: {
         type: new GraphQLNonNull(GraphQLString),
       },
+      pattern_id: {
+        type: new GraphQLNonNull(GraphQLString),
+      },
+      product_line_id: {
+        type: new GraphQLNonNull(GraphQLString),
+      },
     },
-    resolve(root, { name }) {
+    resolve(root, { name, pattern_id, product_line_id }) {
       return client
         .query(
           [
-            "INSERT INTO brands (name, created_at)",
-            `VALUES ('${name}', '${new Date().toISOString()}')`,
+            "INSERT INTO products (name, pattern_id, product_line_id, created_at)",
+            `VALUES ('${name}','${pattern_id}','${product_line_id}', '${new Date().toISOString()}')`,
             "RETURNING *;",
           ].join(" ")
         )

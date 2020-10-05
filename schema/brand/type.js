@@ -13,8 +13,6 @@ module.exports = new GraphQLObjectType({
   fields: () => ({
     id: { type: GraphQLID },
     name: { type: GraphQLString },
-    name_insensitive: { type: GraphQLString },
-    // origin_country: { type: GraphQLString },
     created_at: { type: GraphQLDateTime },
     updated_at: { type: GraphQLDateTime },
     images: {

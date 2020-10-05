@@ -9,7 +9,7 @@ module.exports = {
   args: {
     order_by: { type: GraphQLString },
     filter__id: { type: GraphQLString },
-    filter__name: { type: GraphQLString },
+    filter__url: { type: GraphQLString },
     filter__retailer: { type: GraphQLString },
     filter__listableId: { type: GraphQLString },
     filter__listableType: { type: GraphQLString },
@@ -18,8 +18,8 @@ module.exports = {
     let query = ["SELECT DISTINCT listings.* FROM listings"];
     let where = [];
     if (!!args.filter__id) where.push(`listings.id IN (${args.filter__id})`);
-    if (!!args.filter__name)
-      where.push(whereWithStringProp("listings.name", args.filter__name));
+    if (!!args.filter__url)
+      where.push(whereWithStringProp("listings.url", args.filter__url));
     if (!!args.filter__retailer)
       where.push(`listings.retailer_id IN (${args.filter__retailer})`);
     if (!!args.filter__listableType && !!args.filter__listableId) {

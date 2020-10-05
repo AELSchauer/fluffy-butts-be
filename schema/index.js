@@ -18,7 +18,9 @@ const RootQuery = new GraphQLObjectType({
 const RootMutation = new GraphQLObjectType({
   name: "RootMutationType",
   fields: {
-    ...require('./brand/mutations')
+    ...require("./brand/mutations"),
+    ...require("./listing/mutations"),
+    ...require("./product/mutations"),
   },
 });
 

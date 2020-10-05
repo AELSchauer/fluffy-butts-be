@@ -151,6 +151,18 @@
     }
   },
   {
+    "name": "Lizzie's Real Nappies",
+    "url": "https://lizziesrealnappies.co.uk/",
+    "shipping": {
+      "policy": "<p>For more shipping information, check out the link(s) below:</p><ul><li><a href=\"https://lizziesrealnappies.co.uk/pages/delivery-returns-postage\" target=\"_blank\">https://lizziesrealnappies.co.uk/pages/delivery-returns-postage</a></li></ul>",
+      "ships_to": [
+        {
+          "country": "United Kingdom"
+        }
+      ]
+    }
+  },
+  {
     "name": "Nicki's Diapers",
     "url": "https://www.nickisdiapers.com/",
     "shipping": {

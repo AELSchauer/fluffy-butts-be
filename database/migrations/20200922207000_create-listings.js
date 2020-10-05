@@ -20,6 +20,8 @@ exports.up = function (knex) {
       table.index("retailer_id", "index_listings_on_retailer_id");
 
       table.timestamps();
+
+      table.unique(["listable_id", "listable_type", "retailer_id", "currency"]);
     })
     .then(() => knex.seed.run({ specific: "006-seed-product-listings.js" }));
 };
