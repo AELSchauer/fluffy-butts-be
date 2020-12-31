@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:migrate": "knex migrate:latest",
+    "db:rollback": "knex migrate:rollback",
+    "db:rollback:all": "knex migrate:rollback --all",
+    "db:reset": "npm run db:rollback:all && npm run db:migrate"
   },
   "author": "",
   "license": "ISC",

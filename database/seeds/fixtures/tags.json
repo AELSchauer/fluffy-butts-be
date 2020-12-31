@@ -53,7 +53,7 @@
   "miscellaneous": { "category": "PATTERN__PATTERN_AND_THEME" },
   "monsters": { "category": "PATTERN__PATTERN_AND_THEME" },
   "movies": { "category": "PATTERN__PATTERN_AND_THEME" },
-  "multi-PATTERN__color": { "category": "PATTERN__COLOR" },
+  "multi-color": { "category": "PATTERN__COLOR" },
   "native american culture": { "category": "PATTERN__PATTERN_AND_THEME" },
   "nature": { "category": "PATTERN__PATTERN_AND_THEME" },
   "nautical": { "category": "PATTERN__PATTERN_AND_THEME" },
