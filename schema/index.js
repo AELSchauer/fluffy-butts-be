@@ -3,7 +3,7 @@ const { GraphQLString, GraphQLNonNull } = require("graphql");
 const { GraphQLObjectType, GraphQLSchema } = require("graphql");
 
 const RootQuery = new GraphQLObjectType({
-  name: "RootQueryType",
+  name: "Query",
   fields: {
     brands: require("./brand/query"),
     listings: require("./listing/query"),
@@ -16,7 +16,7 @@ const RootQuery = new GraphQLObjectType({
 });
 
 const RootMutation = new GraphQLObjectType({
-  name: "RootMutationType",
+  name: "Mutation",
   fields: {
     ...require("./brand/mutations"),
     ...require("./listing/mutations"),
