@@ -16,11 +16,11 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "express-graphql": "^0.11.0",
     "graphql": "^15.3.0",
     "graphql-iso-date": "^3.6.1",
+    "graphql-shield": "^7.4.4",
     "graphql-type-json": "^0.3.2",
+    "graphql-yoga": "^1.18.3",
     "knex": "^0.21.5",
     "lodash": "^4.17.19",
     "nodemon": "^2.0.4",

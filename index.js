@@ -1,7 +1,6 @@
 const { Client } = require("pg");
 const cors = require("cors");
-const express = require("express");
-const { graphqlHTTP } = require("express-graphql");
+const { GraphQLServer } = require("graphql-yoga");
 
 const dbVars = require("dotenv").config().parsed;
 global.client = new Client(dbVars);
@@ -13,14 +12,12 @@ client.connect((err) => {
   }
 });
 
-const app = new express();
+const options = {
+  port: 8000,
+  playground: '/playground'
+};
 
-app.use(cors({ origin: "*" }));
-app.use("/graphql", (req, res) => {
-  graphqlHTTP({
-    schema: require("./schema"),
-    graphiql: true,
-  })(req, res);
-});
-
-app.listen(8000);
+const server = new GraphQLServer({ schema: require("./schema") });
+server.start(options, ({ port }) =>
+  console.log(`Server is running on localhost:${port}`)
+);
