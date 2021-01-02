@@ -1,7 +1,7 @@
 exports.up = function (knex) {
   return knex.schema
     .createTable("retailers", function (table) {
-      table.increments("id");
+      table. bigIncrements("id");
       table.string("name").notNullable();
       table.string("url").notNullable();
       table.jsonb("shipping");

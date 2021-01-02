@@ -1,7 +1,7 @@
 exports.up = function (knex) {
   return Promise.all([
     knex.schema.createTable("tags", function (table) {
-      table.increments("id");
+      table. bigIncrements("id");
       table.string("name").notNullable();
       table.integer("category").notNullable().defaultTo(0);
       table.string("display_order");
@@ -13,7 +13,7 @@ exports.up = function (knex) {
     }),
 
     knex.schema.createTable("taggings", function (table) {
-      table.increments("id");
+      table. bigIncrements("id");
       table.integer("tag_id").notNullable();
       table.string("taggable_type").notNullable();
       table.integer("taggable_id").notNullable();

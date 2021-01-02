@@ -1,7 +1,7 @@
 exports.up = function (knex) {
   return knex.schema
     .createTable("bulk_packs", function (table) {
-      table.increments("id");
+      table. bigIncrements("id");
       table.string("name").notNullable();
       table.integer("quantity");
 

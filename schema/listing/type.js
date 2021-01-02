@@ -1,5 +1,3 @@
-// Conversion DONE! :D
-
 const {
   GraphQLFloat,
   GraphQLID,

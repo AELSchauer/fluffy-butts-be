@@ -1,5 +1,4 @@
 const {
-  GraphQLEnumType,
   GraphQLID,
   GraphQLObjectType,
   GraphQLString,
@@ -7,17 +6,11 @@ const {
 const { GraphQLDateTime } = require("graphql-iso-date");
 
 module.exports = new GraphQLObjectType({
-  name: "Tag",
+  name: "User",
   fields: () => ({
     id: { type: GraphQLID },
-    name: { type: GraphQLString },
-    category: {
-      type: new GraphQLEnumType({
-        name: "TagCategoryEnum",
-        values: require("./categories-enum"),
-      }),
-    },
-    display_order: { type: GraphQLString },
+    username: { type: GraphQLString },
+    encrypted_password: { type: GraphQLString },
     created_at: { type: GraphQLDateTime },
     updated_at: { type: GraphQLDateTime },
   }),

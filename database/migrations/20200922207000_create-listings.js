@@ -1,7 +1,7 @@
 exports.up = function (knex) {
   return knex.schema
     .createTable("listings", function (table) {
-      table.increments("id");
+      table. bigIncrements("id");
       table.jsonb("countries");
       table.string("currency").notNullable();
       table.string("url").notNullable();

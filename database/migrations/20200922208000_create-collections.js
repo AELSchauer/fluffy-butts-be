@@ -1,7 +1,7 @@
 exports.up = function (knex) {
   return Promise.all([
     knex.schema.createTable("collections", function (table) {
-      table.increments("id");
+      table. bigIncrements("id");
       table.string("name").notNullable();
       table.jsonb("details");
 
@@ -13,7 +13,7 @@ exports.up = function (knex) {
     }),
 
     knex.schema.createTable("collection_products", function (table) {
-      table.increments("id");
+      table. bigIncrements("id");
 
       table.integer("collection_id").unsigned().notNullable();
       table.foreign("collection_id").references("collections.id");

@@ -1,9 +1,12 @@
+require("dotenv").config()
+const { createClient } = require('redis');
 const { Client } = require("pg");
 const { GraphQLServer } = require("graphql-yoga");
 const { authentication, authorization } = require("./middleware");
+const bodyParser = require("body-parser");
 
-const dbVars = require("dotenv").config().parsed;
-global.client = new Client(dbVars);
+global.redis = createClient();
+global.client = new Client(process.env.dbVars);
 client.connect((err) => {
   if (err) {
     console.error("connection error", err.stack);
@@ -25,6 +28,12 @@ const server = new GraphQLServer({
     user: authentication.getUser(req),
   }),
 });
+
+server.express.use(bodyParser.json());
+server.express.post("/login", authentication.login);
+server.express.post("/logout", authentication.logout);
+server.express.post("/refresh", authentication.refresh);
+
 server.start(options, ({ port }) =>
   console.log(`Server is running on localhost:${port}`)
 );
