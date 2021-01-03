@@ -1,5 +1,3 @@
-const _ = require("lodash");
-const { GraphQLString, GraphQLNonNull } = require("graphql");
 const { GraphQLObjectType, GraphQLSchema } = require("graphql");
 
 const RootQuery = new GraphQLObjectType({
@@ -12,6 +10,7 @@ const RootQuery = new GraphQLObjectType({
     products: require("./product/query"),
     retailers: require("./retailer/query"),
     tags: require("./tag/query"),
+    ...require("./user/queries"),
   },
 });
 

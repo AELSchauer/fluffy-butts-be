@@ -1,4 +1,5 @@
 const {
+  GraphQLEnumType,
   GraphQLID,
   GraphQLObjectType,
   GraphQLString,
@@ -11,6 +12,12 @@ module.exports = new GraphQLObjectType({
     id: { type: GraphQLID },
     username: { type: GraphQLString },
     encrypted_password: { type: GraphQLString },
+    role: {
+      type: new GraphQLEnumType({
+        name: "UserRoleEnum",
+        values: require("./roles-enum"),
+      }),
+    },
     created_at: { type: GraphQLDateTime },
     updated_at: { type: GraphQLDateTime },
   }),

@@ -1,5 +1,5 @@
-require("dotenv").config()
-const { createClient } = require('redis');
+require("dotenv").config();
+const { createClient } = require("redis");
 const { Client } = require("pg");
 const { GraphQLServer } = require("graphql-yoga");
 const { authentication, authorization } = require("./middleware");
@@ -18,14 +18,33 @@ client.connect((err) => {
 const options = {
   port: 8000,
   playground: "/playground",
+  formatResponse: ({ data, errors = [] }) => ({
+    data,
+    errors:
+      errors.length === 0
+        ? undefined
+        : errors.map(({ message, ...error }) => {
+            try {
+              return {
+                ...JSON.parse(message),
+                ...error,
+              };
+            } catch (err) {
+              return {
+                message,
+                ...error,
+              };
+            }
+          }),
+  }),
 };
 
 const server = new GraphQLServer({
   schema: require("./schema"),
   middlewares: [authorization],
-  context: (req) => ({
+  context: async (req) => ({
     ...req,
-    user: authentication.getUser(req),
+    user: await authentication.getUser(req),
   }),
 });
 

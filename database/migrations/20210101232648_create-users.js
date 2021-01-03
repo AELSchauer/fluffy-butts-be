@@ -4,6 +4,7 @@ exports.up = function (knex) {
       table.bigIncrements("id");
       table.string("username").notNullable().unique();
       table.string("email").notNullable().unique();
+      table.integer("role").notNullable().defaultTo(0);
       table.string("encrypted_password");
 
       table.index("email", "index_users_on_email");

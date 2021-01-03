@@ -1,34 +1,28 @@
 const { rule, shield, and, or, not } = require("graphql-shield");
 
-
-// Rules
-
 const isAuthenticated = rule({ cache: "contextual" })(
-  async (parent, args, ctx, info) => {
-    return ctx.user !== null;
-  }
+  async (parent, args, ctx, info) => typeof ctx.user !== "undefined"
 );
 
-const isAdmin = rule({ cache: "contextual" })(
-  async (parent, args, ctx, info) => {
-    return ctx.user.role === "admin";
-  }
-);
+const hasRole = (role) =>
+  rule({ cache: "contextual" })(async (parent, args, ctx, info) => {
+    console.log("hasRole", role, ctx.user.role);
+    return ctx.user.role === role;
+  });
 
-const isEditor = rule({ cache: "contextual" })(
-  async (parent, args, ctx, info) => {
-    return ctx.user.role === "editor";
-  }
-);
-
-
-// Permissions
-
-module.exports = shield({
-  Query: {
-    brands: not(isAuthenticated),
+module.exports = shield(
+  {
+    Query: {
+      self: isAuthenticated,
+      users: hasRole("ADMIN"),
+    },
+    Mutation: {
+      CreateBrand: hasRole("ADMIN"),
+    },
   },
-  Mutation: {
-    CreateBrand: isAuthenticated,
-  },
-});
+  {
+    fallbackError: new Error(
+      JSON.stringify({ code: 404, message: "Not found" })
+    ),
+  }
+);
