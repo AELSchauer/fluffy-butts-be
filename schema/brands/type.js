@@ -1,5 +1,3 @@
-// Conversion DONE! :D
-
 const {
   GraphQLID,
   GraphQLList,
@@ -16,7 +14,7 @@ module.exports = new GraphQLObjectType({
     created_at: { type: GraphQLDateTime },
     updated_at: { type: GraphQLDateTime },
     images: {
-      type: new GraphQLList(require("../image/type")),
+      type: new GraphQLList(require("../images/type")),
       resolve(parent, args) {
         return client
           .query(
@@ -32,7 +30,7 @@ module.exports = new GraphQLObjectType({
       },
     },
     patterns: {
-      type: new GraphQLList(require("../pattern/type")),
+      type: new GraphQLList(require("../patterns/type")),
       resolve(parent, args) {
         return client
           .query(`SELECT * FROM patterns WHERE brand_id = ${parent.id};`)
@@ -40,17 +38,17 @@ module.exports = new GraphQLObjectType({
       },
     },
     product_lines: {
-      type: new GraphQLList(require("../product-line/type")),
-      args: require("../product-line/query").args,
+      type: new GraphQLList(require("../product-lines/type")),
+      args: require("../product-lines/query").args,
       resolve(parent, args) {
-        return require("../product-line/query").resolve(
+        return require("../product-lines/query").resolve(
           {},
           { ...args, filter__brand: parent.id }
         );
       },
     },
     products: {
-      type: new GraphQLList(require("../product-line/type")),
+      type: new GraphQLList(require("../product-lines/type")),
       resolve(parent, args) {
         return client
           .query(

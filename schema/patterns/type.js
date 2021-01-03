@@ -1,5 +1,3 @@
-// Conversion DONE! :D
-
 const {
   GraphQLID,
   GraphQLList,
@@ -16,7 +14,7 @@ module.exports = new GraphQLObjectType({
     created_at: { type: GraphQLDateTime },
     updated_at: { type: GraphQLDateTime },
     brand: {
-      type: require("../brand/type"),
+      type: require("../brands/type"),
       resolve(parent, args) {
         return client
           .query(
@@ -30,8 +28,8 @@ module.exports = new GraphQLObjectType({
       },
     },
     products: {
-      type: new GraphQLList(require("../product/type")),
-      args: require("../product/query").args,
+      type: new GraphQLList(require("../products/type")),
+      args: require("../products/query").args,
       resolve(parent, args) {
         return require("../product/query").resolve(parent, {
           ...args,
@@ -40,7 +38,7 @@ module.exports = new GraphQLObjectType({
       },
     },
     tags: {
-      type: new GraphQLList(require("../tag/type")),
+      type: new GraphQLList(require("../tags/type")),
       resolve(parent, args) {
         return client
           .query(

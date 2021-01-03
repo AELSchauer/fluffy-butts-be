@@ -1,8 +1,8 @@
 require("dotenv").config();
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const userRoleEnum = require("../schema/user/roles-enum");
-const usersQuery = require("../schema/user/query").users;
+const userRoleEnum = require("../schema/users/roles-enum");
+const usersQuery = require("../schema/users/queries/users");
 
 /// Auth
 const verifyToken = (ctx) => {

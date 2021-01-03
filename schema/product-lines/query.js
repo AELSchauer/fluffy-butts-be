@@ -1,5 +1,3 @@
-// Conversion DONE! :D
-
 const { GraphQLList, GraphQLString } = require("graphql");
 const selectNameInsensitive = require("../__utils__/select-name-insensitive");
 const order_by = require("../__utils__/order-by");

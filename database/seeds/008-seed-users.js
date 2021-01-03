@@ -6,7 +6,7 @@ exports.seed = async function (knex) {
       email: "banana_split@gmail.com",
       encrypted_password:
         "$2b$10$MyxIJ/FgB0B2CkEJU9387OvT4rM3e4gbf0.ggjjeWxn8e1LLNfeeG",
-      role: require('../../schema/user/roles-enum').ADMIN.value,
+      role: require('../../schema/users/roles-enum').ADMIN.value,
       created_at: new Date(),
     },
     {
@@ -14,7 +14,7 @@ exports.seed = async function (knex) {
       email: "rocky_road@gmail.com",
       encrypted_password:
         "$2b$10$MyxIJ/FgB0B2CkEJU9387OvT4rM3e4gbf0.ggjjeWxn8e1LLNfeeG",
-      role: require('../../schema/user/roles-enum').VIEWER.value,
+      role: require('../../schema/users/roles-enum').VIEWER.value,
       created_at: new Date(),
     },
   ]);

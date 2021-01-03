@@ -1,5 +1,3 @@
-// Conversion DONE! :D
-
 const {
   GraphQLID,
   GraphQLList,
@@ -19,7 +17,7 @@ module.exports = new GraphQLObjectType({
     created_at: { type: GraphQLDateTime },
     updated_at: { type: GraphQLDateTime },
     brand: {
-      type: require("../brand/type"),
+      type: require("../brands/type"),
       resolve(parent, args) {
         return client
           .query(`SELECT * FROM brands WHERE id = ${parent.brand_id}`)
@@ -27,7 +25,7 @@ module.exports = new GraphQLObjectType({
       },
     },
     collections: {
-      type: new GraphQLList(require("../collection/type")),
+      type: new GraphQLList(require("../collections/type")),
       resolve(parent, args) {
         return client
           .query(
@@ -37,7 +35,7 @@ module.exports = new GraphQLObjectType({
       },
     },
     images: {
-      type: new GraphQLList(require("../image/type")),
+      type: new GraphQLList(require("../images/type")),
       resolve(parent, args) {
         return client
           .query(
@@ -53,7 +51,7 @@ module.exports = new GraphQLObjectType({
       },
     },
     patterns: {
-      type: new GraphQLList(require("../pattern/type")),
+      type: new GraphQLList(require("../patterns/type")),
       resolve(parent, args) {
         return client
           .query(`SELECT * FROM patterns WHERE brand_id = ${parent.brand_id};`)
@@ -61,17 +59,17 @@ module.exports = new GraphQLObjectType({
       },
     },
     products: {
-      type: new GraphQLList(require("../product/type")),
-      args: require("../product/query").args,
+      type: new GraphQLList(require("../products/type")),
+      args: require("../products/query").args,
       resolve(parent, args) {
-        return require("../product/query").resolve(parent, {
+        return require("../products/query").resolve(parent, {
           ...args,
           filter__product_line: parent.id,
         });
       },
     },
     tags: {
-      type: new GraphQLList(require("../tag/type")),
+      type: new GraphQLList(require("../tags/type")),
       resolve(parent, args) {
         return client
           .query(

@@ -1,5 +1,3 @@
-// Conversion DONE! :D
-
 const { GraphQLInt, GraphQLNonNull, GraphQLString } = require("graphql");
 
 module.exports = {

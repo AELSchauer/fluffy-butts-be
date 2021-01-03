@@ -9,7 +9,7 @@ const {
 const { GraphQLDateTime } = require("graphql-iso-date");
 const { GraphQLJSON } = require("graphql-type-json");
 const pluralize = require("pluralize");
-const ProductType = require("../product/type");
+const ProductType = require("../products/type");
 
 module.exports = new GraphQLObjectType({
   name: "Listing",
@@ -46,7 +46,7 @@ module.exports = new GraphQLObjectType({
       },
     },
     retailer: {
-      type: require("../retailer/type"),
+      type: require("../retailers/type"),
       resolve(parent, args) {
         return client
           .query(`SELECT * FROM retailers WHERE id = ${parent.retailer_id}`)

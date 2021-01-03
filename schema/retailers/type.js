@@ -1,5 +1,3 @@
-// Conversion DONE! :D
-
 const {
   GraphQLID,
   GraphQLList,
@@ -19,7 +17,7 @@ module.exports = new GraphQLObjectType({
     created_at: { type: GraphQLDateTime },
     updated_at: { type: GraphQLDateTime },
     listings: {
-      type: new GraphQLList(require("../listing/type")),
+      type: new GraphQLList(require("../listings/type")),
       resolve(parent, args) {
         return client
           .query(`SELECT * FROM listings WHERE retailer_id = ${parent.id};`)

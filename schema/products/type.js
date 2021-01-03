@@ -1,5 +1,3 @@
-// Conversion DONE! :D
-
 const {
   GraphQLID,
   GraphQLList,
@@ -18,7 +16,7 @@ module.exports = new GraphQLObjectType({
     created_at: { type: GraphQLDateTime },
     updated_at: { type: GraphQLDateTime },
     brand: {
-      type: require("../brand/type"),
+      type: require("../brands/type"),
       resolve(parent, args) {
         return client
           .query(
@@ -33,7 +31,7 @@ module.exports = new GraphQLObjectType({
       },
     },
     images: {
-      type: new GraphQLList(require("../image/type")),
+      type: new GraphQLList(require("../images/type")),
       resolve(parent, args) {
         return client
           .query(
@@ -49,7 +47,7 @@ module.exports = new GraphQLObjectType({
       },
     },
     listings: {
-      type: new GraphQLList(require("../listing/type")),
+      type: new GraphQLList(require("../listings/type")),
       resolve(parent, args) {
         return client
           .query(
@@ -59,7 +57,7 @@ module.exports = new GraphQLObjectType({
       },
     },
     pattern: {
-      type: require("../pattern/type"),
+      type: require("../patterns/type"),
       resolve(parent, args) {
         return client
           .query(`SELECT * FROM patterns WHERE id = ${parent.pattern_id};`)
@@ -67,10 +65,10 @@ module.exports = new GraphQLObjectType({
       },
     },
     product_line: {
-      type: require("../product-line/type"),
-      args: require("../product-line/query").args,
+      type: require("../product-lines/type"),
+      args: require("../product-lines/query").args,
       resolve(parent, args) {
-        return require("../product-line/query")
+        return require("../product-lines/query")
           .resolve(parent, {
             ...args,
             filter__id: parent.product_line_id,
@@ -79,9 +77,9 @@ module.exports = new GraphQLObjectType({
       },
     },
     tags: {
-      type: new GraphQLList(require("../tag/type")),
+      type: new GraphQLList(require("../tags/type")),
       resolve(parent, args) {
-        return require("../tag/query").resolve(parent, {
+        return require("../tags/query").resolve(parent, {
           ...args,
           custom: {
             query: ["LEFT JOIN taggings ON tags.id = taggings.tag_id"],

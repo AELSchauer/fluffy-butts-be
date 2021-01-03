@@ -1,5 +1,3 @@
-// Conversion DONE! :D
-
 const _ = require("lodash");
 const { GraphQLBoolean, GraphQLList, GraphQLString } = require("graphql");
 const selectNameInsensitive = require("../__utils__/select-name-insensitive");

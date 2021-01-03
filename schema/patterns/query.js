@@ -1,5 +1,3 @@
-// Conversion DONE! :D
-
 const { GraphQLList, GraphQLString } = require("graphql");
 const order_by = require("../__utils__/order-by");
 const { whereWithStringProp } = require("../__utils__/where");

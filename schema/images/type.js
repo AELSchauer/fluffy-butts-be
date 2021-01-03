@@ -1,5 +1,3 @@
-// Conversion DONE! :D
-
 const { GraphQLID, GraphQLObjectType, GraphQLString } = require("graphql");
 const { GraphQLDateTime } = require("graphql-iso-date");
 

@@ -1,5 +1,3 @@
-// Conversion DONE! :D
-
 const { GraphQLNonNull, GraphQLString } = require("graphql");
 const query = require("./query");
 

@@ -1,5 +1,3 @@
-// Conversion DONE! :D
-
 const _ = require("lodash");
 const {
   GraphQLID,
@@ -19,7 +17,7 @@ module.exports = new GraphQLObjectType({
     created_at: { type: GraphQLDateTime },
     updated_at: { type: GraphQLDateTime },
     product_lines: {
-      type: new GraphQLList(require("../product-line/type")),
+      type: new GraphQLList(require("../product-lines/type")),
       resolve(parent, args) {
         return client
           .query(
@@ -29,7 +27,7 @@ module.exports = new GraphQLObjectType({
       },
     },
     products: {
-      type: new GraphQLList(require("../product/type")),
+      type: new GraphQLList(require("../products/type")),
       resolve(parent, args) {
         return client
           .query(
