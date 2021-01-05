@@ -16,12 +16,12 @@ module.exports = shield(
       users: hasRole("ADMIN"),
     },
     Mutation: {
-      CreateBrand: hasRole("ADMIN"),
+      '*': hasRole("ADMIN"),
     },
   },
   {
     fallbackError: new Error(
-      JSON.stringify({ code: 404, message: "Not found" })
+      JSON.stringify({ code: 401, message: "Not authorized" })
     ),
   }
 );
