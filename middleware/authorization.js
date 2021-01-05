@@ -5,10 +5,9 @@ const isAuthenticated = rule({ cache: "contextual" })(
 );
 
 const hasRole = (role) =>
-  rule({ cache: "contextual" })(async (parent, args, ctx, info) => {
-    console.log("hasRole", role, ctx.user.role);
-    return ctx.user.role === role;
-  });
+  rule({ cache: "contextual" })(
+    async (parent, args, ctx, info) => ctx.user.role === role
+  );
 
 module.exports = shield(
   {

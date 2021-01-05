@@ -1,12 +1,12 @@
 require("dotenv").config();
-const { createClient } = require("redis");
 const { Client } = require("pg");
 const { GraphQLServer } = require("graphql-yoga");
 const { authentication, authorization } = require("./middleware");
 const bodyParser = require("body-parser");
 
-global.redis = createClient();
+global.redis = require('./helpers/redis-async');
 global.client = new Client(process.env.dbVars);
+
 client.connect((err) => {
   if (err) {
     console.error("connection error", err.stack);
