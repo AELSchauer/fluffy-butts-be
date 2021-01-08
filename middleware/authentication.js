@@ -12,15 +12,17 @@ const verifyToken = (req) => {
       return resolve();
     }
 
-    const token = auth.split(/^Bearer /)[1];
-    if (!token) {
+    const requestToken = auth.split(/^Bearer /)[1];
+    if (!requestToken) {
       return reject("Authorization malformed");
     }
 
     return jwt
-      .verify(token, process.env.SECRET_TOKEN)
-      .then(({ id }) => redis.get(userToken.id))
-      .then(({ id }) => resolve(id))
+      .verify(requestToken, process.env.SECRET_TOKEN)
+      .then(({ id }) => Promise.all([id, redis.get(id)]))
+      .then(([id, redisToken]) =>
+        redisToken === requestToken ? resolve(id) : reject("Token invalid")
+      )
       .catch(() => reject("Token invalid"));
   });
 };
@@ -58,25 +60,25 @@ const login = ({ body: { emailOrUsername, password } }, res) => {
       if (!isAuthenticated) {
         return res.send({ error: "Login credentials invalid" });
       }
-      const accessToken = jwt.sign(
-        { id, email, username },
-        process.env.SECRET_TOKEN,
-        {
+      return jwt
+        .sign({ id, email, username }, process.env.SECRET_TOKEN, {
           expiresIn: "1d",
-        }
-      );
-      return redis
-        .set(id, accessToken, "EX", 24 * 60 * 60)
-        .then(() =>
-          res.json({
-            accessToken,
-          })
+        })
+        .then((accessToken) =>
+          redis.set(id, accessToken, "EX", 24 * 60 * 60).then(() =>
+            res.json({
+              accessToken,
+            })
+          )
         )
-        .catch(() => res.send({ error: "Server error" }));
+        .catch((error) => {
+          console.error("login", error);
+          return res.send({ error: "Server error" });
+        });
     });
 };
 
-const logout = (req, res,) =>
+const logout = (req, res) =>
   verifyToken(req)
     .then((id) =>
       redis

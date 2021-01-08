@@ -5,5 +5,5 @@ const whereWithStringProp = (classPropName, argVals) =>
     .join(", ")})`;
 
 module.exports = {
-  whereWithStringProp,
+  whereWithStringProp
 };

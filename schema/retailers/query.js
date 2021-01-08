@@ -1,6 +1,6 @@
 const { GraphQLList, GraphQLString } = require("graphql");
-const selectNameInsensitive = require("../__utils__/select-name-insensitive");
 const order_by = require("../__utils__/order-by");
+const { selectPropsInsensitive } = require("../__utils__/select");
 const { whereWithStringProp } = require("../__utils__/where");
 
 module.exports = {
@@ -13,16 +13,21 @@ module.exports = {
   },
   resolve(parent, args) {
     let query = [
-      `SELECT DISTINCT retailers.* ${selectNameInsensitive(
-        args,
-        "retailers"
-      )} FROM retailers`,
+      `SELECT DISTINCT`,
+      ["retailers.*", ...selectPropsInsensitive(args, "retailers")].join(", "),
+      `FROM retailers`,
     ];
     let where = [];
     if (!!args.filter__id) where.push(`retailers.id IN (${args.filter__id})`);
     if (!!args.filter__name)
       where.push(whereWithStringProp("retailers.name", args.filter__name));
-
+    if (!!args.filter__name_insensitive)
+      where.push(
+        whereWithStringProp(
+          "lower(retailers.name)",
+          args.filter__name_insensitive
+        )
+      );
     return client
       .query(
         [

@@ -21,6 +21,7 @@ const RootMutation = new GraphQLObjectType({
     ...require("./listings/mutations"),
     ...require("./patterns/mutations"),
     ...require("./products/mutations"),
+    ...require("./tags/mutations"),
   },
 });
 

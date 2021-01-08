@@ -1,7 +1,7 @@
 const _ = require("lodash");
 const { GraphQLBoolean, GraphQLList, GraphQLString } = require("graphql");
-const selectNameInsensitive = require("../__utils__/select-name-insensitive");
 const order_by = require("../__utils__/order-by");
+const { selectPropsInsensitive } = require("../__utils__/select");
 const { whereWithStringProp } = require("../__utils__/where");
 
 module.exports = {
@@ -17,15 +17,18 @@ module.exports = {
   },
   resolve(parent, args) {
     let query = [
-      `SELECT DISTINCT products.* ${selectNameInsensitive(
-        args,
-        "products"
-      )} FROM products`,
+      `SELECT DISTINCT`,
+      ["products.*", ...selectPropsInsensitive(args, "products")].join(", "),
+      `FROM products`,
     ];
     let where = [];
     if (!!args.filter__id) where.push(`products.id IN (${args.filter__id})`);
     if (!!args.filter__name)
       where.push(whereWithStringProp("products.name", args.filter__name));
+    if (!!args.filter__name_insensitive)
+      where.push(
+        whereWithStringProp("lower(products.name)", args.filter__name_insensitive)
+      );
     if (!!args.filter__product_line)
       where.push(`products.product_line_id IN (${args.filter__product_line})`);
     if (!!args.filter__pattern)
