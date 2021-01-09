@@ -6,7 +6,10 @@ exports.up = function (knex) {
       table.integer("quantity");
 
       table.integer("product_line_id").unsigned().notNullable();
-      table.foreign("product_line_id").references("product_lines.id");
+      table
+        .foreign("product_line_id")
+        .references("product_lines.id")
+        .onDelete("CASCADE");
       table.index("product_line_id", "index_bulk_packs_on_product_line_id");
 
       table.timestamps();

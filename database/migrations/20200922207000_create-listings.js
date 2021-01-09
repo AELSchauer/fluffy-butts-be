@@ -16,7 +16,10 @@ exports.up = function (knex) {
       );
 
       table.integer("retailer_id").unsigned().notNullable();
-      table.foreign("retailer_id").references("retailers.id");
+      table
+        .foreign("retailer_id")
+        .references("retailers.id")
+        .onDelete("CASCADE");
       table.index("retailer_id", "index_listings_on_retailer_id");
 
       table.timestamps();

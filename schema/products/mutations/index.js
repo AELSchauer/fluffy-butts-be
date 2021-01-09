@@ -2,7 +2,7 @@ const { GraphQLInt, GraphQLNonNull, GraphQLString } = require("graphql");
 
 module.exports = {
   CreateProduct: {
-    type: require("./type"),
+    type: require("../type"),
     args: {
       name: {
         type: new GraphQLNonNull(GraphQLString),

@@ -7,7 +7,7 @@ exports.up = function (knex) {
       table.jsonb("details");
 
       table.integer("brand_id").unsigned().notNullable();
-      table.foreign("brand_id").references("brands.id");
+      table.foreign("brand_id").references("brands.id").onDelete("CASCADE");
       table.index("brand_id", "index_product_lines_on_brand_id");
 
       table.timestamps();
