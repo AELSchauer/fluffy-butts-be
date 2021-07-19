@@ -5,13 +5,19 @@ const { GraphQLServer } = require("graphql-yoga");
 const bodyParser = require("body-parser");
 
 // global.redis = require("./helpers/redis-async");
-global.client = new Client({
-  host: process.env.PGHOST,
-  port: process.env.PGPORT,
-  user: process.env.PGUSER,
-  password: process.env.PGPASSWORD,
-  ssl: { rejectUnauthorized: false },
-});
+global.client = new Client(
+  Object.assign(
+    {
+      host: process.env.PGHOST,
+      port: process.env.PGPORT,
+      user: process.env.PGUSER,
+      password: process.env.PGPASSWORD,
+    },
+    process.env.NODE_ENV !== "development" && {
+      ssl: { rejectUnauthorized: false },
+    }
+  )
+);
 
 client.connect((err) => {
   if (err) {
@@ -22,7 +28,7 @@ client.connect((err) => {
 });
 
 const options = {
-  port: 8000,
+  port: process.env.PORT || 8000,
   playground: "/playground",
   formatResponse: ({ data, errors = [] }) => ({
     data,

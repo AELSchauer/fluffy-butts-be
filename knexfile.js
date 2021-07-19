@@ -27,21 +27,14 @@ module.exports = {
       password: process.env.PGPASSWORD,
       port: process.env.PGPORT,
       user: process.env.PGUSER,
-      ssl: true,
-      dialectOptions: {
-        ssl: true,
-      },
+      ssl: { rejectUnauthorized: false },
     },
     migrations: {
       tableName: "migrations",
-      migrationSource: new FsMigrations(
-        __dirname + "/database/migrations",
-        false
-      ),
-      directory: __dirname + "/database/migrations",
+      migrationSource: new FsMigrations("./database/migrations", false),
     },
     seeds: {
-      directory: __dirname + "/database/seeds",
+      directory: "./database/seeds",
     },
   },
 
