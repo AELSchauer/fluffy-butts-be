@@ -13,6 +13,7 @@ module.exports = new GraphQLObjectType({
     id: { type: GraphQLID },
     name: { type: GraphQLString },
     details: { type: GraphQLJSON },
+    pattern_id: { type: GraphQLString },
     created_at: { type: GraphQLDateTime },
     updated_at: { type: GraphQLDateTime },
     brand: {

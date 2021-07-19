@@ -32,7 +32,7 @@ exports.seed = async function (knex) {
             ? await knex
                 .select()
                 .table("patterns")
-                .where({ name: pattern_name })
+                .where({ name: pattern_name, brand_id })
             : [];
 
         await knex("products").insert({

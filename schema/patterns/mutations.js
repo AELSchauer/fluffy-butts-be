@@ -40,7 +40,8 @@ module.exports = {
     },
     resolve(root, { id }) {
       return client
-        .query(`DELETE FROM patterns WHERE id = ${id};`)
+        .query(`UPDATE products SET pattern_id = NULL WHERE pattern_id = ${id}`)
+        .then(() => client.query(`DELETE FROM patterns WHERE id = ${id};`))
         .then(() => ({}))
         .catch((err) => err);
     },

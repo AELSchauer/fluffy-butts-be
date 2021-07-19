@@ -68,6 +68,21 @@ module.exports = new GraphQLObjectType({
         });
       },
     },
+    taggings: {
+      type: new GraphQLList(require("../taggings/type")),
+      resolve(parent, args) {
+        return client
+          .query(
+            [
+              "SELECT taggings.*",
+              "FROM taggings",
+              "WHERE taggings.taggable_type = 'ProductLine'",
+              `AND taggings.taggable_id = ${parent.id}`,
+            ].join(" ")
+          )
+          .then(({ rows }) => rows);
+      },
+    },
     tags: {
       type: new GraphQLList(require("../tags/type")),
       resolve(parent, args) {

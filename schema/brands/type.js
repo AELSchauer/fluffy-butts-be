@@ -31,10 +31,12 @@ module.exports = new GraphQLObjectType({
     },
     patterns: {
       type: new GraphQLList(require("../patterns/type")),
+      args: require("../patterns/query").args,
       resolve(parent, args) {
-        return client
-          .query(`SELECT * FROM patterns WHERE brand_id = ${parent.id};`)
-          .then(({ rows }) => rows);
+        return require("../patterns/query").resolve(parent, {
+          ...args,
+          filter__brand: parent.id,
+        })
       },
     },
     product_lines: {

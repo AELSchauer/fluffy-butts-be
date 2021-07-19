@@ -24,7 +24,6 @@ module.exports = {
       where.push("taggings.taggable_type = 'Pattern'");
       where.push(`taggings.taggable_id IN (${args.filter__tags})`);
     }
-    console.log(args, where)
 
     return client
       .query(

@@ -41,17 +41,17 @@ const options = {
 
 const server = new GraphQLServer({
   schema: require("./schema"),
-  middlewares: [authorization],
-  context: async (req) => ({
-    ...req,
-    user: await authentication.getUser(req),
-  }),
+  // middlewares: [authorization],
+  // context: async (req) => ({
+  //   ...req,
+  //   user: await authentication.getUser(req),
+  // }),
 });
 
 server.express.use(bodyParser.json());
-server.express.post("/login", authentication.login);
-server.express.post("/logout", authentication.logout);
-server.express.post("/refresh", authentication.refresh);
+// server.express.post("/login", authentication.login);
+// server.express.post("/logout", authentication.logout);
+// server.express.post("/refresh", authentication.refresh);
 
 server.start(options, ({ port }) =>
   console.log(`Server is running on localhost:${port}`)

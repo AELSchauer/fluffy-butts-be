@@ -9,6 +9,7 @@ const RootQuery = new GraphQLObjectType({
     product_lines: require("./product-lines/query"),
     products: require("./products/query"),
     retailers: require("./retailers/query"),
+    taggings: require("./taggings/query"),
     tags: require("./tags/query"),
     ...require("./users/queries"),
   },
@@ -22,6 +23,7 @@ const RootMutation = new GraphQLObjectType({
     ...require("./patterns/mutations"),
     ...require("./product-lines/mutations"),
     ...require("./products/mutations"),
+    ...require("./taggings/mutations"),
     ...require("./tags/mutations"),
   },
 });

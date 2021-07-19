@@ -15,9 +15,9 @@ module.exports = shield(
       self: isAuthenticated,
       users: hasRole("ADMIN"),
     },
-    Mutation: {
-      '*': hasRole("ADMIN"),
-    },
+    // Mutation: {
+    //   '*': hasRole("ADMIN"),
+    // },
   },
   {
     fallbackError: new Error(
