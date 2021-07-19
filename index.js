@@ -4,8 +4,13 @@ const { GraphQLServer } = require("graphql-yoga");
 const { authentication, authorization } = require("./middleware");
 const bodyParser = require("body-parser");
 
-global.redis = require('./helpers/redis-async');
-global.client = new Client(process.env.dbVars);
+global.redis = require("./helpers/redis-async");
+global.client = new Client({
+  host: process.env.PGHOST,
+  port: process.env.PGPORT,
+  user: process.env.PGUSER,
+  password: process.env.PGPASSWORD,
+});
 
 client.connect((err) => {
   if (err) {
