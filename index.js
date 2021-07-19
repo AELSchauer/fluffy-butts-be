@@ -1,10 +1,10 @@
 require("dotenv").config();
 const { Client } = require("pg");
 const { GraphQLServer } = require("graphql-yoga");
-const { authentication, authorization } = require("./middleware");
+// const { authentication, authorization } = require("./middleware");
 const bodyParser = require("body-parser");
 
-global.redis = require("./helpers/redis-async");
+// global.redis = require("./helpers/redis-async");
 global.client = new Client({
   host: process.env.PGHOST,
   port: process.env.PGPORT,

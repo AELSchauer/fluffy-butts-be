@@ -1,6 +1,5 @@
 const { FsMigrations } = require("knex/lib/migrate/sources/fs-migrations");
 require("dotenv").config({ path: "./.staging.env" });
-console.log(process.env);
 
 module.exports = {
   development: {
@@ -35,10 +34,14 @@ module.exports = {
     },
     migrations: {
       tableName: "migrations",
-      migrationSource: __dirname + "./database/migrations",
+      migrationSource: new FsMigrations(
+        __dirname + "/database/migrations",
+        false
+      ),
+      directory: __dirname + "/database/migrations",
     },
     seeds: {
-      directory: __dirname + "./database/seeds",
+      directory: __dirname + "/database/seeds",
     },
   },
 
