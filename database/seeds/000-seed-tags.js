@@ -2,7 +2,7 @@ const fs = require("fs");
 const tagData = JSON.parse(
   fs.readFileSync("./database/seeds/fixtures/tags.json", "utf8")
 );
-const { categoriesEnum } = require("../../schema/tag");
+const categoriesEnum = require("../../schema/tag/categories-enum");
 
 exports.seed = async function (knex) {
   await knex("tags").delete();

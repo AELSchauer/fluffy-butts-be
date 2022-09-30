@@ -8,8 +8,7 @@ const {
   GraphQLString,
   GraphQLUnionType,
 } = require("graphql");
-const { GraphQLDateTime } = require("graphql-iso-date");
-const { GraphQLJSON } = require("graphql-type-json");
+const { GraphQLTimestamp, GraphQLJSON } = require("graphql-scalars");
 const pluralize = require("pluralize");
 const ProductType = require("../product/type");
 
@@ -24,8 +23,8 @@ module.exports = new GraphQLObjectType({
     price: { type: GraphQLFloat },
     sizes: { type: GraphQLJSON },
     url: { type: GraphQLString },
-    created_at: { type: GraphQLDateTime },
-    updated_at: { type: GraphQLDateTime },
+    created_at: { type: GraphQLTimestamp },
+    updated_at: { type: GraphQLTimestamp },
     listable: {
       type: new GraphQLUnionType({
         name: "Listable",

@@ -6,7 +6,7 @@ const {
   GraphQLObjectType,
   GraphQLString,
 } = require("graphql");
-const { GraphQLDateTime } = require("graphql-iso-date");
+const { GraphQLTimestamp } = require("graphql-scalars");
 
 module.exports = new GraphQLObjectType({
   name: "Tag",
@@ -20,7 +20,7 @@ module.exports = new GraphQLObjectType({
       }),
     },
     display_order: { type: GraphQLString },
-    created_at: { type: GraphQLDateTime },
-    updated_at: { type: GraphQLDateTime },
+    created_at: { type: GraphQLTimestamp },
+    updated_at: { type: GraphQLTimestamp },
   }),
 });
