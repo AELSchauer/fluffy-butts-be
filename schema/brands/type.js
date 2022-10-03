@@ -4,15 +4,16 @@ const {
   GraphQLObjectType,
   GraphQLString,
 } = require("graphql");
-const { GraphQLDateTime } = require("graphql-iso-date");
+const { GraphQLTimestamp } = require("graphql-scalars");
 
 module.exports = new GraphQLObjectType({
   name: "Brand",
   fields: () => ({
     id: { type: GraphQLID },
     name: { type: GraphQLString },
-    created_at: { type: GraphQLDateTime },
-    updated_at: { type: GraphQLDateTime },
+    name_insensitive: { type: GraphQLString },
+    created_at: { type: GraphQLTimestamp },
+    updated_at: { type: GraphQLTimestamp },
     images: {
       type: new GraphQLList(require("../images/type")),
       resolve(parent, args) {

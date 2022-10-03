@@ -1,5 +1,5 @@
 const { GraphQLID, GraphQLObjectType, GraphQLString } = require("graphql");
-const { GraphQLDateTime } = require("graphql-iso-date");
+const { GraphQLTimestamp } = require("graphql-scalars");
 
 module.exports = new GraphQLObjectType({
   name: "Image",
@@ -7,7 +7,7 @@ module.exports = new GraphQLObjectType({
     id: { type: GraphQLID },
     name: { type: GraphQLString },
     url: { type: GraphQLString },
-    created_at: { type: GraphQLDateTime },
-    updated_at: { type: GraphQLDateTime },
+    created_at: { type: GraphQLTimestamp },
+    updated_at: { type: GraphQLTimestamp },
   }),
 });

@@ -1,5 +1,6 @@
+.env
+.staging.env
+.vscode/*
 node_modules/
 package-lock.json
 variables/*
-.env
-.staging.env

@@ -5,8 +5,7 @@ const {
   GraphQLObjectType,
   GraphQLString,
 } = require("graphql");
-const { GraphQLJSON } = require("graphql-type-json");
-const { GraphQLDateTime } = require("graphql-iso-date");
+const { GraphQLTimestamp, GraphQLJSON } = require("graphql-scalars");
 
 module.exports = new GraphQLObjectType({
   name: "Collection",
@@ -14,8 +13,8 @@ module.exports = new GraphQLObjectType({
     id: { type: GraphQLID },
     name: { type: GraphQLString },
     details: { type: GraphQLJSON },
-    created_at: { type: GraphQLDateTime },
-    updated_at: { type: GraphQLDateTime },
+    created_at: { type: GraphQLTimestamp },
+    updated_at: { type: GraphQLTimestamp },
     product_lines: {
       type: new GraphQLList(require("../product-lines/type")),
       resolve(parent, args) {

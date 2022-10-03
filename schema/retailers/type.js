@@ -4,8 +4,7 @@ const {
   GraphQLObjectType,
   GraphQLString,
 } = require("graphql");
-const { GraphQLDateTime } = require("graphql-iso-date");
-const { GraphQLJSON } = require("graphql-type-json");
+const { GraphQLTimestamp, GraphQLJSON } = require("graphql-scalars");
 
 module.exports = new GraphQLObjectType({
   name: "Retailer",
@@ -14,8 +13,8 @@ module.exports = new GraphQLObjectType({
     name: { type: GraphQLString },
     url: { type: GraphQLString },
     shipping: { type: GraphQLJSON },
-    created_at: { type: GraphQLDateTime },
-    updated_at: { type: GraphQLDateTime },
+    created_at: { type: GraphQLTimestamp },
+    updated_at: { type: GraphQLTimestamp },
     listings: {
       type: new GraphQLList(require("../listings/type")),
       resolve(parent, args) {
