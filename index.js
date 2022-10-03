@@ -1,10 +1,24 @@
-const express = require("express");
-const cors = require("cors");
-const { graphqlHTTP } = require("express-graphql");
+require("dotenv").config();
 const { Client } = require("pg");
+const { GraphQLServer } = require("graphql-yoga");
+// const { authentication, authorization } = require("./middleware");
+const bodyParser = require("body-parser");
 
-const dbVars = require("dotenv").config().parsed;
-global.client = new Client(dbVars);
+// global.redis = require("./helpers/redis-async");
+global.client = new Client(
+  Object.assign(
+    {
+      host: process.env.PGHOST,
+      port: process.env.PGPORT,
+      user: process.env.PGUSER,
+      password: process.env.PGPASSWORD,
+    },
+    process.env.NODE_ENV !== "development" && {
+      ssl: { rejectUnauthorized: false },
+    }
+  )
+);
+
 client.connect((err) => {
   if (err) {
     console.error("connection error", err.stack);
@@ -13,34 +27,44 @@ client.connect((err) => {
   }
 });
 
-// const verifyToken = (req, res, next) => {
-//   jwt.verify(req.headers.authorization, "secret", (err, decoded) => {
-//     if (err) {
-//       return res.send(401);
-//     }
-//     next();
-//   });
-// };
-// verifyToken.unless = unless;
+const options = {
+  port: process.env.PORT || 8000,
+  playground: "/playground",
+  formatResponse: ({ data, errors = [] }) => ({
+    data,
+    errors:
+      errors.length === 0
+        ? undefined
+        : errors.map(({ message, ...error }) => {
+            try {
+              return {
+                ...JSON.parse(message),
+                ...error,
+              };
+            } catch (err) {
+              return {
+                message,
+                ...error,
+              };
+            }
+          }),
+  }),
+};
 
-const app = new express();
-
-app.use(cors());
-// app.use(verifyToken.unless({ path: ["/auth"] }));
-
-// app.post("/auth", (req, res) => {
-//   const token = jwt.sign({ foo: "bar" }, "secret");
-//   res.send(token);
-// });
-
-app.use("/graphql", (req, res) => {
-  res.setHeader("Access-Control-Allow-Origin", "*");
-  res.setHeader("Access-Control-Allow-Headers", "origin, content-type, accept");
-  graphqlHTTP({
-    schema: require("./schema"),
-    // rootValue: root,
-    graphiql: true,
-  })(req, res);
+const server = new GraphQLServer({
+  schema: require("./schema"),
+  // middlewares: [authorization],
+  // context: async (req) => ({
+  //   ...req,
+  //   user: await authentication.getUser(req),
+  // }),
 });
 
-app.listen(3000);
+server.express.use(bodyParser.json());
+// server.express.post("/login", authentication.login);
+// server.express.post("/logout", authentication.logout);
+// server.express.post("/refresh", authentication.refresh);
+
+server.start(options, ({ port }) =>
+  console.log(`Server is running on localhost:${port}`)
+);

@@ -4,10 +4,7 @@
   "patterns": [
     {
       "name": "Abalone",
-      "tags": [
-        "solid",
-        "blue"
-      ]
+      "tags": ["solid", "blue"]
     },
     {
       "name": "Adventure",
@@ -15,38 +12,23 @@
     },
     {
       "name": "Arctic",
-      "tags": [
-        "solid",
-        "blue"
-      ]
+      "tags": ["solid", "blue"]
     },
     {
       "name": "Ballot",
-      "tags": [
-        "abstract & geometric",
-        "black & white"
-      ]
+      "tags": ["abstract & geometric", "black & white"]
     },
     {
       "name": "Basil",
-      "tags": [
-        "solid",
-        "green"
-      ]
+      "tags": ["solid", "green"]
     },
     {
       "name": "Clay",
-      "tags": [
-        "brown",
-        "solid"
-      ]
+      "tags": ["brown", "solid"]
     },
     {
       "name": "Cloud",
-      "tags": [
-        "solid",
-        "gray"
-      ]
+      "tags": ["solid", "gray"]
     },
     {
       "name": "Cloud Grey",
@@ -58,9 +40,7 @@
     },
     {
       "name": "Fennec",
-      "tags": [
-        "stripes"
-      ]
+      "tags": ["stripes"]
     },
     {
       "name": "Funfair",
@@ -68,72 +48,43 @@
     },
     {
       "name": "Glacier",
-      "tags": [
-        "solid",
-        "green"
-      ]
+      "tags": ["solid", "green"]
     },
     {
       "name": "Have Baby Will Travel",
-      "tags": [
-        "travel & transportation"
-      ]
+      "tags": ["travel & transportation"]
     },
     {
       "name": "Heartspring",
-      "tags": [
-        "animals",
-        "black"
-      ]
+      "tags": ["animals", "black"]
     },
     {
       "name": "Jet",
-      "tags": [
-        "solid",
-        "brown"
-      ]
+      "tags": ["solid", "brown"]
     },
     {
       "name": "Jewel",
-      "tags": [
-        "stripes"
-      ]
+      "tags": ["stripes"]
     },
     {
       "name": "Koi",
-      "tags": [
-        "animals",
-        "aquatic"
-      ]
+      "tags": ["animals", "aquatic"]
     },
     {
       "name": "Lotus",
-      "tags": [
-        "solid",
-        "pink"
-      ]
+      "tags": ["solid", "pink"]
     },
     {
       "name": "Marsala",
-      "tags": [
-        "solid",
-        "red"
-      ]
+      "tags": ["solid", "red"]
     },
     {
       "name": "Maverick",
-      "tags": [
-        "travel & transportation",
-        "sky",
-        "gray"
-      ]
+      "tags": ["travel & transportation", "sky", "gray"]
     },
     {
       "name": "Onyx Stripe",
-      "tags": [
-        "stripes",
-        "black & white"
-      ]
+      "tags": ["stripes", "black & white"]
     },
     {
       "name": "Ophelia",
@@ -141,80 +92,46 @@
     },
     {
       "name": "Petal",
-      "tags": [
-        "solid",
-        "pink"
-      ]
+      "tags": ["solid", "pink"]
     },
     {
       "name": "Rainbow Baby",
-      "tags": [
-        "sky"
-      ]
+      "tags": ["sky"]
     },
     {
       "name": "Rose",
-      "tags": [
-        "solid",
-        "pink",
-        "orange"
-      ]
+      "tags": ["solid", "pink", "orange"]
     },
     {
       "name": "Sugar Rush",
-      "tags": [
-        "stripes",
-        "pink"
-      ]
+      "tags": ["stripes", "pink"]
     },
     {
       "name": "Tex",
-      "tags": [
-        "american western culture",
-        "hobbies",
-        "red"
-      ]
+      "tags": ["american western culture", "hobbies", "red"]
     },
     {
       "name": "Ur the One",
-      "tags": [
-        "animals",
-        "aquatic",
-        "blue"
-      ]
+      "tags": ["animals", "aquatic", "blue"]
     },
     {
       "name": "Vanilla",
-      "tags": [
-        "solid",
-        "white"
-      ]
+      "tags": ["solid", "white"]
     },
     {
       "name": "Waverly",
-      "tags": [
-        "abstract & geometric",
-        "purple"
-      ]
+      "tags": ["abstract & geometric", "purple"]
     },
     {
       "name": "Yarrow",
-      "tags": [
-        "solid",
-        "yellow"
-      ]
+      "tags": ["solid", "yellow"]
     }
   ],
   "product_lines": [
     {
       "name": "Organic All-In-One",
       "sort_order": "1.1.1",
-      "tags": [
-        "organic",
-        "infant",
-        "toddler",
-        "all-in-one diaper"
-      ],
+      "tags": ["organic", "infant", "toddler", "all-in-one diaper"],
       "details": {
         "materials": "<ul><li>Inner Body: 4 layers of 100% Organic Cotton on both sewn-in insert and snap-in booster.</li><li>Diaper Outer: 100% water-resistant Polyester TPU, lined with 2 layers of Organic Cotton.</li><ul>",
         "origin_country": "China",
@@ -247,7 +164,6 @@
             {
               "retailer": "GroVia",
               "currency": "USD",
-              "available": false,
               "price": 23.95,
               "sizes": [
                 {
@@ -270,9 +186,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-aio",
@@ -295,7 +209,6 @@
             {
               "retailer": "GroVia",
               "currency": "USD",
-              "available": false,
               "price": 23.95,
               "sizes": [
                 {
@@ -367,9 +280,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-aio",
@@ -445,9 +356,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-aio",
@@ -492,9 +401,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-aio",
@@ -527,9 +434,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-aio",
@@ -605,9 +510,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-aio",
@@ -646,9 +549,7 @@
           "pattern": "Jewel",
           "listings": [
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-aio",
@@ -669,12 +570,7 @@
     {
       "name": "Big O.N.E. Diaper",
       "sort_order": "1.2.2",
-      "tags": [
-        "young child",
-        "toddler",
-        "all-in-one diaper",
-        "non-organic"
-      ],
+      "tags": ["young child", "toddler", "all-in-one diaper", "non-organic"],
       "details": {
         "materials": "<ul><li>Hidden Inner Layer: 100% Polyester Microfiber</li><li>Outer: 100% Water Resistant Polyester TPU</li><li>Soaker: 100% Cotton topped with 100% Polyester Microfleece</li><li>Body Lining: 100% Polyester Microfleece</li><li>Outer: 100% Water Resistant Polyester TPU (Exclusive of Trim)</li><ul>",
         "origin_country": "China",
@@ -856,9 +752,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-buttah-newborn-all-in-one",
@@ -905,9 +799,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-buttah-newborn-all-in-one",
@@ -953,9 +845,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-buttah-newborn-all-in-one",
@@ -1037,9 +927,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-buttah-one-cloth-diaper",
@@ -1084,9 +972,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-buttah-one-cloth-diaper",
@@ -1131,9 +1017,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-buttah-one-cloth-diaper",
@@ -1281,12 +1165,7 @@
     {
       "name": "Hybrid Diaper Shell -- Hook & Loop",
       "sort_order": "2.1",
-      "tags": [
-        "organic",
-        "infant",
-        "toddler",
-        "hybrid diaper"
-      ],
+      "tags": ["organic", "infant", "toddler", "hybrid diaper"],
       "details": {
         "materials": "<ul><li>Inner Body: 100% Polyester Mesh</li><li>Outer: 100% Water Resistant Polyester TPU</li><ul>",
         "origin_country": "China",
@@ -1433,9 +1312,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-shell",
@@ -1591,9 +1468,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-shell",
@@ -1642,9 +1517,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-shell",
@@ -1752,9 +1625,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-shell",
@@ -1816,12 +1687,7 @@
     {
       "name": "Hybrid Diaper Shell -- Snaps",
       "sort_order": "2.2",
-      "tags": [
-        "organic",
-        "infant",
-        "toddler",
-        "hybrid diaper"
-      ],
+      "tags": ["organic", "infant", "toddler", "hybrid diaper"],
       "details": {
         "materials": "<ul><li>Inner Body: 100% Polyester Mesh</li><li>Outer: 100% Water Resistant Polyester TPU</li><ul>",
         "origin_country": "China",
@@ -1878,9 +1744,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-shell",
@@ -1930,9 +1794,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-shell",
@@ -1981,9 +1843,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-shell",
@@ -2018,9 +1878,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-shell",
@@ -2069,9 +1927,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-shell",
@@ -2107,9 +1963,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-shell",
@@ -2191,9 +2045,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-shell",
@@ -2242,9 +2094,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-shell",
@@ -2279,9 +2129,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-shell",
@@ -2303,9 +2151,7 @@
           "pattern": "Tex",
           "listings": [
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-shell",
@@ -2339,9 +2185,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-shell",
@@ -2390,9 +2234,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-shell",
@@ -2454,9 +2296,7 @@
           "pattern": "Lotus",
           "listings": [
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-shell",
@@ -2477,11 +2317,7 @@
     {
       "name": "Newborn All-In-One",
       "sort_order": "1.1.2",
-      "tags": [
-        "preemie / newborn",
-        "all-in-one diaper",
-        "non-organic"
-      ],
+      "tags": ["preemie / newborn", "all-in-one diaper", "non-organic"],
       "details": {
         "materials": "<ul><li>Inner Sewn in Soaker Pad: 55% Hemp/45% Cotton topped with 100% Polyester Microfleece</li><li>Body Lining: 100% Polyester Microfleece</li><li>Hidden Inner Body Layers: 55% Hemp/45% Cotton</li><li>Outer: 100% Water Resistant Polyester TPU</li><ul>",
         "origin_country": "China",
@@ -2527,9 +2363,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-newborn-all-in-one",
@@ -2604,9 +2438,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-newborn-all-in-one",
@@ -2662,9 +2494,7 @@
               "price": 15.95
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-newborn-all-in-one",
@@ -2699,9 +2529,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-newborn-all-in-one",
@@ -2736,9 +2564,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-newborn-all-in-one",
@@ -2793,9 +2619,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-newborn-all-in-one",
@@ -2816,9 +2640,7 @@
           "pattern": "Fennec",
           "listings": [
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-newborn-all-in-one",
@@ -2839,9 +2661,7 @@
           "pattern": "Jet",
           "listings": [
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-newborn-all-in-one",
@@ -2862,9 +2682,7 @@
           "pattern": "Crane",
           "listings": [
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-newborn-all-in-one",
@@ -2885,12 +2703,7 @@
     {
       "name": "O.N.E. Diaper",
       "sort_order": "1.2.1",
-      "tags": [
-        "infant",
-        "toddler",
-        "all-in-one diaper",
-        "non-organic"
-      ],
+      "tags": ["infant", "toddler", "all-in-one diaper", "non-organic"],
       "details": {
         "materials": "<ul><li>Hidden Inner Layer: 100% Polyester Microfiber</li><li>Outer: 100% Water Resistant Polyester TPU</li><li>Soaker: 100% Cotton topped with 100% Polyester Microfleece</li><li>Body Lining: 100% Polyester Microfleece</li><li>Outer: 100% Water Resistant Polyester TPU (Exclusive of Trim)</li><ul>",
         "origin_country": "China",
@@ -2947,9 +2760,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-o-n-e-diaper",
@@ -3028,9 +2839,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-o-n-e-diaper",
@@ -3064,9 +2873,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-o-n-e-diaper",
@@ -3114,9 +2921,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-o-n-e-diaper",
@@ -3163,9 +2968,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-o-n-e-diaper",
@@ -3199,9 +3002,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-o-n-e-diaper",
@@ -3248,9 +3049,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-o-n-e-diaper",
@@ -3297,9 +3096,7 @@
               ]
             },
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-o-n-e-diaper",
@@ -3320,9 +3117,7 @@
           "pattern": "Rose",
           "listings": [
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-o-n-e-diaper",
@@ -3343,9 +3138,7 @@
           "pattern": "Fennec",
           "listings": [
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-o-n-e-diaper",
@@ -3366,9 +3159,7 @@
           "pattern": "Tex",
           "listings": [
             {
-              "countries": [
-                "Canada"
-              ],
+              "countries": ["Canada"],
               "retailer": "Lil' Monkey Cheeks",
               "currency": "CAD",
               "url": "https://www.lilmonkeycheeks.ca/products/grovia-o-n-e-diaper",
@@ -3388,7 +3179,7 @@
     },
     {
       "name": "Swim Diaper",
-      "sort_order": "4.1",
+      "sort_order": "5.1",
       "details": {
         "materials": "<ul><li>Inner: 88% Polyester, 12% Cotton</li><li>Outer: 100% Water Resistant Polyester TPU (exclusive of trim)</li><ul>",
         "origin_country": "China",
@@ -3948,6 +3739,20 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "name": "My Choice™ Trainer",
+      "sort_order": "4.1",
+      "details": {},
+      "tags": ["potty training diaper", "toddler", "non-organic"],
+      "products": [
+        {
+          "name": "Cloud",
+          "pattern": "Cloud",
+          "default": true,
+          "listings": []
         }
       ]
     }

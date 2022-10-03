@@ -1137,27 +1137,6 @@
       ],
       "products": [
         {
-          "name": "Blossom",
-          "pattern": "Blossom",
-          "tags": [],
-          "listings": [
-            {
-              "currency": "USD",
-              "retailer": "bumGenius",
-              "url": "https://www.bumgenius.com/products/bumgenius-littles-newborn-cloth-diaper",
-              "price": 14.95,
-              "sizes": [
-                {
-                  "name": "one size",
-                  "sort_order": 1,
-                  "url": "https://www.bumgenius.com/products/bumgenius-littles-newborn-cloth-diaper1?variant=15998808883272",
-                  "available": false
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "Countess",
           "pattern": "Countess",
           "tags": [],
@@ -1165,7 +1144,7 @@
             {
               "currency": "USD",
               "retailer": "bumGenius",
-              "url": "https://www.bumgenius.com/products/bumgenius-littles-newborn-cloth-diape",
+              "url": "https://www.bumgenius.com/products/bumgenius-littles-newborn-cloth-diaper1",
               "price": 14.95,
               "sizes": [
                 {
@@ -1187,55 +1166,13 @@
             {
               "currency": "USD",
               "retailer": "bumGenius",
-              "url": "https://www.bumgenius.com/products/bumgenius-littles-newborn-cloth-diaper",
+              "url": "https://www.bumgenius.com/products/bumgenius-littles-newborn-cloth-diaper1",
               "price": 14.95,
               "sizes": [
                 {
                   "name": "one size",
                   "sort_order": 1,
                   "url": "https://www.bumgenius.com/products/bumgenius-littles-newborn-cloth-diaper1?variant=12336615522376",
-                  "available": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Mid-Century",
-          "pattern": "Mid-Century",
-          "tags": [],
-          "listings": [
-            {
-              "currency": "USD",
-              "retailer": "bumGenius",
-              "url": "https://www.bumgenius.com/products/bumgenius-littles-newborn-cloth-dia",
-              "price": 14.95,
-              "sizes": [
-                {
-                  "name": "one size",
-                  "sort_order": 1,
-                  "url": "https://www.bumgenius.com/products/bumgenius-littles-newborn-cloth-diaper1?variant=44463007109",
-                  "available": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Sierpinski",
-          "pattern": "Sierpinski",
-          "tags": [],
-          "listings": [
-            {
-              "currency": "USD",
-              "retailer": "bumGenius",
-              "url": "https://www.bumgenius.com/products/bumgenius-littles-newborn-cloth-diaper",
-              "price": 14.95,
-              "sizes": [
-                {
-                  "name": "one size",
-                  "sort_order": 1,
-                  "url": "https://www.bumgenius.com/products/bumgenius-littles-newborn-cloth-diaper1?variant=12257579728968",
                   "available": true
                 }
               ]

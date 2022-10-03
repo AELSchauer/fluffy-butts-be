@@ -4653,7 +4653,7 @@
             {
               "retailer": "Green Mountain Diapers",
               "url": "https://www.greenmountaindiapers.com/collections/thirsties/products/thirsties-duo-wrap-collection?variant=31213396426845",
-              "currency":"USD",
+              "currency": "USD",
               "price": 66.25,
               "sizes": [
                 {
@@ -8897,6 +8897,20 @@
                   "available": true
                 }
               ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/thirsties-natural-one-size-all-in-one",
+              "price": 37.5,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/thirsties-natural-one-size-all-in-one?variant=17259819040858",
+                  "available": true
+                }
+              ]
             }
           ]
         },
@@ -9061,6 +9075,20 @@
                   "available": true
                 }
               ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/thirsties-natural-one-size-all-in-one",
+              "price": 37.5,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/thirsties-natural-one-size-all-in-one?variant=13701349277786",
+                  "available": true
+                }
+              ]
             }
           ]
         },
@@ -9174,6 +9202,20 @@
                   "name": "one size",
                   "sort_order": 1,
                   "url": "https://www.greenmountaindiapers.com/products/thirsties-natural-all-in-one-diaper-snaps",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/thirsties-natural-one-size-all-in-one",
+              "price": 37.5,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/thirsties-natural-one-size-all-in-one?variant=15901880647770",
                   "available": true
                 }
               ]
@@ -9304,66 +9346,6 @@
                   "name": "one size",
                   "sort_order": 1,
                   "url": "https://www.lilmonkeycheeks.ca/products/thirsties-natural-one-size-all-in-one?variant=30357888991322",
-                  "available": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Elefantabulous",
-          "pattern": "Elefantabulous",
-          "listings": [
-            {
-              "retailer": "Lil' Monkey Cheeks",
-              "currency": "CAD",
-              "url": "https://www.lilmonkeycheeks.ca/products/thirsties-natural-one-size-all-in-one",
-              "price": 37.5,
-              "sizes": [
-                {
-                  "name": "one size",
-                  "sort_order": 1,
-                  "url": "https://www.lilmonkeycheeks.ca/products/thirsties-natural-one-size-all-in-one?variant=13701349277786",
-                  "available": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Stargazer",
-          "pattern": "Stargazer",
-          "listings": [
-            {
-              "retailer": "Lil' Monkey Cheeks",
-              "currency": "CAD",
-              "url": "https://www.lilmonkeycheeks.ca/products/thirsties-natural-one-size-all-in-one",
-              "price": 37.5,
-              "sizes": [
-                {
-                  "name": "one size",
-                  "sort_order": 1,
-                  "url": "https://www.lilmonkeycheeks.ca/products/thirsties-natural-one-size-all-in-one?variant=15901880647770",
-                  "available": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Bubble Gum",
-          "pattern": "Bubble Gum",
-          "listings": [
-            {
-              "retailer": "Lil' Monkey Cheeks",
-              "currency": "CAD",
-              "url": "https://www.lilmonkeycheeks.ca/products/thirsties-natural-one-size-all-in-one",
-              "price": 37.5,
-              "sizes": [
-                {
-                  "name": "one size",
-                  "sort_order": 1,
-                  "url": "https://www.lilmonkeycheeks.ca/products/thirsties-natural-one-size-all-in-one?variant=17259819040858",
                   "available": true
                 }
               ]

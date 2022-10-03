@@ -1,7 +1,7 @@
 exports.up = function (knex) {
   return knex.schema
     .createTable("listings", function (table) {
-      table.increments("id");
+      table. bigIncrements("id");
       table.jsonb("countries");
       table.string("currency").notNullable();
       table.string("url").notNullable();
@@ -16,10 +16,15 @@ exports.up = function (knex) {
       );
 
       table.integer("retailer_id").unsigned().notNullable();
-      table.foreign("retailer_id").references("retailers.id");
+      table
+        .foreign("retailer_id")
+        .references("retailers.id")
+        .onDelete("CASCADE");
       table.index("retailer_id", "index_listings_on_retailer_id");
 
       table.timestamps();
+
+      table.unique(["listable_id", "listable_type", "retailer_id", "currency"]);
     })
     .then(() => knex.seed.run({ specific: "006-seed-product-listings.js" }));
 };

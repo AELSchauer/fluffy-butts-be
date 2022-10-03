@@ -1,7 +1,7 @@
 exports.up = function (knex) {
   return Promise.all([
     knex.schema.createTable("images", function (table) {
-      table.increments("id");
+      table. bigIncrements("id");
       table.string("url").notNullable();
 
       table.index("url", "index_images_on_url");
@@ -10,7 +10,7 @@ exports.up = function (knex) {
     }),
 
     knex.schema.createTable("imagings", function (table) {
-      table.increments("id");
+      table. bigIncrements("id");
       table.integer("image_id").notNullable();
       table.string("imageable_type").notNullable();
       table.integer("imageable_id").notNullable();

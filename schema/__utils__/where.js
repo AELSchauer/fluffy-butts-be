@@ -1,8 +1,3 @@
-const { camelCase } = require("lodash");
-
-const getKeyName = (classPropName) =>
-  "filter__" + camelCase(classPropName.split(".")[1]);
-
 const whereWithStringProp = (classPropName, argVals) =>
   `${classPropName} IN (${argVals
     .split(",")
@@ -10,5 +5,5 @@ const whereWithStringProp = (classPropName, argVals) =>
     .join(", ")})`;
 
 module.exports = {
-  whereWithStringProp,
+  whereWithStringProp
 };

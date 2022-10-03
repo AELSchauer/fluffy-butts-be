@@ -5,5 +5,5 @@ module.exports = (order_by = "id:asc", className) =>
     .replace(/asc/, "ASC")
     .replace(/desc/, "DESC")
     .split(/, ?/g)
-    .map((o) => (o.indexOf("name_insensitive") > -1 ? o : `${className}.${o}`))
+    .map((o) => (o.indexOf("_insensitive") > -1 ? o : `${className}.${o}`))
     .join(", ");

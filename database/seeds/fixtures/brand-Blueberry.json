@@ -1049,6 +1049,20 @@
           "pattern": "Avocados",
           "listings": [
             {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker",
+              "price": 35.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker?variant=31955368575066",
+                  "available": false
+                }
+              ]
+            },
+            {
               "currency": "USD",
               "retailer": "Blueberry",
               "url": "https://blueberrydiapers.com/products/one-size-simplex-in-organic-cotton",
@@ -1485,26 +1499,6 @@
           ]
         },
         {
-          "name": "Avocados",
-          "pattern": "Avocados",
-          "listings": [
-            {
-              "retailer": "Lil' Monkey Cheeks",
-              "currency": "CAD",
-              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker",
-              "price": 35.95,
-              "sizes": [
-                {
-                  "name": "one size",
-                  "sort_order": 1,
-                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-organic-one-size-simplex-all-in-one-with-stay-dry-soaker?variant=31955368575066",
-                  "available": false
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "Morgan",
           "pattern": "Morgan",
           "listings": [
@@ -1760,6 +1754,20 @@
                   "name": "one size",
                   "sort_order": 1,
                   "url": "https://blueberrydiapers.com/products/newborn-simplex-in-organic-cotton?variant=8074325622830",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
+              "price": 25.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=12261551800410",
                   "available": true
                 }
               ]
@@ -2213,26 +2221,6 @@
           ]
         },
         {
-          "name": "Bears and the Bees",
-          "pattern": "Bears and the Bees",
-          "listings": [
-            {
-              "retailer": "Lil' Monkey Cheeks",
-              "currency": "CAD",
-              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton",
-              "price": 25.95,
-              "sizes": [
-                {
-                  "name": "one size",
-                  "sort_order": 1,
-                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-simplex-all-in-one-diaper-w-organic-cotton?variant=12261551800410",
-                  "available": true
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "Morgan",
           "pattern": "Morgan",
           "listings": [
@@ -2436,6 +2424,20 @@
                   "name": "one size",
                   "sort_order": 1,
                   "url": "https://blueberrydiapers.com/products/one-size-capri-diaper-cover?variant=8074700161070",
+                  "available": true
+                }
+              ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover",
+              "price": 24.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover?variant=31767307845722",
                   "available": true
                 }
               ]
@@ -2828,26 +2830,6 @@
                   "name": "one size",
                   "sort_order": 1,
                   "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover?variant=32109866582106",
-                  "available": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Bears and the Bees",
-          "pattern": "Bears and the Bees",
-          "listings": [
-            {
-              "retailer": "Lil' Monkey Cheeks",
-              "currency": "CAD",
-              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover",
-              "price": 24.95,
-              "sizes": [
-                {
-                  "name": "one size",
-                  "sort_order": 1,
-                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-one-size-capri-cover?variant=31767307845722",
                   "available": true
                 }
               ]
@@ -4065,6 +4047,20 @@
                   "available": true
                 }
               ]
+            },
+            {
+              "retailer": "Lil' Monkey Cheeks",
+              "currency": "CAD",
+              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-capri-cover",
+              "price": 22.95,
+              "sizes": [
+                {
+                  "name": "one size",
+                  "sort_order": 1,
+                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-capri-cover?variant=31767373021274",
+                  "available": false
+                }
+              ]
             }
           ]
         },
@@ -4225,26 +4221,6 @@
                   "sort_order": 1,
                   "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-capri-cover?variant=32249891684442",
                   "available": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Hummingbird",
-          "pattern": "Hummingbird",
-          "listings": [
-            {
-              "retailer": "Lil' Monkey Cheeks",
-              "currency": "CAD",
-              "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-capri-cover",
-              "price": 22.95,
-              "sizes": [
-                {
-                  "name": "one size",
-                  "sort_order": 1,
-                  "url": "https://www.lilmonkeycheeks.ca/products/blueberry-newborn-capri-cover?variant=31767373021274",
-                  "available": false
                 }
               ]
             }
