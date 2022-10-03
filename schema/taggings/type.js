@@ -4,7 +4,7 @@ const {
   GraphQLObjectType,
   GraphQLString,
 } = require("graphql");
-const { GraphQLDateTime } = require("graphql-iso-date");
+const { GraphQLTimestamp } = require("graphql-scalars");
 
 module.exports = new GraphQLObjectType({
   name: "Tagging",
@@ -13,8 +13,8 @@ module.exports = new GraphQLObjectType({
     tag_id: { type: GraphQLString },
     taggable_id: { type: GraphQLString },
     taggable_type: { type: GraphQLString },
-    created_at: { type: GraphQLDateTime },
-    updated_at: { type: GraphQLDateTime },
+    created_at: { type: GraphQLTimestamp },
+    updated_at: { type: GraphQLTimestamp },
     tag: {
       type: require("../tags/type"),
       resolve(parent, args) {

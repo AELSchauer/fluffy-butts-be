@@ -4,7 +4,7 @@ const {
   GraphQLNonNull,
   GraphQLString,
 } = require("graphql");
-const { GraphQLJSON } = require("graphql-type-json");
+const { GraphQLJSON } = require("graphql-scalars");
 const query = require("./query");
 
 module.exports = {

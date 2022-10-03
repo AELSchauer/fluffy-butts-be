@@ -1,23 +1,16 @@
 require("dotenv").config();
+const express = require("express");
+const cors = require("cors");
+const { graphqlHTTP } = require("express-graphql");
 const { Client } = require("pg");
-const { GraphQLServer } = require("graphql-yoga");
-// const { authentication, authorization } = require("./middleware");
-const bodyParser = require("body-parser");
 
-// global.redis = require("./helpers/redis-async");
-global.client = new Client(
-  Object.assign(
-    {
-      host: process.env.PGHOST,
-      port: process.env.PGPORT,
-      user: process.env.PGUSER,
-      password: process.env.PGPASSWORD,
-    },
-    process.env.NODE_ENV !== "development" && {
-      ssl: { rejectUnauthorized: false },
-    }
-  )
-);
+global.client = new Client({
+  database: process.env.PGDATABASE,
+  host: process.env.PGHOST,
+  port: process.env.PGPORT,
+  user: process.env.PGUSER,
+  password: process.env.PGPASSWORD,
+});
 
 client.connect((err) => {
   if (err) {
@@ -27,44 +20,17 @@ client.connect((err) => {
   }
 });
 
-const options = {
-  port: process.env.PORT || 8000,
-  playground: "/playground",
-  formatResponse: ({ data, errors = [] }) => ({
-    data,
-    errors:
-      errors.length === 0
-        ? undefined
-        : errors.map(({ message, ...error }) => {
-            try {
-              return {
-                ...JSON.parse(message),
-                ...error,
-              };
-            } catch (err) {
-              return {
-                message,
-                ...error,
-              };
-            }
-          }),
-  }),
-};
+const app = new express();
 
-const server = new GraphQLServer({
-  schema: require("./schema"),
-  // middlewares: [authorization],
-  // context: async (req) => ({
-  //   ...req,
-  //   user: await authentication.getUser(req),
-  // }),
+app.use(cors());
+
+app.use("/", (req, res) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Headers", "origin, content-type, accept");
+  graphqlHTTP({
+    schema: require("./schema"),
+    graphiql: true,
+  })(req, res);
 });
 
-server.express.use(bodyParser.json());
-// server.express.post("/login", authentication.login);
-// server.express.post("/logout", authentication.logout);
-// server.express.post("/refresh", authentication.refresh);
-
-server.start(options, ({ port }) =>
-  console.log(`Server is running on localhost:${port}`)
-);
+app.listen(8000);

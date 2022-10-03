@@ -1,4 +1,4 @@
-const { GraphQLInt, GraphQLNonNull, GraphQLString } = require("graphql");
+const { GraphQLNonNull, GraphQLString } = require("graphql");
 const categoriesEnum = require("./categories-enum");
 
 module.exports = {
