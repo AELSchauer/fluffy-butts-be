@@ -6,12 +6,12 @@ const RootQuery = new GraphQLObjectType({
   name: "RootQueryType",
   fields: {
     brands: require("./brand/query"),
-    // listings: require("./listing/query"),
-    // patterns: require("./pattern/query"),
-    // product_lines: require("./product-line/query"),
-    // products: require("./product/query"),
-    // retailers: require("./retailer/query"),
-    // tags: require("./tag/query"),
+    listings: require("./listing/query"),
+    patterns: require("./pattern/query"),
+    product_lines: require("./product-line/query"),
+    products: require("./product/query"),
+    retailers: require("./retailer/query"),
+    tags: require("./tag/query"),
   },
 });
 

@@ -173,6 +173,14 @@
     {
       "name": "Woodland",
       "tags": ["animals", "woodland"]
+    },
+    {
+      "name": "Ocean",
+      "tags": ["animals", "aquatic", "blue"]
+    },
+    {
+      "name": "Plum",
+      "tags": ["purple"]
     }
   ],
   "product_lines": [
@@ -7575,6 +7583,7 @@
       "products": [
         {
           "name": "Fin",
+          "pattern": "Fin",
           "default": true,
           "listings": [
             {
@@ -7609,6 +7618,7 @@
         },
         {
           "name": "Moss",
+          "pattern": "Moss",
           "listings": [
             {
               "retailer": "Nicki's Diapers",
@@ -7628,6 +7638,7 @@
         },
         {
           "name": "Ocean",
+          "pattern": "Ocean",
           "listings": [
             {
               "retailer": "Nicki's Diapers",
@@ -7647,6 +7658,7 @@
         },
         {
           "name": "Plum",
+          "pattern": "Plum",
           "listings": [
             {
               "retailer": "Nicki's Diapers",
@@ -9418,6 +9430,7 @@
       "products": [
         {
           "name": "Fin",
+          "pattern": "Fin",
           "default": true,
           "listings": [
             {
@@ -9452,6 +9465,7 @@
         },
         {
           "name": "Moss",
+          "pattern": "Moss",
           "listings": [
             {
               "currency": "USD",
@@ -9485,6 +9499,7 @@
         },
         {
           "name": "Ocean",
+          "pattern": "Ocean",
           "listings": [
             {
               "retailer": "Nicki's Diapers",
@@ -9504,6 +9519,7 @@
         },
         {
           "name": "Plum",
+          "pattern": "Plum",
           "listings": [
             {
               "retailer": "Nicki's Diapers",
@@ -13926,26 +13942,6 @@
                 {
                   "name": "size 3",
                   "sort_order": 3,
-                  "url": "https://www.nickisdiapers.com/thirsties-swim-diaper.html",
-                  "available": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Beach Party",
-          "pattern": "Beach Party",
-          "listings": [
-            {
-              "retailer": "Nicki's Diapers",
-              "currency": "USD",
-              "url": "https://www.nickisdiapers.com/thirsties-swim-diaper.html",
-              "price": 15.75,
-              "sizes": [
-                {
-                  "name": "size 1",
-                  "sort_order": 1,
                   "url": "https://www.nickisdiapers.com/thirsties-swim-diaper.html",
                   "available": true
                 }

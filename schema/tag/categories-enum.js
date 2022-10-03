@@ -8,16 +8,16 @@ module.exports = {
   PATTERN__PATTERN_AND_THEME: {
     value: 2,
   },
-  PRODUCT__FEATURES: {
+  PRODUCT_LINE__FEATURES: {
     value: 3,
   },
-  PRODUCT__AGE: {
+  PRODUCT_LINE__AGE: {
     value: 4,
   },
-  PRODUCT__PRODUCT_TYPE: {
+  PRODUCT_LINE__PRODUCT_TYPE: {
     value: 5,
   },
-  PRODUCT__PRODUCT_SERIES: {
+  PRODUCT_LINE__PRODUCT_SERIES: {
     value: 6,
   },
 };
