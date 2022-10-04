@@ -4,14 +4,20 @@ const cors = require("cors");
 const { graphqlHTTP } = require("express-graphql");
 const { Client } = require("pg");
 
-global.client = new Client({
-  database: process.env.PGDATABASE,
-  host: process.env.PGHOST,
-  port: process.env.PGPORT,
-  user: process.env.PGUSER,
-  password: process.env.PGPASSWORD,
-  ssl: process.env.NODE_ENV !== "development"
-});
+global.client = new Client(
+  Object.assign(
+    {
+      database: process.env.PGDATABASE,
+      host: process.env.PGHOST,
+      port: process.env.PGPORT,
+      user: process.env.PGUSER,
+      password: process.env.PGPASSWORD,
+    },
+    process.env.NODE_ENV !== "development" && {
+      ssl: { rejectUnauthorized: false },
+    }
+  )
+);
 
 client.connect((err) => {
   if (err) {
