@@ -10,7 +10,8 @@ exports.up = function (knex) {
 
       table.timestamps();
     })
-    .then(() => knex.seed.run({ specific: "003-seed-patterns.js" }));
+    .then(() => knex.seed.run({ specific: "003-seed-patterns.js" }))
+    .then(() => console.log("patterns done!"));
 };
 
 exports.down = function (knex) {

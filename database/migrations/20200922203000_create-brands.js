@@ -7,7 +7,8 @@ exports.up = function (knex) {
 
       table.unique("name");
     })
-    .then(() => knex.seed.run({ specific: "002-seed-brands-and-images.js" }));
+    .then(() => knex.seed.run({ specific: "002-seed-brands-and-images.js" }))
+    .then(() => console.log("brands done!"));
 };
 
 exports.down = function (knex) {

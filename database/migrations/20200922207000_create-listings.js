@@ -26,7 +26,8 @@ exports.up = function (knex) {
 
       table.unique(["listable_id", "listable_type", "retailer_id", "currency"]);
     })
-    .then(() => knex.seed.run({ specific: "006-seed-product-listings.js" }));
+    .then(() => knex.seed.run({ specific: "006-seed-product-listings.js" }))
+    .then(() => console.log("listings done!"));
 };
 
 exports.down = function (knex) {

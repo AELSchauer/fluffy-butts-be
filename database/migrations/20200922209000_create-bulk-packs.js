@@ -13,7 +13,8 @@ exports.up = function (knex) {
       table.index("product_line_id", "index_bulk_packs_on_product_line_id");
 
       table.timestamps();
-    });
+    })
+    .then(() => console.log("bulk packs done!"));
 };
 
 exports.down = function (knex) {

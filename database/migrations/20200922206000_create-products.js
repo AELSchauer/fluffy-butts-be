@@ -20,7 +20,8 @@ exports.up = function (knex) {
 
       table.unique(["name", "product_line_id"]);
     })
-    .then(() => knex.seed.run({ specific: "005-seed-products-and-images.js" }));
+    .then(() => knex.seed.run({ specific: "005-seed-products-and-images.js" }))
+    .then(() => console.log("products done!"));
 };
 
 exports.down = function (knex) {

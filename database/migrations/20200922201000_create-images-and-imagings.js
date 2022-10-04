@@ -23,7 +23,8 @@ exports.up = function (knex) {
 
       table.timestamps();
     }),
-  ]);
+  ])
+  .then(() => console.log("images done!"));
 };
 
 exports.down = function (knex) {

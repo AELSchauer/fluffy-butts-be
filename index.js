@@ -10,6 +10,7 @@ global.client = new Client({
   port: process.env.PGPORT,
   user: process.env.PGUSER,
   password: process.env.PGPASSWORD,
+  ssl: process.env.NODE_ENV !== "development"
 });
 
 client.connect((err) => {

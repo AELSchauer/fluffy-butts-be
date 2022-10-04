@@ -12,7 +12,8 @@ exports.up = function (knex) {
 
       table.timestamps();
     })
-    .then(() => knex.seed.run({ specific: "004-seed-product-lines-and-images.js" }));
+    .then(() => knex.seed.run({ specific: "004-seed-product-lines-and-images.js" }))
+    .then(() => console.log("product lines done!"));
 };
 
 exports.down = function (knex) {
